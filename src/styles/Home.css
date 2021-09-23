@@ -1,9 +1,8 @@
 body {
-    background-image: url(../background-portfolio.jpg);
+    background-image: url(../imagenes/background-portfolio.jpg);
     background-size: 50vw 100vh;
     background-repeat: no-repeat;
     background-color: rgb(34, 34, 32);
-    color:rgb(237, 233, 221);
     font-family: 'Roboto Condensed', sans-serif;
 }
 
@@ -14,6 +13,91 @@ a {
 }
 
 h1 {
-    /* font-family: 'Anton', sans-serif; */
-    font-family: 'Staatliches', cursive;
+    font-family: 'Anton', sans-serif;
+    color:rgb(237, 233, 221);
+}
+
+nav {
+    display: flex;
+    justify-content:space-evenly;
+    transform: all 0.3s ease 0s;
+}
+
+.description {
+    margin-top: 100px;
+    margin-left: 700px;
+}
+
+.text__description {
+    color: darkgray;
+}
+
+a:hover {
+    color:rgb(237, 233, 221, 0.8)
+}
+
+button {
+    font-family: 'Roboto Condensed', sans-serif;
+    height: 30px;
+    font-size: 20px;
+    background-color:rgb(72, 68, 62);
+    color:rgb(237, 233, 221);
+    border: none;
+    border-radius: 2px;
+}
+
+button:hover {
+    background-color:rgb(111, 107, 101);
+}
+
+.nav__items {
+    padding-left: 700px;
+}
+
+.about {
+    margin-left: 700px;
+}
+
+.projects__section {
+    display: flex;
+    justify-content: center;
+    padding-top: 400px;
+    color: #ffff
+}
+
+.food__app {
+    display: flex;
+    justify-content: center;
+}
+
+.title__app {
+    display: flex;
+    justify-content: center;
+    color: #ffff;
+    margin: 30px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.img__food {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 30px;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgb(44, 44, 40);
+}
+
+.app__description {
+    color: #ffff;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.description__color {
+    padding: 5px 80px;
+    background-color: rgb(44, 44, 40);
+    border-radius: 10px;
 }
