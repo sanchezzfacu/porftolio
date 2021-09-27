@@ -7,15 +7,19 @@ import Form from './Form'
 function Home() {
     return (        
         <div className="background">
+            <div className="nav_">
             <nav>
-                <h2>Facundo Sanchez</h2>
-                    <a href="/about"><h3>About</h3></a>
-                    <a href="/projects"><h3>Projects</h3></a>
-                    <a href="/contact"><h3>Contact</h3></a>
+                <h1>FACUNDO SANCHEZ</h1>
+                <ul>
+                    <li><a href="/about"><h3>About</h3></a></li>
+                    <li><a href="/projects"><h3>Projects</h3></a></li>
+                    <li><a href="/contact"><h3>Contact</h3></a></li>
+                </ul>
             </nav>
+            </div>
             <div className="background__description">
                 <div className="description">
-                    <h1>FACUNDO SANCHEZ</h1>
+                    <h1>Facundo Sanchez</h1>
                     <div className="text__description">
                         <h2>Soy un desarrollador Full Stack orientado al Front-End de Argentina </h2>
                     </div>
@@ -49,6 +53,11 @@ function Home() {
                     <img src={create} alt="" width="400px" height="250"/>
                 </div>
                 <Form/>
+                <footer>
+                    <div className="footer">
+                        <h3>Creado por Facundo Sanchez</h3>
+                    </div>
+                </footer>
         </div>
     )
 }
