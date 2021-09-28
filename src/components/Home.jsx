@@ -2,35 +2,56 @@ import '../styles/Home.css'
 import home from '../imagenes/home.png'
 import detail from '../imagenes/detail.png'
 import create from '../imagenes/create recipe.png'
+import cv from '../imagenes/imagenAbout.jpg'
+
 import Form from './Form'
+import { useRef } from 'react'
 
 function Home() {
+    const refAbout = useRef(null)
+    const executeScroll = () => refAbout.current.scrollIntoView()
+
+    const refProjects = useRef(null)
+    const executeScrollProject = () => refProjects.current.scrollIntoView()
+
+    const refContact = useRef(null)
+    const executeScrollContact = () => refContact.current.scrollIntoView()
+
     return (        
         <div className="background">
             <div className="nav_">
             <nav>
                 <h1>FACUNDO SANCHEZ</h1>
                 <ul>
-                    <li><a href="/about"><h3>About</h3></a></li>
-                    <li><a href="/projects"><h3>Projects</h3></a></li>
-                    <li><a href="/contact"><h3>Contact</h3></a></li>
+                    <li><h3 onClick={executeScroll}>About</h3></li>
+                    <li><h3 onClick={executeScrollProject}>Projects</h3></li>
+                    <li><h3 onClick={executeScrollContact}>Contact</h3></li>
                 </ul>
             </nav>
             </div>
             <div className="background__description">
                 <div className="description">
-                    <h1>Facundo Sanchez</h1>
+                    <h1><h1>Hola, soy Facundo Sanchez</h1></h1>
                     <div className="text__description">
-                        <h2>Soy un desarrollador Full Stack orientado al Front-End de Argentina </h2>
+                        <h2>Soy un desarrollador Full Stack orientado al Front-End que espera con ansias arrancar su carrera en el mundo IT</h2>
                     </div>
-                        <a href="/contact"><button>Contactame</button></a>  
                 </div>
             </div>
-            <div className="about__section">
-                <h1>ABOUT</h1>
+            <div className="about__section" ref={refAbout}>
+                <div className="section__title">
+                    <h1>ABOUT</h1>
+                </div>
+                <div className="align__about">
+                    <img className="img__about" src={cv} alt="" height="400px" width="370"/>
+                    <div className="text__about">
+                        <h2>Me considero una persona adicta al conocimiento que Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis animi nemo voluptatem consequuntur unde fugiat ea alias rerum similique ullam sint vel, a, at ex blanditiis corrupti accusamus nobis laborum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores libero cumque iure magnam, autem maxime! Harum molestias dicta tempore adipisci, cupiditate iure fugit eum ducimus, quasi quisquam alias. Animi, nihil?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure optio labore nobis ipsum libero! Itaque, nisi aliquid. Modi, repellendus cumque aut delectus itaque odio sunt corrupti sint neque maiores nesciunt!</h2>
+                    </div>
+                </div>
             </div>
-            <div className="projects__section">
-                <h1>PROJECTS</h1>
+            <div className="projects__section" ref={refProjects}>
+                <div className="section__title">
+                    <h1>PROJECTS</h1>
+                </div>    
             </div>
                 <div className="title__app">
                     <h2>FOOD APP</h2>
@@ -52,7 +73,7 @@ function Home() {
                     <img src={detail} alt="" width="400px" height="250"/>
                     <img src={create} alt="" width="400px" height="250"/>
                 </div>
-                <Form/>
+                <Form ref={executeScrollContact}/>
                 <footer>
                     <div className="footer">
                         <h3>Creado por Facundo Sanchez</h3>
