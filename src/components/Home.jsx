@@ -2,9 +2,13 @@ import '../styles/Home.css'
 import home from '../imagenes/home.png'
 import detail from '../imagenes/detail.png'
 import create from '../imagenes/create recipe.png'
+import linkedin from '../imagenes/in.png'
+import github from '../imagenes/github.png'
 import cv from '../imagenes/imagenAbout.jpg'
+import homebb from '../imagenes/home bb.png'
+import homebb2 from '../imagenes/fondo bb2.png'
+import homebb3 from '../imagenes/home bb 3.png'
 
-import Form from './Form'
 import { useRef } from 'react'
 
 function Home() {
@@ -16,6 +20,10 @@ function Home() {
 
     const refContact = useRef(null)
     const executeScrollContact = () => refContact.current.scrollIntoView()
+
+    // function handleSubmit(e) {
+    //     e.preventDefault()
+    // }
 
     return (        
         <div className="background">
@@ -69,11 +77,67 @@ function Home() {
                     </div>
                 </div>
                 <div className="img__food">
-                    <img src={home} alt="" width="400px" height="250"/>
-                    <img src={detail} alt="" width="400px" height="250"/>
-                    <img src={create} alt="" width="400px" height="250"/>
+                    <img className="img_projects" src={home} alt="" width="400px" height="250"/>
+                    <img className="img_projects" src={detail} alt="" width="400px" height="250"/>
+                    <img className="img_projects" src={create} alt="" width="400px" height="250"/>
                 </div>
-                <Form ref={executeScrollContact}/>
+                <div className="title__app">
+                    <h2>Breaking Bad App</h2>
+                </div>    
+                <div className="description__color">
+                    <div className="app__description">
+                        <h3>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus adipisci non illum a illo in at
+                            perspiciatis porro? Voluptate illum quis consequatur? Voluptates sit totam aspernatur accusamus nisi aliquam
+                            aut Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate obcaecati quae perferendis vitae rerum optio similique sit nesciunt
+                            Quam qui repudiandae aspernatur inventore numquam, ullam incidunt omnis sit porro eius.
+                        </h3>
+                    </div>
+                </div>
+                <div className="img__food">
+                    <img className="img_projects" src={homebb} alt="" width="400px" height="250"/>
+                    <img className="img_projects" src={homebb2} alt="" width="400px" height="250"/>
+                    <img className="img_projects" src={homebb3} alt="" width="400px" height="250"/>
+                </div>    
+                <div className="contact__section" ref={refContact}>
+            <div className="section__title" >
+                <h1>CONTACT</h1>
+            </div>    
+            <form action="https://formsubmit.co/sanchezfacundocristian@hotmail.com" method="POST" >
+                <div className="redes">
+                    <div className="linkedin">
+                    <a href="https://www.linkedin.com/in/sanchezzfacu/" target="_BLANK" rel="noopener noreferrer"><img className="img__" src={linkedin} alt="" height="50px"></img></a>
+                    </div>
+                    <div className="github">
+                        <a href="https://github.com/sanchezzfacu" target="_BLANK" rel="noopener noreferrer"><img className="img__" src={github} alt="" height="50px"/></a>
+                    </div>
+                </div>
+                <input 
+                    name="name"
+                    placeholder="Nombre"
+                    required
+                />
+                <input 
+                    name="email"
+                    placeholder="Email"
+                    type="email"
+                    required
+                />
+                <input
+                    placeholder="Asunto"
+                    name="asunto"
+                />
+                <textarea
+                    name="mensaje"
+                    placeholder="Escribe tu mensaje"
+                    required
+                />
+                <div className="btn">
+                <button 
+                    type="submit"
+                >Enviar</button>
+                </div>
+            </form>
+        </div>
                 <footer>
                     <div className="footer">
                         <h3>Creado por Facundo Sanchez</h3>
