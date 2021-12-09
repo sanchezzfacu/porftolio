@@ -43,59 +43,63 @@ function Home() {
                     </div>
                 </div>
             </div>
-            <div className="about__section" ref={refAbout}>
-                <div className="section__title">
-                    <h1>QUIEN SOY?</h1>
+            <div className="about__container" ref={refAbout}>
+                <h1 className="about__title">QUIEN SOY?</h1>
+                <div className="img__description">
+                        <img className="img__about" src={cv} alt="" height="400px" width="370"/>
+                    <div className="about__text">
+                        <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit perspiciatis animi nemo voluptatem consequuntur
+                            unde fugiat ea alias rerum similique ullam sint vel, a, at ex blanditiis corrupti accusamus nobis 
+                            laborum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores libero cumque iure magnam, autem
+                            maxime! Harum molestias dicta tempore adipisci, cupiditate iure fugit eum ducimus, quasi quisquam alias.
+                            Animi, nihil?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure optio labore nobis ipsum libero! 
+                            Itaque, nisi aliquid. Modi, repellendus cumque aut delectus itaque odio sunt corrupti sint neque maiores 
+                            nesciunt.</h2>
+                    </div>                    
                 </div>
-                <div className="align__about">
-                    <img className="img__about" src={cv} alt="" height="400px" width="370"/>
-                    <div className="text__about">
-                        <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis animi nemo voluptatem consequuntur unde fugiat ea alias rerum similique ullam sint vel, a, at ex blanditiis corrupti accusamus nobis laborum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores libero cumque iure magnam, autem maxime! Harum molestias dicta tempore adipisci, cupiditate iure fugit eum ducimus, quasi quisquam alias. Animi, nihil?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure optio labore nobis ipsum libero! Itaque, nisi aliquid. Modi, repellendus cumque aut delectus itaque odio sunt corrupti sint neque maiores nesciunt!</h2>
+            </div>         
+                <div className="projects__section">
+                    <div className="section__title">
+                        <h1>PROJECTS</h1>
+                    </div>    
+                </div>
+                <div className="title__app">
+                    <h2>FOOD APP</h2>
+                </div>
+                <div className="description__color">
+                    <div className="app__description">
+                        <h3 ref={refProjects}> 
+                            Desarrollé una SPA (Single Page Application) utilizando React para el Front End y Redux como state management. 
+                            En los estilos se implementó CSS puro sin uso de librerías externas.
+                            La SPA consume datos de una API a través de un Back End desarrollado en Node utilizando Express, agregando nuevas 
+                            funcionalidades a la API original. En el proyecto se pueden encontrar filtros
+                            (comida, tipos de dieta, puntuacion de nivel de saludabe, nombre por orden alfabético) y un formulario para la creación 
+                            de nuevas recetas que se almacenan en una base de datos realizada con Sequelize y PostgreSQL.
+                        </h3>
                     </div>
                 </div>
-            </div>
-            <div className="projects__section" ref={refProjects}>
-                <div className="section__title">
-                    <h1>PROJECTS</h1>
+                <div className="img__food">
+                    <img className="img_projects" src={home} alt="" width="400px" height="250"/>
+                    <img className="img_projects" src={detail} alt="" width="400px" height="250"/>
+                    <img className="img_projects" src={create} alt="" width="400px" height="250"/>
+                </div>
+                <div className="title__app">
+                    <h2>Breaking Bad App</h2>
                 </div>    
-            </div>
-            <div className="title__app">
-                <h2>FOOD APP</h2>
-            </div>
-            <div className="description__color">
-                <div className="app__description">
-                    <h3> 
-                        Desarrollé una SPA (Single Page Application) utilizando React para el Front End y Redux como state management. 
-                        En los estilos se implementó CSS puro sin uso de librerías externas.
-                        La SPA consume datos de una API a través de un Back End desarrollado en Node utilizando Express, agregando nuevas 
-                        funcionalidades a la API original. En el proyecto se pueden encontrar filtros
-                        (comida, tipos de dieta, puntuacion de nivel de saludabe, nombre por orden alfabético) y un formulario para la creación 
-                        de nuevas recetas que se almacenan en una base de datos realizada con Sequelize y PostgreSQL.
-                    </h3>
+                <div className="description__color">
+                    <div className="app__description">
+                        <h3>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus adipisci non illum a illo in at
+                            perspiciatis porro? Voluptate illum quis consequatur? Voluptates sit totam aspernatur accusamus nisi aliquam
+                            aut Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate obcaecati quae perferendis vitae rerum optio similique sit nesciunt
+                            Quam qui repudiandae aspernatur inventore numquam, ullam incidunt omnis sit porro eius.
+                        </h3>
+                    </div>
                 </div>
-            </div>
-            <div className="img__food">
-                <img className="img_projects" src={home} alt="" width="400px" height="250"/>
-                <img className="img_projects" src={detail} alt="" width="400px" height="250"/>
-                <img className="img_projects" src={create} alt="" width="400px" height="250"/>
-            </div>
-            <div className="title__app">
-                <h2>Breaking Bad App</h2>
-            </div>    
-            <div className="description__color">
-                <div className="app__description">
-                    <h3>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus adipisci non illum a illo in at
-                        perspiciatis porro? Voluptate illum quis consequatur? Voluptates sit totam aspernatur accusamus nisi aliquam
-                        aut Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate obcaecati quae perferendis vitae rerum optio similique sit nesciunt
-                        Quam qui repudiandae aspernatur inventore numquam, ullam incidunt omnis sit porro eius.
-                    </h3>
-                </div>
-            </div>
-            <div className="img__food">
-                <img className="img_projects" src={homebb} alt="" width="400px" height="250"/>
-                <img className="img_projects" src={homebb2} alt="" width="400px" height="250"/>
-                <img className="img_projects" src={homebb3} alt="" width="400px" height="250"/>
-            </div>    
+                <div className="img__food">
+                    <img className="img_projects" src={homebb} alt="" width="400px" height="250"/>
+                    <img className="img_projects" src={homebb2} alt="" width="400px" height="250"/>
+                    <img className="img_projects" src={homebb3} alt="" width="400px" height="250"/>
+                </div>   
             <div className="contact__section" ref={refContact}>
                 <div className="section__title" >
                     <h1>CONTACT</h1>
