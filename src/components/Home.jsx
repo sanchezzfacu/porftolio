@@ -8,6 +8,7 @@ import cv from '../imagenes/imagenAbout.jpg'
 import homebb from '../imagenes/home bb.png'
 import homebb2 from '../imagenes/fondo bb2.png'
 import homebb3 from '../imagenes/home bb 3.png'
+import cvDownload from '../Facundo Sanchez-frontend developer.pdf'
 
 import { useRef } from 'react'
 
@@ -34,12 +35,13 @@ function Home() {
             <div className="background">
                 <div className="background__description">
                     <div className="description">
-                        <div>
-                            <h1><h1>Hola, soy Facundo Sanchez</h1></h1>
+                        <div className='description-title'>
+                            <h1><h1>Hola, soy Facundo Sánchez</h1></h1>
                         </div>
                         <div className="text__description">
                             <h2>Soy un Front-End developer que busca iniciarse en el mundo IT</h2>
                         </div>
+                        <a href='/' target='_blank' download={cvDownload}><button className='btn-cv'> Descargar CV</button></a>
                     </div>
                 </div>
             </div>
@@ -59,16 +61,19 @@ function Home() {
                 </div>
             </div>         
                 <div className="projects__section">
-                    <div className="section__title">
-                        <h1>PROJECTS</h1>
-                    </div>    
+                    <h1 ref={refProjects}>PROJECTS</h1>
                 </div>
                 <div className="title__app">
                     <h2>FOOD APP</h2>
                 </div>
+                <div className="img__food">
+                    <img className="img_projects" src={home} alt="" width="400px" height="250"/>
+                    <img className="img_projects" src={detail} alt="" width="400px" height="250"/>
+                    <img className="img_projects" src={create} alt="" width="400px" height="250"/>
+                </div>
                 <div className="description__color">
                     <div className="app__description">
-                        <h3 ref={refProjects}> 
+                        <h3> 
                             Desarrollé una SPA (Single Page Application) utilizando React para el Front End y Redux como state management. 
                             En los estilos se implementó CSS puro sin uso de librerías externas.
                             La SPA consume datos de una API a través de un Back End desarrollado en Node utilizando Express, agregando nuevas 
@@ -78,14 +83,15 @@ function Home() {
                         </h3>
                     </div>
                 </div>
-                <div className="img__food">
-                    <img className="img_projects" src={home} alt="" width="400px" height="250"/>
-                    <img className="img_projects" src={detail} alt="" width="400px" height="250"/>
-                    <img className="img_projects" src={create} alt="" width="400px" height="250"/>
-                </div>
+
                 <div className="title__app">
                     <h2>Breaking Bad App</h2>
                 </div>    
+                <div className="img__food">
+                    <img className="img_projects" src={homebb} alt="" width="400px" height="250"/>
+                    <img className="img_projects" src={homebb2} alt="" width="400px" height="250"/>
+                    <img className="img_projects" src={homebb3} alt="" width="400px" height="250"/>
+                </div> 
                 <div className="description__color">
                     <div className="app__description">
                         <h3>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus adipisci non illum a illo in at
@@ -94,12 +100,7 @@ function Home() {
                             Quam qui repudiandae aspernatur inventore numquam, ullam incidunt omnis sit porro eius.
                         </h3>
                     </div>
-                </div>
-                <div className="img__food">
-                    <img className="img_projects" src={homebb} alt="" width="400px" height="250"/>
-                    <img className="img_projects" src={homebb2} alt="" width="400px" height="250"/>
-                    <img className="img_projects" src={homebb3} alt="" width="400px" height="250"/>
-                </div>   
+                </div>  
             <div className="contact__section" ref={refContact}>
                 <div className="section__title" >
                     <h1>CONTACT</h1>
