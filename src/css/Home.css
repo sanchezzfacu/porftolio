@@ -1,3 +1,10 @@
+* {
+  margin: 0;
+  padding: 0; }
 
+body {
+  background-color: #04101b;
+  color: #ffffff;
+  font-family: "Source Sans Pro", sans-serif; }
 
 /*# sourceMappingURL=Home.css.map */

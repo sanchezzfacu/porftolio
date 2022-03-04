@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "",
-"sources": [],
+"mappings": "AAGA,CAAE;EACE,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;;AAGd,IAAK;EACD,gBAAgB,ECTF,OAAO;EDUrB,KAAK,ECTG,OAAO;EDUf,WAAW,EEVF,6BAA6B",
+"sources": ["../sass/Home.scss","../sass/_colours.scss","../sass/_fonts.scss"],
 "names": [],
 "file": "Home.css"
 }

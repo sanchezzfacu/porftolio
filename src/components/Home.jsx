@@ -1,15 +1,16 @@
-import '../css/Home.css'
 import About from './About'
 import Projects from './Projects'
 import Navbar from './Navbar'
-import Landing from './Landing'
+import Presentation from './Presentation'
 import Form from './Form'
+
+import '../css/Home.css'
 
 function Home() {
     return (        
         <div className="main">
             <Navbar/>
-            <Landing/>
+            <Presentation/>
             <About/>
             <Projects/>
             <Form/>

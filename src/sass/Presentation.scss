@@ -1,0 +1,14 @@
+@import 'colours';
+@import 'fonts';
+
+.presentation-container {
+    .gradient-name {
+        background: linear-gradient(90deg,$lightblue, $blue);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+    }
+    .big-font-presentation {
+        font-size: 70px;
+        font-family: $bigfont;
+    }
+}

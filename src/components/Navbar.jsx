@@ -13,7 +13,9 @@ function Navbar() {
     return (
         <div>
             <nav>
-                <h1>FACUNDO SANCHEZ</h1>
+                <div className='logo-container'>
+                    <div className='logo-hijo'></div>
+                </div>
                 <ul>
                     <li><h3 onClick={executeScroll}>About</h3></li>
                     <li><h3 onClick={executeScrollProject}>Projects</h3></li>
