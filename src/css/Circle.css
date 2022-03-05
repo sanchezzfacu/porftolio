@@ -1,0 +1,18 @@
+.circle-container {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background: linear-gradient(45deg, #07fad3, #3a77fe);
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  .circle-container .circle-child {
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    background: #04101b;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+
+/*# sourceMappingURL=Circle.css.map */

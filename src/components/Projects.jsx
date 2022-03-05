@@ -10,9 +10,9 @@ function Projects() {
         <div>
             <h1 >PROJECTS</h1>
             <h2>FOOD APP</h2>
-            <img src={home} alt="imagen no encontrada"/>
-            <img src={detail} alt="imagen no encontrada"/>
-            <img src={create} alt="imagen no encontrada"/>
+            <img src={home} alt="imagen no encontrada" width='200px'/>
+            <img src={detail} alt="imagen no encontrada" width='200px'/>
+            <img src={create} alt="imagen no encontrada" width='200px'/>
             <h3> 
                 Desarrollé una SPA (Single Page Application) utilizando React para el Front End y Redux como state management. 
                 En los estilos se implementó CSS puro sin uso de librerías externas.
@@ -22,9 +22,9 @@ function Projects() {
                 de nuevas recetas que se almacenan en una base de datos realizada con Sequelize y PostgreSQL.
             </h3>
             <h2>Breaking Bad App</h2>
-            <img src={homebb} alt="imagen no encontrada"/>
-            <img src={homebb2} alt="imagen no encontrada"/>
-            <img src={homebb3} alt="imagen no encontrada"/>
+            <img src={homebb} alt="imagen no encontrada"width='200px'/>
+            <img src={homebb2} alt="imagen no encontrada"width='200px'/>
+            <img src={homebb3} alt="imagen no encontrada"width='200px'/>
             <h3>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus adipisci non illum a illo in at
                 perspiciatis porro? Voluptate illum quis consequatur? Voluptates sit totam aspernatur accusamus nisi aliquam
                 aut Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate obcaecati quae perferendis vitae rerum optio similique sit nesciunt

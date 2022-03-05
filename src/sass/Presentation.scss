@@ -2,13 +2,26 @@
 @import 'fonts';
 
 .presentation-container {
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+    height: calc(100vh - 20px);
+    justify-content: center;
+    text-align: start;
+    margin: -100px auto;
     .gradient-name {
         background: linear-gradient(90deg,$lightblue, $blue);
         -webkit-text-fill-color: transparent;
         -webkit-background-clip: text;
+        background-clip: text;
     }
     .big-font-presentation {
         font-size: 70px;
         font-family: $bigfont;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .saludo {
+        color: $lightblue;
     }
 }

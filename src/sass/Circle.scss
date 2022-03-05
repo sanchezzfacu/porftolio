@@ -1,0 +1,20 @@
+@import 'colours';
+
+.circle-container {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background: linear-gradient( 45deg,$lightblue, $blue);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .circle-child {
+        height: 45px;
+        width: 45px;
+        border-radius: 50%;
+        background: $backgroundcolor;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}

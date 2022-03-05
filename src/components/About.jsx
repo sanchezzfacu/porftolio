@@ -5,8 +5,8 @@ import cv from '../img/imagenAbout.jpg'
 function About() {
     return (
         <div>
-            <h1 className="about__title">QUIEN SOY?</h1>
-            <img className="img__about" src={cv} alt="" height="400px" width="370"/>
+            <h1 >Acerca de mi</h1>
+            <img src={cv} alt="imagen no encontada"/>
             <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit perspiciatis animi nemo voluptatem consequuntur
                 unde fugiat ea alias rerum similique ullam sint vel, a, at ex blanditiis corrupti accusamus nobis 
                 laborum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores libero cumque iure magnam, autem

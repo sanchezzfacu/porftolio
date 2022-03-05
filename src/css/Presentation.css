@@ -1,9 +1,22 @@
-.presentation-container .gradient-name {
-  background: linear-gradient(90deg, #07fad3, #3a77fe);
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text; }
-.presentation-container .big-font-presentation {
-  font-size: 70px;
-  font-family: "Poppins", sans-serif; }
+.presentation-container {
+  width: 900px;
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh - 20px);
+  justify-content: center;
+  text-align: start;
+  margin: -100px auto; }
+  .presentation-container .gradient-name {
+    background: linear-gradient(90deg, #07fad3, #3a77fe);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text; }
+  .presentation-container .big-font-presentation {
+    font-size: 70px;
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    flex-wrap: wrap; }
+  .presentation-container .saludo {
+    color: #07fad3; }
 
 /*# sourceMappingURL=Presentation.css.map */

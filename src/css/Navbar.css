@@ -1,0 +1,25 @@
+.navbar-container {
+  height: auto;
+  background: #04101b;
+  display: flex;
+  flex-direction: row;
+  position: sticky; }
+  .navbar-container .nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around; }
+  .navbar-container .nav ul {
+    display: flex;
+    flex-direction: row; }
+  .navbar-container .nav ul li {
+    list-style: none;
+    margin: 50px;
+    cursor: pointer;
+    transition: all ease 0.2s; }
+  .navbar-container .nav ul li:hover {
+    color: #a2a2a2; }
+  .navbar-container .circle-nav {
+    cursor: pointer; }
+
+/*# sourceMappingURL=Navbar.css.map */
