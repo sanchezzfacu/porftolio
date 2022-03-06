@@ -1,0 +1,20 @@
+.circle-logo-container {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  background: linear-gradient(45deg, #07fad3, #3a77fe);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  z-index: -1; }
+  .circle-logo-container .circle-logo-child {
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+    background: #04101b;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+
+/*# sourceMappingURL=CircleLogo.css.map */
