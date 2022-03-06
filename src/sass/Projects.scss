@@ -1,0 +1,29 @@
+@import 'fonts';
+
+.projects-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 100px;
+
+    .text-img-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .projects-title {
+        font-family: $bigfont;
+        font-size: 20px;
+    }
+    .app-img img {
+        height: 300px;
+        margin: 50px;
+        border-radius: 10px;
+    }
+    .app-title {
+        margin-top: 30px;
+        display: flex;
+        padding-top: 5px;
+    }
+}

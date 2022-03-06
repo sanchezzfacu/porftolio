@@ -1,0 +1,23 @@
+.projects-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 100px; }
+  .projects-container .text-img-container {
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+  .projects-container .projects-title {
+    font-family: "Poppins", sans-serif;
+    font-size: 20px; }
+  .projects-container .app-img img {
+    height: 300px;
+    margin: 50px;
+    border-radius: 10px; }
+  .projects-container .app-title {
+    margin-top: 30px;
+    display: flex;
+    padding-top: 5px; }
+
+/*# sourceMappingURL=Projects.css.map */
