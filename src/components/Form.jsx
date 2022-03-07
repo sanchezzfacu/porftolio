@@ -1,13 +1,11 @@
 import React from 'react'
-import linkedin from '../img/linkedin-logo.png'
-import github from '../img/github-logo.png'
 function Form() {
     return (
         <div>
              <h1>CONTACT</h1>
                 <form action="https://formsubmit.co/sanchezfacundocristian@hotmail.com" method="POST" >
-                <a href="https://www.linkedin.com/in/sanchezzfacu/" target="_BLANK" rel="noopener noreferrer"><img className="img__" src={linkedin} alt="" height="50px"></img></a>
-                <a href="https://github.com/sanchezzfacu" target="_BLANK" rel="noopener noreferrer"><img className="img__" src={github} alt="" height="50px"/></a>
+                {/* <a href="https://www.linkedin.com/in/sanchezzfacu/" target="_BLANK" rel="noopener noreferrer"><img className="img__" src={linkedin} alt="" height="50px"></img></a>
+                <a href="https://github.com/sanchezzfacu" target="_BLANK" rel="noopener noreferrer"><img className="img__" src={github} alt="" height="50px"/></a> */}
                     <input 
                         name="name"
                         placeholder="Nombre"
