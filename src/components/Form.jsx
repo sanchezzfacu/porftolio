@@ -1,6 +1,6 @@
 import React from 'react'
-import linkedin from '../img/in.png'
-import github from '../img/github.png'
+import linkedin from '../img/linkedin-logo.png'
+import github from '../img/github-logo.png'
 function Form() {
     return (
         <div>

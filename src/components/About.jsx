@@ -2,6 +2,7 @@ import React from 'react'
 import cv from '../img/imagenAbout.jpg'
 import '../css/About.css'
 import CircleLogo from './CircleLogo'
+document.title = 'Facundo Sanchez | Frontend Developer'
 
 function About() {
     return (
@@ -15,6 +16,10 @@ function About() {
                     Animi, nihil?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure optio labore nobis ipsum libero! 
                     Itaque, nisi aliquid. Modi, repellendus cumque aut delectus itaque odio sunt corrupti sint neque maiores 
                     nesciunt.
+                    <div className='github-linkedin-btn'>
+                        <button>Linkedin</button>
+                        <button>Github</button>
+                    </div>
                 </h2>
                 <img className='img-about' src={cv} alt="imagen no encontada"/>
             </div>

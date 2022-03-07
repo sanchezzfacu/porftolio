@@ -1,4 +1,6 @@
 @import 'fonts';
+@import 'colours';
+
 
 .about-container {
     display: flex;
@@ -28,5 +30,22 @@
         width: 600px;
         margin: 50px;
         font-size: 22px;
+    }
+    .github-linkedin-btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }    
+    .github-linkedin-btn button{
+        background-color: $backgroundcolor;
+        border: 1px solid $lightblue;
+        color: $lightblue;
+        padding: 13px;
+        border-radius: 10px;
+        margin: 30px;
+        transition: all ease 0.5;
+    }
+    .github-linkedin-btn button:hover{
+        background-color: $buttoncolor;
     }
 }

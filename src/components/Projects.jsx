@@ -1,6 +1,6 @@
 import React from 'react'
-import homeFood from '../img/home.png'
-import homebb from '../img/home bb.png'
+import homeFood from '../img/food-home.png'
+import homebb from '../img/bb-home.png'
 import '../css/Projects.css'
 import CircleLogo from './CircleLogo'
 function Projects() {
