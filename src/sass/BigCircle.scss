@@ -1,0 +1,12 @@
+@import  'colours';
+
+.big-circle-container {
+    height: 500px;
+    width: 500px;
+    background: linear-gradient(180deg, $lightblue, $blue);
+    border-radius: 50%;
+    position: fixed; 
+    left: 1080px;
+    top: 140px;
+    z-index: -5;
+}

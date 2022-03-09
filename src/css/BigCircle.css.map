@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAEA,qBAAsB;EAClB,MAAM,EAAE,KAAK;EACb,KAAK,EAAE,KAAK;EACZ,UAAU,EAAE,yCAA0C;EACtD,aAAa,EAAE,GAAG;EAClB,QAAQ,EAAE,KAAK;EACf,IAAI,EAAE,MAAM;EACZ,GAAG,EAAE,KAAK;EACV,OAAO,EAAE,EAAE",
+"sources": ["../sass/BigCircle.scss"],
+"names": [],
+"file": "BigCircle.css"
+}
