@@ -1,4 +1,5 @@
 @import 'fonts';
+@import 'colours';
 
 .projects-container {
     display: flex;
@@ -20,10 +21,33 @@
         height: 300px;
         margin: 50px;
         border-radius: 10px;
+        box-shadow: #00000040 0px 54px 55px, #0000001f 0px -12px 30px, #0000001f 
+        0px 4px 6px, #0000002b 0px 12px 13px, #00000017 0px -3px 5px;
     }
     .app-title {
         margin-top: 30px;
         display: flex;
         padding-top: 5px;
+    }
+    .btn-repositorio {
+        background: $backgroundcolor;
+        color: $lightblue;
+        border: 1px solid $lightblue;
+        padding: 10px;
+        margin-top: 20px;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: all ease 0.5;
+    }
+    .btn-repositorio:hover {
+        background: $buttoncolor;
+    }
+    .app-text h3::first-letter{
+        font-size: 25px;
+        padding-top: 5px;
+        color: $lightblue;
+    }
+    .app-text h3 b {
+        color: $lightblue;
     }
 }
