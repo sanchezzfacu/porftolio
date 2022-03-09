@@ -14,9 +14,6 @@ function Home() {
             <About/>
             <Projects/>
             <Form/>
-            <button>asdas
-                
-            </button>
         </div>
     )
 }

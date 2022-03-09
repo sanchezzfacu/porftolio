@@ -9,4 +9,8 @@ body {
   font-family: "Source Sans Pro", sans-serif;
   width: 100%; }
 
+a {
+  text-decoration: none;
+  color: #07fad3; }
+
 /*# sourceMappingURL=Home.css.map */
