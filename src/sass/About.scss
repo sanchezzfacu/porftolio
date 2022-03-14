@@ -14,6 +14,8 @@
     .about-title {
         font-family: $bigfont;
         font-size: 40px;
+        display: flex;
+        align-items: center;
     }
     .img-text-container {
         display: flex;
@@ -31,7 +33,7 @@
     .text-about {
         width: 600px;
         margin: 50px;
-        font-size: 22px;
+        font-size: 21px;
     }
     .github-linkedin-btn {
         display: flex;

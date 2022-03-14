@@ -1,11 +1,16 @@
 import React from 'react'
+import CircleLogo from './CircleLogo'
+import '../css/Form.css'
 function Form() {
     return (
-        <div>
-             <h1>CONTACT</h1>
+        <div className='form-container'>
+             <h1><CircleLogo/>Hablemos</h1>
+             
                 <form action="https://formsubmit.co/sanchezfacundocristian@hotmail.com" method="POST" >
-                {/* <a href="https://www.linkedin.com/in/sanchezzfacu/" target="_BLANK" rel="noopener noreferrer"><img className="img__" src={linkedin} alt="" height="50px"></img></a>
-                <a href="https://github.com/sanchezzfacu" target="_BLANK" rel="noopener noreferrer"><img className="img__" src={github} alt="" height="50px"/></a> */}
+                    <div className="btn-redes-form">
+                        <a href='https://www.linkedin.com/in/sanchezzfacu/' target='_blank' rel="noreferrer"><button>Linkedin</button></a>
+                        <a href='https://github.com/sanchezzfacu' target='_blank' rel="noreferrer"><button>Github</button></a>
+                    </div>
                     <input 
                         name="name"
                         placeholder="Nombre"
@@ -27,6 +32,7 @@ function Form() {
                         required
                     />
                     <button 
+                        className='button type1'
                         type="submit">
                         Enviar</button>
                 </form>

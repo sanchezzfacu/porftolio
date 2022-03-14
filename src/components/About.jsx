@@ -17,8 +17,8 @@ function About() {
                     Itaque, nisi aliquid. Modi, repellendus cumque aut delectus itaque odio sunt corrupti sint neque maiores 
                     nesciunt.
                     <div className='github-linkedin-btn'>
-                        <button><a href='https://www.linkedin.com/in/sanchezzfacu/' target='_blank' rel="noreferrer">Linkedin</a></button>
-                        <button><a href='https://github.com/sanchezzfacu' target='_blank' rel="noreferrer">Github</a></button>
+                        <a href='https://www.linkedin.com/in/sanchezzfacu/' target='_blank' rel="noreferrer"><button>Linkedin</button></a>
+                        <a href='https://github.com/sanchezzfacu' target='_blank' rel="noreferrer"><button>Github</button></a>
                     </div>
                 </h2>
                 <img className='img-about' src={cv} alt="imagen no encontada"/>

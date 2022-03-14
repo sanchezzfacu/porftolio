@@ -8,7 +8,9 @@
   margin: auto; }
   .about-container .about-title {
     font-family: "Poppins", sans-serif;
-    font-size: 40px; }
+    font-size: 40px;
+    display: flex;
+    align-items: center; }
   .about-container .img-text-container {
     display: flex;
     align-items: center;
@@ -22,7 +24,7 @@
   .about-container .text-about {
     width: 600px;
     margin: 50px;
-    font-size: 22px; }
+    font-size: 21px; }
   .about-container .github-linkedin-btn {
     display: flex;
     align-items: center;

@@ -1,6 +1,5 @@
 import React from 'react'
 import '../css/Presentation.css'
-import BigCircle from './BigCircle'
 
 function Presentation() {
     return (
@@ -12,7 +11,6 @@ function Presentation() {
                 Actualmente me encuentro en búsqueda de mi primer experiencia IT y estoy preparado y super 
                 motivado por conseguirlo.
             </h3>
-            <BigCircle/>
         </div>
     )
 }
