@@ -2,54 +2,115 @@
 @import 'colours';
 
 
-.about-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 100vh;
-    margin: auto;
-    
-    .about-title {
-        font-family: $bigfont;
-        font-size: 40px;
+//Large desktop
+@media screen and (min-width:1115px) {
+    .about-container {
         display: flex;
-        align-items: center;
-    }
-    .img-text-container {
-        display: flex;
-        align-items: center;
+        flex-direction: column;
         justify-content: center;
-        width: 80%;
-    }
-    .img-about {
-        height: 350px;
-        width: 350px;
-        border-radius: 10px;
-        // box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-    }
-    .text-about {
-        width: 600px;
-        margin: 50px;
-        font-size: 21px;
-    }
-    .github-linkedin-btn {
-        display: flex;
         align-items: center;
-        justify-content: center;
-    }    
-    .github-linkedin-btn button{
-        background-color: $backgroundcolor;
-        border: 1px solid $lightblue;
-        color: $lightblue;
-        padding: 13px;
-        border-radius: 10px;
-        margin: 30px;
-        transition: all ease 0.5;
+        width: 100%;
+        height: 100vh;
+        margin: auto;
+        
+        .about-title {
+            font-family: $bigfont;
+            font-size: 40px;
+            display: flex;
+            align-items: center;
+        }
+        .img-text-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 80%;
+        }
+        .img-about {
+            height: 350px;
+            width: 350px;
+            margin-bottom: 70px;
+            border-radius: 10px;
+            // box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        }
+        .text-about {
+            width: auto;
+            margin: 50px;
+            font-size: 20px;
+        }
+        .github-linkedin-btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }    
+        .github-linkedin-btn button{
+            background-color: $backgroundcolor;
+            border: 1px solid $lightblue;
+            color: $lightblue;
+            padding: 13px;
+            border-radius: 10px;
+            margin: 30px;
+            transition: all ease 0.5;
+        }
+        .github-linkedin-btn button:hover{
+            background-color: $buttoncolor;
+        }
     }
-    .github-linkedin-btn button:hover{
-        background-color: $buttoncolor;
+}
+
+
+//Small desktop
+@media screen and (min-width: 1028px) and (max-width: 1114px) {
+    .about-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100vh;
+        margin: auto;
+        
+        .about-title {
+            font-family: $bigfont;
+            font-size: 40px;
+            display: flex;
+            align-items: center;
+        }
+        .img-text-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 80%;
+        }
+        .img-about {
+            height: 350px;
+            width: 350px;
+            border-radius: 10px;
+            margin-bottom: 70px;
+            // box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        }
+        .text-about {
+            width: 600px;
+            margin: 50px;
+            font-size: 17px;
+        }
+        .github-linkedin-btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }    
+        .github-linkedin-btn button{
+            background-color: $backgroundcolor;
+            border: 1px solid $lightblue;
+            color: $lightblue;
+            padding: 13px;
+            border-radius: 10px;
+            margin: 30px;
+            transition: all ease 0.5;
+        }
+        .github-linkedin-btn button:hover{
+            background-color: $buttoncolor;
+        }
     }
 }
