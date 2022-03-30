@@ -31,16 +31,18 @@
       display: flex;
       align-items: center;
       justify-content: center; }
-    .about-container .github-linkedin-btn button {
-      background-color: #04101b;
-      border: 1px solid #07fad3;
-      color: #07fad3;
-      padding: 13px;
-      border-radius: 10px;
-      margin: 30px;
-      transition: all ease 0.5; }
-    .about-container .github-linkedin-btn button:hover {
-      background-color: #07fad12f; } }
+      .about-container .github-linkedin-btn a {
+        margin: 30px 40px;
+        padding: 5px;
+        transition: all ease 0.3s;
+        border-radius: 50%;
+        height: 70px;
+        width: 70px;
+        display: flex;
+        align-items: center;
+        justify-content: center; }
+      .about-container .github-linkedin-btn a:hover {
+        background: linear-gradient(180deg, #07fad3, #3a77fe); } }
 @media screen and (min-width: 1028px) and (max-width: 1114px) {
   .about-container {
     display: flex;
@@ -73,17 +75,7 @@
     .about-container .github-linkedin-btn {
       display: flex;
       align-items: center;
-      justify-content: center; }
-    .about-container .github-linkedin-btn button {
-      background-color: #04101b;
-      border: 1px solid #07fad3;
-      color: #07fad3;
-      padding: 13px;
-      border-radius: 10px;
-      margin: 30px;
-      transition: all ease 0.5; }
-    .about-container .github-linkedin-btn button:hover {
-      background-color: #07fad12f; } }
+      justify-content: center; } }
 @media screen and (min-width: 835px) and (max-width: 1027px) {
   .about-container {
     display: flex;
