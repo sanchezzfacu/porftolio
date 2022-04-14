@@ -160,7 +160,8 @@
       margin-top: 30px;
       margin-bottom: 30px;
       display: flex;
-      justify-content: center; }
+      justify-content: center;
+      text-align: center; }
     .projects-container .btn-repositorio, .projects-container .btn-repositorio-left {
       background: #04101b;
       color: #07fad3;

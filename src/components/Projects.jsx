@@ -33,7 +33,7 @@ function Projects() {
             
             <div className="individual-container">
                 <div className='app-title'>
-                    <h2>Ecommerce de accesorios de belleza</h2>
+                    <h2>Ecommerce de accesorios de mujeres</h2>
                 </div>
                 <div className='align-right'>
                     <div className="app-img">
@@ -42,10 +42,12 @@ function Projects() {
                     <div className="text-img-container">
                         <div className="app-text">                
                             <h3 className='text-left'>
-                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus adipisci non illum a illo in at
-                                perspiciatis porro? Voluptate illum quis consequatur? Voluptates sit totam aspernatur accusamus nisi aliquam
-                                aut Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate obcaecati quae perferendis vitae rerum optio similique sit nesciunt
-                                Quam qui repudiandae aspernatur inventore numquam, ullam incidunt omnis sit porro eius.
+                                Realicé un ecommerce para un emprendimiento usando las tecnologías aprendidas durante la carrera,
+                                para la UI se usó <b>React</b>, <b>Redux</b> para el manejo de estado y los estilos fueron diseñados con <b>CSS</b> puro, para el backend se desarrolló un servidor en <b>ExpressJS</b>, con una
+                                base de datos creada con <b>PostgreSQL</b> y <b>Sequelize</b>. El sitio web permite ver el stock disponible y mandar un mensaje personalizado al vendedor.
+                                A su vez tambien cuenta con un panel de administrador donde se pueden crear/eliminar categorias, publicar nuevos productos a 
+                                traves de un formulario controlado y manejo de stock donde se pueden eliminar productos o las cantidades vendidas.
+
                             </h3>
                             <a className='respositorio-link'  href='https://github.com/sanchezzfacu/mys-accesorios' target='_blank' rel="noreferrer"><button className='btn-repositorio'>Ver código</button></a>
                         </div>
@@ -60,10 +62,11 @@ function Projects() {
                 <div className="text-img-container">
                     <div className="app-text">                
                         <h3 className='text-right'>
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus adipisci non illum a illo in at
-                            perspiciatis porro? Voluptate illum quis consequatur? Voluptates sit totam aspernatur accusamus nisi aliquam
-                            aut Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate obcaecati quae perferendis vitae rerum optio similique sit nesciunt
-                            Quam qui repudiandae aspernatur inventore numquam, ullam incidunt omnis sit porro eius.
+                            Para el proyecto final de la carrera realizamos un ecomerce completeamente funcional con mi equipo,
+                            en el proyecto afianzamos los conceptos aprendidos en la carrera. Usamos <b>React</b> para la interfaz de usuario, <b>Redux</b>
+                            para el manejo de estado, <b>GIT</b> para versionado de codigo, estilos con <b>CSS modules</b>. Para el backend se desarrolló un
+                            servidor en <b>ExpressJS</b> y una base de datos en <b>PostgreSQL</b> realizada con <b>Sequelize</b>. Posee una pasarela de pago con 
+                            mercado pago, manejo de usuarios, creacion de cuenta con google, carrito de compras, reviews a productos, entre otros.
                         </h3>
                         <a className='respositorio-link' href='https://github.com/guidoabelleira/E-Commerce-PF10' target='_blank' rel="noreferrer"><button className='btn-repositorio-left'>Ver código</button></a>
                     </div>
