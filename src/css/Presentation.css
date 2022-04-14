@@ -1,26 +1,80 @@
-.presentation-container {
-  width: 900px;
-  display: flex;
-  flex-direction: column;
-  height: calc(80vh - 20px);
-  justify-content: center;
-  text-align: start;
-  margin-top: -50px;
-  margin-left: auto;
-  margin-right: auto; }
-  .presentation-container .gradient-name {
-    background: linear-gradient(90deg, #07fad3, #3a77fe);
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
-    background-clip: text; }
-  .presentation-container .big-font-presentation {
-    font-size: 70px;
-    font-family: "Poppins", sans-serif;
+@media screen and (min-width: 979px) {
+  .presentation-container {
+    width: 900px;
     display: flex;
-    flex-wrap: wrap; }
-  .presentation-container .saludo {
-    color: #07fad3; }
-  .presentation-container .presentation-text {
-    width: 800px; }
+    flex-direction: column;
+    height: calc(80vh - 20px);
+    justify-content: center;
+    text-align: start;
+    margin-top: -50px;
+    margin-left: auto;
+    margin-right: auto; }
+    .presentation-container .gradient-name {
+      background: linear-gradient(90deg, #07fad3, #3a77fe);
+      -webkit-text-fill-color: transparent;
+      -webkit-background-clip: text;
+      background-clip: text; }
+    .presentation-container .big-font-presentation {
+      font-size: 70px;
+      font-family: "Poppins", sans-serif;
+      display: flex;
+      flex-wrap: wrap; }
+    .presentation-container .saludo {
+      color: #07fad3; }
+    .presentation-container .presentation-text {
+      width: 800px; } }
+@media screen and (max-width: 978px) {
+  .presentation-container {
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+    height: calc(80vh - 20px);
+    justify-content: center;
+    text-align: start;
+    margin-top: -50px;
+    margin-left: 70px; }
+    .presentation-container .gradient-name {
+      background: linear-gradient(90deg, #07fad3, #3a77fe);
+      -webkit-text-fill-color: transparent;
+      -webkit-background-clip: text;
+      background-clip: text; }
+    .presentation-container .big-font-presentation {
+      font-size: 60px;
+      font-family: "Poppins", sans-serif;
+      display: flex;
+      flex-wrap: wrap; }
+    .presentation-container .saludo {
+      color: #07fad3; }
+    .presentation-container .presentation-text {
+      width: 80%;
+      font-size: 16px; } }
+@media screen and (max-width: 815px) {
+  .presentation-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: calc(80vh - 20px);
+    justify-content: center;
+    text-align: start;
+    margin-top: 0;
+    margin-left: 0px; }
+    .presentation-container .gradient-name {
+      background: linear-gradient(90deg, #07fad3, #3a77fe);
+      -webkit-text-fill-color: transparent;
+      -webkit-background-clip: text;
+      background-clip: text; }
+    .presentation-container .big-font-presentation {
+      font-size: 40px;
+      font-family: "Poppins", sans-serif;
+      display: flex;
+      flex-wrap: wrap;
+      margin: 0px 15px; }
+    .presentation-container .saludo {
+      color: #07fad3;
+      margin: 15px; }
+    .presentation-container .presentation-text {
+      width: 90%;
+      margin: 15px;
+      font-size: 16px; } }
 
 /*# sourceMappingURL=Presentation.css.map */

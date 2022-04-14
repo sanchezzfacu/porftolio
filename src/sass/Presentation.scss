@@ -1,32 +1,102 @@
 @import 'colours';
 @import 'fonts';
 
-.presentation-container {
-    width: 900px;
-    display: flex;
-    flex-direction: column;
-    height: calc(80vh - 20px);
-    justify-content: center;
-    text-align: start;
-    margin-top: -50px; 
-    margin-left: auto;
-    margin-right: auto;
-    .gradient-name {
-        background: linear-gradient(90deg,$lightblue, $blue);
-        -webkit-text-fill-color: transparent;
-        -webkit-background-clip: text;
-        background-clip: text;
-    }
-    .big-font-presentation {
-        font-size: 70px;
-        font-family: $bigfont;
+@media screen and (min-width: 979px) {
+    .presentation-container {
+        width: 900px;
         display: flex;
-        flex-wrap: wrap;
+        flex-direction: column;
+        height: calc(80vh - 20px);
+        justify-content: center;
+        text-align: start;
+        margin-top: -50px; 
+        margin-left: auto;
+        margin-right: auto;
+        .gradient-name {
+            background: linear-gradient(90deg,$lightblue, $blue);
+            -webkit-text-fill-color: transparent;
+            -webkit-background-clip: text;
+            background-clip: text;
+        }
+        .big-font-presentation {
+            font-size: 70px;
+            font-family: $bigfont;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .saludo {
+            color: $lightblue;
+        }
+        .presentation-text {
+            width: 800px;
+        }
     }
-    .saludo {
-        color: $lightblue;
+    
+}
+
+@media screen and (max-width: 978px) {
+    .presentation-container {
+        width: 900px;
+        display: flex;
+        flex-direction: column;
+        height: calc(80vh - 20px);
+        justify-content: center;
+        text-align: start;
+        margin-top: -50px; 
+        margin-left: 70px;
+        .gradient-name {
+            background: linear-gradient(90deg,$lightblue, $blue);
+            -webkit-text-fill-color: transparent;
+            -webkit-background-clip: text;
+            background-clip: text;
+        }
+        .big-font-presentation {
+            font-size: 60px;
+            font-family: $bigfont;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .saludo {
+            color: $lightblue;
+        }
+        .presentation-text {
+            width: 80%;
+            font-size: 16px;
+        }
     }
-    .presentation-text {
-        width: 800px;
+
+}
+@media screen and (max-width: 815px) {
+    .presentation-container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        height: calc(80vh - 20px);
+        justify-content: center;
+        text-align: start;
+        margin-top: 0; 
+        margin-left: 0px;
+        .gradient-name {
+            background: linear-gradient(90deg,$lightblue, $blue);
+            -webkit-text-fill-color: transparent;
+            -webkit-background-clip: text;
+            background-clip: text;
+        }
+        .big-font-presentation {
+            font-size: 40px;
+            font-family: $bigfont;
+            display: flex;
+            flex-wrap: wrap;
+            margin: 0px 15px;
+        }
+        .saludo {
+            color: $lightblue;
+            margin: 15px;
+        }
+        .presentation-text {
+            width: 90%;
+            margin: 15px;
+            font-size: 16px;
+        }
     }
 }

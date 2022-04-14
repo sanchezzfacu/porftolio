@@ -23,7 +23,7 @@ function Projects() {
                             (comida, tipos de dieta, nivel de salubridad, nombre por orden alfabético) y un formulario para la creación 
                             de nuevas recetas que se almacenan en una base de datos realizada con <b>Sequelize</b> y <b>PostgreSQL</b>.
                         </h3>
-                        <a href='https://github.com/sanchezzfacu/Proyecto-individual-Foods' target='_blank' rel="noreferrer"><button className='btn-repositorio-left'>Ver código</button></a>
+                        <a className='respositorio-link'  href='https://github.com/sanchezzfacu/Proyecto-individual-Foods' target='_blank' rel="noreferrer"><button className='btn-repositorio-left'>Ver código</button></a>
                     </div>
                     <div className="app-img">
                         <img src={homeFood} alt="imagen no encontrada"/>
@@ -47,7 +47,7 @@ function Projects() {
                                 aut Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate obcaecati quae perferendis vitae rerum optio similique sit nesciunt
                                 Quam qui repudiandae aspernatur inventore numquam, ullam incidunt omnis sit porro eius.
                             </h3>
-                            <a href='https://github.com/sanchezzfacu/mys-accesorios' target='_blank' rel="noreferrer"><button className='btn-repositorio'>Ver código</button></a>
+                            <a className='respositorio-link'  href='https://github.com/sanchezzfacu/mys-accesorios' target='_blank' rel="noreferrer"><button className='btn-repositorio'>Ver código</button></a>
                         </div>
                     </div>
                 </div>
@@ -65,7 +65,7 @@ function Projects() {
                             aut Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate obcaecati quae perferendis vitae rerum optio similique sit nesciunt
                             Quam qui repudiandae aspernatur inventore numquam, ullam incidunt omnis sit porro eius.
                         </h3>
-                        <a href='https://github.com/guidoabelleira/E-Commerce-PF10' target='_blank' rel="noreferrer"><button className='btn-repositorio-left'>Ver código</button></a>
+                        <a className='respositorio-link' href='https://github.com/guidoabelleira/E-Commerce-PF10' target='_blank' rel="noreferrer"><button className='btn-repositorio-left'>Ver código</button></a>
                     </div>
                     <div className="app-img">
                         <img src={homeproyectofinal} alt="imagen no encontrada"/>
@@ -89,7 +89,7 @@ function Projects() {
                                 aut Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate obcaecati quae perferendis vitae rerum optio similique sit nesciunt
                                 Quam qui repudiandae aspernatur inventore numquam, ullam incidunt omnis sit porro eius.
                             </h3>
-                            <a href='https://github.com/sanchezzfacu/Breaking-Bad-App' target='_blank' rel="noreferrer"><button className='btn-repositorio'>Ver código</button></a>
+                            <a className='respositorio-link'  href='https://github.com/sanchezzfacu/Breaking-Bad-App' target='_blank' rel="noreferrer"><button className='btn-repositorio'>Ver código</button></a>
                         </div>
                     </div>
                 </div>

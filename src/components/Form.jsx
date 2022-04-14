@@ -11,26 +11,26 @@ function Form() {
                         <a href='https://www.linkedin.com/in/sanchezzfacu/' target='_blank' rel="noreferrer"><button>Linkedin</button></a>
                         <a href='https://github.com/sanchezzfacu' target='_blank' rel="noreferrer"><button>Github</button></a>
                     </div>
-                    <input 
-                        name="name"
-                        placeholder="Nombre"
-                        required
-                    />
-                    <input 
-                        name="email"
-                        placeholder="Email"
-                        type="email"
-                        required
-                    />
-                    <input
-                        placeholder="Asunto"
-                        name="asunto"
-                    />
-                    <textarea
-                        name="mensaje"
-                        placeholder="Escribe tu mensaje"
-                        required
-                    />
+                        <input 
+                            name="name"
+                            placeholder="Nombre"
+                            required
+                            />
+                        <input 
+                            name="email"
+                            placeholder="Email"
+                            type="email"
+                            required
+                            />
+                        <input
+                            placeholder="Asunto"
+                            name="asunto"
+                            />
+                        <textarea
+                            name="mensaje"
+                            placeholder="Escribe tu mensaje"
+                            required
+                            />
                     <button 
                         className='button type1'
                         type="submit">
@@ -41,3 +41,4 @@ function Form() {
 }
 
 export default Form
+    

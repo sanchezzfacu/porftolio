@@ -180,5 +180,89 @@
         }
     
     }
+}
 
+@media screen and (max-width: 1027px) and (max-width: 1114px) {
+    .projects-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-size: 12px;
+        margin: 10px;
+        .text-img-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column-reverse;
+        }
+        .projects-title {
+            font-family: $bigfont;
+            font-size: 40px;
+            display: flex;
+            align-items: center;
+            margin-bottom: 40px
+        }
+        .app-img img {
+            width: 90%;
+            margin: 10px;
+            border-radius: 5px;
+            display: flex;
+            margin: 0px auto;
+            // box-shadow: #00000052 0px 54px 55px, #00000054 0px -12px 30px, #00000065 
+            // 0px 4px 6px, #0000004d 0px 12px 13px, #00000051 0px -3px 5px;
+        }
+        .app-title {
+            margin-top: 30px;
+            margin-bottom: 30px;
+            display: flex;
+            justify-content: center;
+        }
+        .btn-repositorio, .btn-repositorio-left {
+            background: $backgroundcolor;
+            color: $lightblue;
+            border: 1px solid $lightblue;
+            padding: 10px;
+            margin-top: 20px;
+            margin-bottom: 30px;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: all ease 0.5;
+            width: 90%;
+            font-family: 'Azeret Mono', monospace;
+        }
+        .btn-repositorio:hover, .btn-repositorio-left:hover {
+            background: $buttoncolor;
+        }
+        
+        .app-text h3::first-letter{
+            font-size: 25px;
+            margin-top: 15px;
+            color: $lightblue;
+        }
+        .app-text h3 b {
+            color: $lightblue;
+        }
+        .align-right {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        .individual-container {
+            border: 1px solid $lightblue;
+            margin: 10px;
+            border-radius: 10px;
+            width: 100%;
+            padding: 5px;
+        }
+        .text-right, .text-left {
+            margin: 20px;
+        }
+        .respositorio-link {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        } 
+    }
 }
