@@ -1,6 +1,12 @@
 @import 'colours';
 @import 'fonts';
 
+@media screen and (min-width:1685px) {
+    .big-font-presentation {
+        font-size: 90px;
+    }
+}
+
 @media screen and (min-width: 979px) {
     .presentation-container {
         width: 900px;
