@@ -58,7 +58,7 @@ function Projects() {
             <div className="individual-container">
                 <div className='app-title'>
                     <h2>Proyecto final carrera | Ecommerce de mates</h2>
-                </div>
+                </div>  
                 <div className="text-img-container">
                     <div className="app-text">                
                         <h3 className='text-right'>

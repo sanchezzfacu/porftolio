@@ -2,9 +2,36 @@
 @import 'fonts';
 
 @media screen and (min-width:1685px) {
-    .big-font-presentation {
-        font-size: 90px;
+    .presentation-container {
+        width: 900px;
+        display: flex;
+        flex-direction: column;
+        height: calc(80vh - 20px);
+        justify-content: center;
+        text-align: start;
+        margin-top: -50px; 
+        margin-left: auto;
+        margin-right: auto;
+        .gradient-name {
+            background: linear-gradient(90deg,$lightblue, $blue);
+            -webkit-text-fill-color: transparent;
+            -webkit-background-clip: text;
+            background-clip: text;
+        }
+        .big-font-presentation {
+            font-size: 90px;
+            font-family: $bigfont;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .saludo {
+            color: $lightblue;
+        }
+        .presentation-text {
+            width: 800px;
+        }
     }
+    
 }
 
 @media screen and (min-width: 979px) {
