@@ -11,7 +11,7 @@ function Projects() {
             <h2 className='projects-title'><CircleLogo/>Proyectos</h2>
             <div className="individual-container">
                 <div className='app-title'>
-                    <h2>App de recetas</h2>
+                    <h1>App de recetas</h1>
                 </div>
                 <div className="text-img-container">
                     <div className="app-text"> 
@@ -33,7 +33,7 @@ function Projects() {
             
             <div className="individual-container">
                 <div className='app-title'>
-                    <h2>Ecommerce de accesorios de mujeres</h2>
+                    <h1>Ecommerce de accesorios de mujeres</h1>
                 </div>
                 <div className='align-right'>
                     <div className="app-img">
@@ -57,8 +57,8 @@ function Projects() {
 
             <div className="individual-container">
                 <div className='app-title'>
-                    <h2>Proyecto final carrera | Ecommerce de mates</h2>
-                </div>  
+                    <h1>Proyecto final carrera | Ecommerce de mates</h1>
+                </div>      
                 <div className="text-img-container">
                     <div className="app-text">                
                         <h3 className='text-right'>
@@ -78,7 +78,7 @@ function Projects() {
             
             <div className="individual-container">
                 <div className="app-title">
-                    <h2>Breaking Bad App</h2>
+                    <h1>Breaking Bad App</h1>
                 </div>
                 <div className="align-right">
                     <div className="app-img">

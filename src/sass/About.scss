@@ -239,3 +239,60 @@
     }
 
 }
+
+@media screen and (min-width:1670px) and (max-width:2100px){
+    .about-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 1200px;
+        height: 100vh;
+        margin: auto;
+        
+        .about-title {
+            font-family: $bigfont;
+            font-size: 40px;
+            display: flex;
+            align-items: center;
+        }
+        .img-text-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+        }
+        .img-about {
+            height: 450px;
+            width: 450px;
+            border-radius: 10px;
+            margin-bottom: 70px;
+            // box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        }
+        .text-about {
+            width: 600px;
+            margin: 50px;
+            font-size: 25px;
+        }
+        .github-linkedin-btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            a {
+                margin: 30px 40px;
+                padding: 5px;
+                transition: all ease 0.3s;
+                border-radius: 50%;
+                height: 70px;
+                width: 70px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            a:hover {
+                background: linear-gradient(180deg, $lightblue, $blue);
+            }
+        }   
+    }
+}
