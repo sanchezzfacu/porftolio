@@ -1,56 +1,3 @@
-@media screen and (min-width: 1600px) and (max-width: 2200px) {
-  .presentation-container {
-    width: 1400px;
-    display: flex;
-    flex-direction: column;
-    height: calc(80vh - 20px);
-    justify-content: center;
-    text-align: start;
-    margin-top: -50px;
-    margin-left: auto;
-    margin-right: auto; }
-    .presentation-container .gradient-name {
-      background: linear-gradient(90deg, #07fad3, #3a77fe);
-      -webkit-text-fill-color: transparent;
-      -webkit-background-clip: text;
-      background-clip: text; }
-    .presentation-container .big-font-presentation {
-      font-size: 110px;
-      font-family: "Poppins", sans-serif;
-      display: flex;
-      flex-wrap: wrap; }
-    .presentation-container .saludo {
-      color: #07fad3;
-      font-size: 23px; }
-    .presentation-container .presentation-text {
-      width: 100%;
-      font-size: 23px; } }
-@media screen and (min-width: 979px) and (max-width: 1599) {
-  .presentation-container {
-    width: 900px;
-    display: flex;
-    flex-direction: column;
-    height: calc(80vh - 20px);
-    justify-content: center;
-    text-align: start;
-    margin-top: -50px;
-    margin-left: auto;
-    margin-right: auto; }
-    .presentation-container .gradient-name {
-      background: linear-gradient(90deg, #07fad3, #3a77fe);
-      -webkit-text-fill-color: transparent;
-      -webkit-background-clip: text;
-      background-clip: text; }
-    .presentation-container .big-font-presentation {
-      font-size: 65px;
-      font-family: "Poppins", sans-serif;
-      display: flex;
-      flex-wrap: wrap; }
-    .presentation-container .saludo {
-      color: #07fad3; }
-    .presentation-container .presentation-text {
-      width: 800px;
-      font-size: 24px; } }
 @media screen and (min-width: 816px) and (max-width: 978px) {
   .presentation-container {
     width: 900px;
@@ -76,7 +23,7 @@
     .presentation-container .presentation-text {
       width: 80%;
       font-size: 16px; } }
-@media screen and (max-width: 815px) {
+@media screen and (min-width: 1px) and (max-width: 815px) {
   .presentation-container {
     width: 100%;
     display: flex;
@@ -104,5 +51,58 @@
       width: 90%;
       margin: 15px;
       font-size: 16px; } }
+@media screen and (min-width: 979px) and (max-width: 1600px) {
+  .presentation-container {
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+    height: calc(80vh - 20px);
+    justify-content: center;
+    text-align: start;
+    margin-top: -50px;
+    margin-left: auto;
+    margin-right: auto; }
+    .presentation-container .gradient-name {
+      background: linear-gradient(90deg, #07fad3, #3a77fe);
+      -webkit-text-fill-color: transparent;
+      -webkit-background-clip: text;
+      background-clip: text; }
+    .presentation-container .big-font-presentation {
+      font-size: 70px;
+      font-family: "Poppins", sans-serif;
+      display: flex;
+      flex-wrap: wrap; }
+    .presentation-container .saludo {
+      color: #07fad3; }
+    .presentation-container .presentation-text {
+      width: 800px;
+      font-size: 18px; } }
+@media screen and (min-width: 1601px) and (max-width: 2200px) {
+  .presentation-container {
+    width: 1400px;
+    display: flex;
+    flex-direction: column;
+    height: calc(80vh - 20px);
+    justify-content: center;
+    text-align: start;
+    margin-top: -50px;
+    margin-left: auto;
+    margin-right: auto; }
+    .presentation-container .gradient-name {
+      background: linear-gradient(90deg, #07fad3, #3a77fe);
+      -webkit-text-fill-color: transparent;
+      -webkit-background-clip: text;
+      background-clip: text; }
+    .presentation-container .big-font-presentation {
+      font-size: 110px;
+      font-family: "Poppins", sans-serif;
+      display: flex;
+      flex-wrap: wrap; }
+    .presentation-container .saludo {
+      color: #07fad3;
+      font-size: 23px; }
+    .presentation-container .presentation-text {
+      width: 100%;
+      font-size: 23px; } }
 
 /*# sourceMappingURL=Presentation.css.map */
