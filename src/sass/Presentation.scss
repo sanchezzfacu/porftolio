@@ -1,7 +1,7 @@
 @import 'colours';
 @import 'fonts';
 
-@media screen and (min-width:1685px) and (max-width:2100px) {
+@media screen and (min-width:1600px) and (max-width:2100px) {
     .presentation-container {
         width: 1400px;
         display: flex;
@@ -34,7 +34,7 @@
     
 }
 
-@media screen and (min-width: 979px) {
+@media screen and (min-width: 979px) and (max-width: 1599) {
     .presentation-container {
         width: 900px;
         display: flex;
@@ -67,7 +67,7 @@
     
 }
 
-@media screen and (max-width: 978px) {
+@media screen and (min-width: 816px) and (max-width: 978px) {
     .presentation-container {
         width: 900px;
         display: flex;
