@@ -33,7 +33,7 @@
             margin-top: 30px;
             display: flex;
             justify-content: center;
-            background: linear-gradient(90deg,$blue,$lightblue);
+            background: $lightblue;
             -webkit-text-fill-color: transparent;
             -webkit-background-clip: text;
             background-clip: text;
@@ -130,7 +130,7 @@
             margin-top: 30px;
             display: flex;
             justify-content: center;
-            background: linear-gradient(90deg,$blue,$lightblue);
+            background:$lightblue;
             -webkit-text-fill-color: transparent;
             -webkit-background-clip: text;
             background-clip: text;
@@ -225,7 +225,7 @@
             margin-top: 30px;
             display: flex;
             justify-content: center;
-            background: linear-gradient(90deg,$blue,$lightblue);
+            background: $lightblue;
             -webkit-text-fill-color: transparent;
             -webkit-background-clip: text;
             background-clip: text;
@@ -321,7 +321,7 @@
             display: flex;
             justify-content: center;
             text-align: center;
-            background: linear-gradient(90deg,$blue,$lightblue);
+                background: $lightblue;
             -webkit-text-fill-color: transparent;
             -webkit-background-clip: text;
             background-clip: text;
