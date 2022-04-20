@@ -17,7 +17,7 @@ function Navbar() {
         <div className='navbar-container'>
             <nav className='nav'>
                 <input type="checkbox" id="check"/>
-                    <Circle className='circle'/>
+                <Circle className='circle'/>
                 <label htmlFor="check" className="checkbtn">
                     <img className='menu-btn' src={menu} alt="" height='35px'/>
                 </label>

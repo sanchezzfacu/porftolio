@@ -1,20 +1,25 @@
 @import 'colours';
 
 .circle-container {
-    height: 50px;
-    width: 50px;
+    height: 70px;
+    width: 70px;
     border-radius: 50%;
     background: linear-gradient( 45deg, $lightblue, $blue);
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 15px;
+    margin-left: 10px;
     .circle-child {
-        height: 45px;
-        width: 45px;
+        height: 65px;
+        width: 65px;
         border-radius: 50%;
         background: $backgroundcolor;
         display: flex;
         align-items: center;
         justify-content: center;
+        h2 {
+            font-size: 30px;
+        }
     }
 }
