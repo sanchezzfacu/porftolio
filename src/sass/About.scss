@@ -238,7 +238,7 @@
 
 }
 
-@media screen and (min-width:1670px) and (max-width:2100px){
+@media screen and (min-width:1670px) and (max-width:2500px){
     .about-container {
         display: flex;
         flex-direction: column;
@@ -250,7 +250,7 @@
         
         .about-title {
             font-family: $bigfont;
-            font-size: 40px;
+            font-size: 60px;
             display: flex;
             align-items: center;
         }

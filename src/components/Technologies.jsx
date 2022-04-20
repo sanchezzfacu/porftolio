@@ -15,20 +15,18 @@ import '../css/Technologies.css'
 function Technologies() {
     return (
         <div className='technologies-container'>
-            <div className='technologies-title'>
-                <h2><CircleLogo/>Tecnologías</h2>
-            </div>
+            <h2 className='technologies-title'><CircleLogo/>Tecnologías</h2>
             <div className='items-tech-container'>
                 <div className='tech-item'>
                     <img src={js} alt=""/>
                     <h3>Javascript</h3>
                 </div>
                 <div className='tech-item'>
-                    <img src={react} alt="" height='50px'/>     
+                    <img src={react} alt=""/>     
                     <h3>React</h3>       
                 </div>
                 <div className='tech-item'>
-                    <img src={redux} alt="" height='50px'/>
+                    <img src={redux} alt=""/>
                     <h3>Redux</h3>
                 </div>
                 <div className='tech-item'>

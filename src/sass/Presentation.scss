@@ -38,6 +38,7 @@
     .presentation-container {
         width: 100%;
         display: flex;
+        margin: 100px 0px;
         flex-direction: column;
         justify-content: center;
         text-align: start;
@@ -99,7 +100,7 @@
     }
 }
 
-@media screen and (min-width:1601px) and (max-width:2200px) {
+@media screen and (min-width:1601px) and (max-width:3000px) {
     .presentation-container {
         width: 1400px;
         display: flex;

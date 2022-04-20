@@ -1,7 +1,7 @@
 @import 'fonts';
 @import 'colours';
 
-@media screen and (min-width:1685px) and (max-width:2100px){
+@media screen and (min-width:1685px) and (max-width:3000px){
     
     .projects-container {
         display: flex;
@@ -17,7 +17,7 @@
         }
         .projects-title {
             font-family: $bigfont;
-            font-size: 50px;
+            font-size: 60px;
             display: flex;
             align-items: center;
             margin-bottom: 100px
