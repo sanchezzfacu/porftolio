@@ -39,13 +39,11 @@
 @media screen and (min-width:1px) and (max-width: 815px) {
     .presentation-container {
         width: 100%;
+        height: calc(80vh - 70px);
         display: flex;
         flex-direction: column;
-        height: calc(80vh - 20px);
         justify-content: center;
         text-align: start;
-        margin-top: 0; 
-        margin-left: 0px;
         .gradient-name {
             background: linear-gradient(90deg,$lightblue, $blue);
             -webkit-text-fill-color: transparent;

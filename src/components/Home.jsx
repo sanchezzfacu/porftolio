@@ -8,8 +8,8 @@ import '../css/Home.css'
 function Home() {
     return (        
         <div className="main">
-            <Navbar/>
-            <Presentation/>
+            <Navbar/>    
+            <Presentation className='presentation'/>
             <About/>
             <Projects/>
             <Form/>
