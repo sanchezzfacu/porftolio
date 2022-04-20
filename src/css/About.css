@@ -97,7 +97,8 @@
     align-items: center;
     width: 80%;
     height: 100vh;
-    margin: auto; }
+    margin: auto;
+    margin-bottom: 100px; }
     .about-container .about-title {
       font-family: "Poppins", sans-serif;
       font-size: 40px;
