@@ -1,0 +1,28 @@
+.items-tech-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  flex-direction: row;
+  margin: auto; }
+
+.technologies-title {
+  font-size: 30px;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: center; }
+
+.technologies-title h2 {
+  padding-top: 10px; }
+
+.tech-item {
+  margin: 30px;
+  text-align: center;
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column; }
+
+/*# sourceMappingURL=Technologies.css.map */

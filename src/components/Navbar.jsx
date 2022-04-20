@@ -23,7 +23,8 @@ function Navbar() {
                 </label>
                 <ul>                    
                     <li><h3 onClick={executeScroll}>About</h3></li>
-                    <li><h3 onClick={executeScrollProject}>Projects</h3></li>
+                    <li><h3 onClick={executeScrollProject}>Technologies</h3></li>
+                    <li><h3 onClick={executeScrollContact}>Projects</h3></li>
                     <li><h3 onClick={executeScrollContact}>Contact</h3></li>
                 </ul>
             </nav>
