@@ -7,6 +7,7 @@
         flex-direction: column;
         justify-content: center;
         text-align: start;
+        margin-top: 150px;
         margin-left: 70px;
         margin-bottom: 180px;
         .gradient-name {
@@ -32,13 +33,11 @@
 
 }
 
-
-
 @media screen and (min-width:1px) and (max-width: 815px) {
     .presentation-container {
         width: 100%;
         display: flex;
-        margin: 100px 0px;
+        margin: 150px 0px;
         flex-direction: column;
         justify-content: center;
         text-align: start;
@@ -75,7 +74,7 @@
         height: calc(80vh - 20px);
         justify-content: center;
         text-align: start;
-        margin-top: -50px; 
+        margin-top: 80px; 
         margin-left: auto;
         margin-right: auto;
         .gradient-name {
@@ -108,7 +107,7 @@
         height: calc(80vh - 20px);
         justify-content: center;
         text-align: start;
-        margin-top: -50px; 
+        margin-top: 80px; 
         margin-left: auto;
         margin-right: auto;
         .gradient-name {

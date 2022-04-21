@@ -4,7 +4,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: 180px 50px; }
+    margin-top: 150px; }
     .projects-container .text-img-container {
       display: flex;
       align-items: center;
@@ -23,10 +23,6 @@
       margin-top: 30px;
       display: flex;
       justify-content: center;
-      background: #07fad3;
-      -webkit-text-fill-color: transparent;
-      -webkit-background-clip: text;
-      background-clip: text;
       font-size: 19px; }
     .projects-container .btn-repositorio, .projects-container .btn-repositorio-left {
       display: flex;
@@ -43,7 +39,8 @@
       transition: all ease 0.5;
       width: 90%;
       font-family: 'Azeret Mono', monospace;
-      font-size: 20px; }
+      font-size: 20px;
+      letter-spacing: 5px; }
     .projects-container .btn-repositorio {
       width: 95%; }
     .projects-container .btn-repositorio-left {
@@ -95,11 +92,7 @@
     .projects-container .app-title {
       margin-top: 30px;
       display: flex;
-      justify-content: center;
-      background: #07fad3;
-      -webkit-text-fill-color: transparent;
-      -webkit-background-clip: text;
-      background-clip: text; }
+      justify-content: center; }
     .projects-container .btn-repositorio, .projects-container .btn-repositorio-left {
       display: flex;
       justify-content: center;
@@ -114,7 +107,8 @@
       cursor: pointer;
       transition: all ease 0.5;
       width: 90%;
-      font-family: 'Azeret Mono', monospace; }
+      font-family: 'Azeret Mono', monospace;
+      letter-spacing: 5px; }
     .projects-container .btn-repositorio {
       width: 95%; }
     .projects-container .btn-repositorio-left {
@@ -167,11 +161,7 @@
     .projects-container .app-title {
       margin-top: 30px;
       display: flex;
-      justify-content: center;
-      background: #07fad3;
-      -webkit-text-fill-color: transparent;
-      -webkit-background-clip: text;
-      background-clip: text; }
+      justify-content: center; }
     .projects-container .btn-repositorio, .projects-container .btn-repositorio-left {
       display: flex;
       justify-content: center;
@@ -186,7 +176,8 @@
       cursor: pointer;
       transition: all ease 0.5;
       width: 90%;
-      font-family: 'Azeret Mono', monospace; }
+      font-family: 'Azeret Mono', monospace;
+      letter-spacing: 5px; }
     .projects-container .btn-repositorio {
       width: 95%; }
     .projects-container .btn-repositorio-left {
@@ -242,11 +233,7 @@
       margin-bottom: 30px;
       display: flex;
       justify-content: center;
-      text-align: center;
-      background: #07fad3;
-      -webkit-text-fill-color: transparent;
-      -webkit-background-clip: text;
-      background-clip: text; }
+      text-align: center; }
     .projects-container .btn-repositorio, .projects-container .btn-repositorio-left {
       background: #04101b;
       color: #07fad3;
@@ -258,7 +245,8 @@
       cursor: pointer;
       transition: all ease 0.5;
       width: 90%;
-      font-family: 'Azeret Mono', monospace; }
+      font-family: 'Azeret Mono', monospace;
+      letter-spacing: 3px; }
     .projects-container .btn-repositorio:hover, .projects-container .btn-repositorio-left:hover {
       background: #07fad12f; }
     .projects-container .app-text h3::first-letter {

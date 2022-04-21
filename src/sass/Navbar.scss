@@ -1,28 +1,15 @@
 @import 'colours';
 
-@media screen and (min-width:1601px) and (max-width:3000px){
-    .navbar-container nav ul {
-        display: flex;
-    }
-    .nav ul li h3 {
-        font-size: 30px;
-    }
-    .circle {
-        height: 50px;
-    }
-}
-
-@media screen and (min-width: 953px) and (max-width:1600px) {
-    .nav ul{
-        display: flex;
-    }
-}
 .navbar-container {
-    height: auto;   
+    height: 100px;   
     background: $backgroundcolor;
     display: flex;
     flex-direction: row;
-    position: sticky;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    margin-bottom: 80px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
     .nav {
         width: 100%;
         display: flex;
@@ -57,19 +44,6 @@
     display: none;
 }
 
-@media screen and (min-width:859px) and (max-width: 952px){
-    .enlace{
-        padding-left: 20px;
-    }
-    .nav ul li h3{
-        font-size: 16px;
-    }
-    .nav ul {
-        display: flex;
-        flex-direction: row;
-    }
-}
-
 @media screen and (min-width:1px) and (max-width: 858px){
     .nav ul {
         display: flex;
@@ -101,7 +75,37 @@
     }
     .navbar-container .nav {
         justify-content: space-between;
-        margin: 15px 10px;
-        
+        padding-top: 10px;
+    }
+}
+
+@media screen and (min-width:859px) and (max-width: 952px){
+    .enlace{
+        padding-left: 20px;
+    }
+    .nav ul li h3{
+        font-size: 16px;
+    }
+    .nav ul {
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+@media screen and (min-width: 953px) and (max-width:1600px) {
+    .nav ul{
+        display: flex;
+    }
+}
+
+@media screen and (min-width:1601px) and (max-width:3000px){
+    .navbar-container nav ul {
+        display: flex;
+    }
+    .nav ul li h3 {
+        font-size: 30px;
+    }
+    .circle {
+        height: 50px;
     }
 }

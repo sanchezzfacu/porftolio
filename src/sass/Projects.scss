@@ -8,8 +8,8 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        margin: 180px 50px;
-    
+        margin-top: 150px;
+        
         .text-img-container {
             display: flex;
             align-items: center;
@@ -33,10 +33,6 @@
             margin-top: 30px;
             display: flex;
             justify-content: center;
-            background: $lightblue;
-            -webkit-text-fill-color: transparent;
-            -webkit-background-clip: text;
-            background-clip: text;
             font-size: 19px;
         }
 
@@ -56,6 +52,7 @@
             width: 90%;
             font-family: 'Azeret Mono', monospace;
             font-size: 20px;
+            letter-spacing: 5px;
         }
         .btn-repositorio {
             width: 95%;
@@ -131,10 +128,6 @@
             margin-top: 30px;
             display: flex;
             justify-content: center;
-            background:$lightblue;
-            -webkit-text-fill-color: transparent;
-            -webkit-background-clip: text;
-            background-clip: text;
         }
         .btn-repositorio, .btn-repositorio-left {
             display: flex;
@@ -151,6 +144,7 @@
             transition: all ease 0.5;
             width: 90%;
             font-family: 'Azeret Mono', monospace;
+            letter-spacing: 5px;
         }
         .btn-repositorio {
             width: 95%;
@@ -226,10 +220,6 @@
             margin-top: 30px;
             display: flex;
             justify-content: center;
-            background: $lightblue;
-            -webkit-text-fill-color: transparent;
-            -webkit-background-clip: text;
-            background-clip: text;
         }
         .btn-repositorio, .btn-repositorio-left {
             display: flex;
@@ -246,6 +236,8 @@
             transition: all ease 0.5;
             width: 90%;
             font-family: 'Azeret Mono', monospace;
+            letter-spacing: 5px;
+
         }
         .btn-repositorio {
             width: 95%;
@@ -322,10 +314,6 @@
             display: flex;
             justify-content: center;
             text-align: center;
-                background: $lightblue;
-            -webkit-text-fill-color: transparent;
-            -webkit-background-clip: text;
-            background-clip: text;
         }
         .btn-repositorio, .btn-repositorio-left {
             background: $backgroundcolor;
@@ -339,6 +327,7 @@
             transition: all ease 0.5;
             width: 90%;
             font-family: 'Azeret Mono', monospace;
+            letter-spacing: 3px;
         }
         .btn-repositorio:hover, .btn-repositorio-left:hover {
             background: $buttoncolor;
