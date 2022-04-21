@@ -11,12 +11,11 @@ function About() {
         <div className='about-container'>
             <h1 className='about-title' ><CircleLogo/>Acerca de mi</h1>
             <div className='img-text-container'>
-                <h2 className='text-about'>Lint vel, a, at ex blanditiis corrupti acmus nobis 
-                    laborum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores libero cumque iure magnam, autem
-                    maxime! Harum molestias dicta tempore adipisci, cupiditate iure fugit eum ducimus, quasi quisquam alias.
-                    Animi, nihil?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure optio labore nobis ipsum libero! 
-                    Itaque, nisi aliquid. Modi, repellendus cumque aut delectus itaque odio sunt corrupti sint neque maiores 
-                    nesciunt.
+                <h2 className='text-about'>Soy una persona apasionada a la tecnología que disfruta el aprender nuevas
+                    herramientas. Me considero una persona autónoma a la que le encantan los desafios a corto y largo plazo.
+                    Disfruto el trabajar con un grupo de personas en el que todos tiramos para el mismo lado. Buena capacidad de 
+                    analisis. Me apasiona todo lo relacionado a crear interfaces de usuarios es por eso que me encuentro en constante
+                    aprendizaje de nuevas tecnologias que me permitan seguir creciendo como desarrollador. 
                     <div className='github-linkedin-btn'>
                         <a href='https://www.linkedin.com/in/sanchezzfacu/' target='_blank' rel="noreferrer"><img src={linkedin} alt="" height='40px' /></a>
                         <a href='https://github.com/sanchezzfacu' target='_blank' rel="noreferrer"><img src={github} alt="" height='40px' /></a>

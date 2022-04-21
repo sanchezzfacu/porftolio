@@ -87,10 +87,11 @@ function Projects() {
                     <div className="text-img-container">
                         <div className="app-text">                
                             <h3 className='text-left'>
-                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus adipisci non illum a illo in at
-                                perspiciatis porro? Voluptate illum quis consequatur? Voluptates sit totam aspernatur accusamus nisi aliquam
-                                aut Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate obcaecati quae perferendis vitae rerum optio similique sit nesciunt
-                                Quam qui repudiandae aspernatur inventore numquam, ullam incidunt omnis sit porro eius.
+                                SPA que permite ver un listado de los personajes de la serie Breaking Bad, interfaz desarrollada con <b>React</b>,
+                                el manejo de estado se realiza con <b>Redux</b>, estilos realizados con <b>CSS</b> sin ninguna libreria externa. Para el backend
+                                se empleó un server desarrolado en <b>ExpressJs</b>, la base de datos a su vez se realizó con <b>PostgreSQL</b> y <b>Sequelize</b>.
+                                La SPA nos permite crear personajes con su respectivo papel. Se puede usar la barra de búsqueda para buscar personajes,
+                                también se pueden filtrar los personajes. 
                             </h3>
                             <a className='respositorio-link'  href='https://github.com/sanchezzfacu/Breaking-Bad-App' target='_blank' rel="noreferrer"><button className='btn-repositorio'>Ver código</button></a>
                         </div>
