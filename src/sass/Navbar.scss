@@ -29,7 +29,6 @@
     .circle-nav {
         cursor: pointer;
     }
-
 }
 .checkbtn{
     font-size: 30px;
@@ -45,6 +44,10 @@
 }
 
 @media screen and (min-width:1px) and (max-width: 858px){
+    .circle {
+        padding-top: 5px;
+        padding-left: 10px;
+    }
     .nav ul {
         display: flex;
         flex-direction: column;
@@ -80,6 +83,9 @@
 }
 
 @media screen and (min-width:859px) and (max-width: 952px){
+    .circle {
+        padding-top: 15px;
+    }
     .enlace{
         padding-left: 20px;
     }
@@ -96,6 +102,9 @@
     .nav ul{
         display: flex;
     }
+    .circle {
+        padding-top: 15px;
+    }
 }
 
 @media screen and (min-width:1601px) and (max-width:3000px){
@@ -106,6 +115,7 @@
         font-size: 30px;
     }
     .circle {
-        height: 50px;
+        padding-top: 20px;
     }
+    
 }
