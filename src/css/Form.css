@@ -59,11 +59,9 @@
       justify-content: center; }
       .form-container .btn-redes-form button {
         padding: 10px;
-        margin: 10px;
+        margin: 10px 30px;
         background: #04101b;
-        color: #07fad3;
-        border: 1px solid #07fad3;
-        border-radius: 10px; }
+        border: none; }
     .form-container .linkedin-button-form, .form-container .github-button-form {
       margin-bottom: 25px; } }
 @media screen and (min-width: 1px) and (max-width: 520px) {

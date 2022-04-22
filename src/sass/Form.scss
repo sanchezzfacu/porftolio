@@ -67,11 +67,9 @@
           justify-content: center;
           button {
               padding: 10px;
-              margin: 10px;
+              margin: 10px 30px;
               background: $backgroundcolor;
-              color: $lightblue;
-              border: 1px solid $lightblue;
-              border-radius: 10px;
+              border: none;
           }   
       }
       .linkedin-button-form, .github-button-form {
