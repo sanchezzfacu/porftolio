@@ -36,7 +36,7 @@ function Navbar() {
 
                     <ScrollIntoView selector='.form-container' smooth={true}>
                         <label htmlFor="check">
-                            <li><h3>Contactame</h3></li>
+                            <li><h3>Contáctame</h3></li>
                         </label>
                     </ScrollIntoView>                    
                 </ul>
