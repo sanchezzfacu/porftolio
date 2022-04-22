@@ -55,7 +55,7 @@
     top: 80px;
     left: -100%;
     text-align: center;
-    transition: all .2s;
+    transition: all .1s;
     display: flex;
     flex-direction: column;
     margin-top: 15px; }
@@ -69,7 +69,10 @@
 
   .navbar-container .nav {
     justify-content: space-between;
-    padding-top: 10px; } }
+    padding-top: 10px; }
+
+  .navbar-container {
+    height: 85px; } }
 @media screen and (min-width: 859px) and (max-width: 952px) {
   .circle {
     padding-top: 15px; }
@@ -82,13 +85,19 @@
 
   .nav ul {
     display: flex;
-    flex-direction: row; } }
+    flex-direction: row; }
+
+  .navbar-container {
+    height: 75px; } }
 @media screen and (min-width: 953px) and (max-width: 1600px) {
   .nav ul {
     display: flex; }
 
   .circle {
-    padding-top: 15px; } }
+    padding-top: 15px; }
+
+  .navbar-container {
+    height: 85px; } }
 @media screen and (min-width: 1601px) and (max-width: 3000px) {
   .navbar-container nav ul {
     display: flex; }

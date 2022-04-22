@@ -63,7 +63,7 @@
         top: 80px;
         left: -100%;
         text-align: center;
-        transition: all .2s;
+        transition: all .1s;
         display: flex;
         flex-direction: column;
         margin-top: 15px;
@@ -79,6 +79,10 @@
     .navbar-container .nav {
         justify-content: space-between;
         padding-top: 10px;
+        
+    }
+    .navbar-container {
+        height: 85px;
     }
 }
 
@@ -96,6 +100,9 @@
         display: flex;
         flex-direction: row;
     }
+    .navbar-container {
+        height: 75px;
+    }
 }
 
 @media screen and (min-width: 953px) and (max-width:1600px) {
@@ -104,6 +111,9 @@
     }
     .circle {
         padding-top: 15px;
+    }
+    .navbar-container {
+        height: 85px;
     }
 }
 

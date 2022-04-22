@@ -17,19 +17,27 @@ function Navbar() {
                 </label>
                 <ul>                    
                     <ScrollIntoView selector='.about-container' smooth={true}>
-                        <li><h3>About</h3></li>
+                        <label htmlFor="check">
+                            <li><h3>About</h3></li>
+                        </label>
                     </ScrollIntoView>
 
                     <ScrollIntoView selector='.technologies-container' smooth={true}>
-                        <li><h3>Technologies</h3></li>
+                        <label htmlFor="check">
+                            <li><h3>Technologies</h3></li>
+                        </label>
                     </ScrollIntoView>
 
                     <ScrollIntoView selector='.projects-container' smooth={true} >
-                        <li><h3>Projects</h3></li>
+                        <label htmlFor="check">
+                            <li><h3>Projects</h3></li>
+                        </label>
                     </ScrollIntoView>
 
                     <ScrollIntoView selector='.form-container' smooth={true}>
-                        <li><h3>Contact</h3></li>
+                        <label htmlFor="check">
+                            <li><h3>Contact</h3></li>
+                        </label>
                     </ScrollIntoView>                    
                 </ul>
             </nav>
