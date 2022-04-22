@@ -18,10 +18,10 @@ function Projects() {
                         <h3 className='text-right'> 
                             Desarrollé una SPA utilizando <b>React</b> para el Front End y <b>Redux</b> como state management. 
                             En los estilos se implementó <b>CSS</b> puro sin uso de librerías externas.
-                            La SPA consume datos de una API a través de un Back End desarrollado en <b>Node</b> utilizando <b>Express</b>, agregando nuevas 
-                            funcionalidades a la API original. En el proyecto se puede filtrar la información por
-                            (comida, tipos de dieta, nivel de salubridad, nombre por orden alfabético) y un formulario para la creación 
-                            de nuevas recetas que se almacenan en una base de datos realizada con <b>Sequelize</b> y <b>PostgreSQL</b>.
+                            La SPA consume datos de una API a través de un Back End desarrollado en <b>Node</b> utilizando <b>Express</b> que consume 
+                            la <b>API</b> Spoonacular, agregando nuevas funcionalidades a la API original. En el proyecto se puede filtrar 
+                            la información por(comida, tipos de dieta, nivel de salubridad, nombre por orden alfabético) y un formulario 
+                            para la creación de nuevas recetas que se almacenan en una base de datos realizada con <b>Sequelize</b> y <b>PostgreSQL</b>.
                         </h3>
                         <a className='respositorio-link'  href='https://github.com/sanchezzfacu/Proyecto-individual-Foods' target='_blank' rel="noreferrer"><button className='btn-repositorio-left'>Ver repositorio</button></a>
                     </div>
@@ -63,10 +63,10 @@ function Projects() {
                     <div className="app-text">                
                         <h3 className='text-right'>
                             Para el proyecto final de la carrera realizamos un ecomerce completeamente funcional con mi equipo,
-                            en el proyecto afianzamos los conceptos aprendidos en la carrera. Usamos <b>React</b> para la interfaz de usuario, <b>Redux</b>
+                            en el proyecto afianzamos los conceptos aprendidos en la carrera. Usamos <b>React</b> para la interfaz de usuario, <b>Redux</b> 
                             para el manejo de estado, <b>GIT</b> para versionado de codigo, estilos con <b>CSS modules</b>. Para el backend se desarrolló un
                             servidor en <b>ExpressJS</b> y una base de datos en <b>PostgreSQL</b> realizada con <b>Sequelize</b>. Posee una pasarela de pago con 
-                            mercado pago, manejo de usuarios, creacion de cuenta con google, carrito de compras, reviews a productos, entre otros.
+                            mercado pago, manejo de usuarios, creacion de cuenta con google, panel de administrador, carrito de compras, reviews a productos, entre otras funcionalidades.
                         </h3>
                         <a className='respositorio-link' href='https://github.com/guidoabelleira/E-Commerce-PF10' target='_blank' rel="noreferrer"><button className='btn-repositorio-left'>Ver repositorio</button></a>
                     </div>
@@ -89,7 +89,7 @@ function Projects() {
                             <h3 className='text-left'>
                                 SPA que permite ver un listado de los personajes de la serie Breaking Bad, interfaz desarrollada con <b>React</b>,
                                 el manejo de estado se realiza con <b>Redux</b>, estilos realizados con <b>CSS</b> sin ninguna libreria externa. Para el backend
-                                se empleó un server desarrolado en <b>ExpressJs</b>, la base de datos a su vez se realizó con <b>PostgreSQL</b> y <b>Sequelize</b>.
+                                se empleó un server desarrolado en <b>ExpressJs</b> que consume la <b>API</b> de Breaking Bad, la base de datos a su vez se realizó con <b>PostgreSQL</b> y <b>Sequelize</b>.
                                 La SPA nos permite crear personajes con su respectivo papel. Se puede usar la barra de búsqueda para buscar personajes,
                                 también se pueden filtrar los personajes. 
                             </h3>
