@@ -1,7 +1,7 @@
 @import 'colours';
 @import 'fonts';
 
-@media screen and (min-width: 520px) {
+@media screen and (min-width:520px) and (max-width: 2400px) {
   .form-container {
       display: flex;
       justify-content: center;
@@ -23,6 +23,7 @@
           border: 1px solid $lightblue;
           border-radius: 10px;
           padding: 15px 40px;
+          margin-top: 30px;
           input {
               margin: 25px;
               height: 35px;
@@ -73,10 +74,13 @@
               border-radius: 10px;
           }   
       }
+      .linkedin-button-form, .github-button-form {
+        margin-bottom: 25px;
+    }
   }
 
 }
-@media screen and (max-width: 520px) {
+@media screen and (min-width:1px) and (max-width: 520px) {
     .form-container {
         display: flex;
         justify-content: center;
@@ -95,6 +99,7 @@
             border: 1px solid $lightblue;
             border-radius: 10px;
             width: 100%;
+            padding-top: 30px;
             input {
                 height: 35px;
                 width: 90%;
@@ -135,14 +140,16 @@
             display: flex;
             align-items: center;
             justify-content: center;
+            margin-bottom: 10px;
             button {
-                padding: 10px;
-                margin: 10px;
+                padding: 0px;
+                margin: 20px 30px;
                 background: $backgroundcolor;
-                color: $lightblue;
-                border: 1px solid $lightblue;
-                border-radius: 10px;
+                border: none;
             }   
+        }
+        .linkedin-button-form, .github-button-form {
+            padding-bottom: 200px;
         }
     }
     

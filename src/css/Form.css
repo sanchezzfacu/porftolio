@@ -1,4 +1,4 @@
-@media screen and (min-width: 520px) {
+@media screen and (min-width: 520px) and (max-width: 2400px) {
   .form-container {
     display: flex;
     justify-content: center;
@@ -18,7 +18,8 @@
       justify-content: center;
       border: 1px solid #07fad3;
       border-radius: 10px;
-      padding: 15px 40px; }
+      padding: 15px 40px;
+      margin-top: 30px; }
       .form-container form input {
         margin: 25px;
         height: 35px;
@@ -62,8 +63,10 @@
         background: #04101b;
         color: #07fad3;
         border: 1px solid #07fad3;
-        border-radius: 10px; } }
-@media screen and (max-width: 520px) {
+        border-radius: 10px; }
+    .form-container .linkedin-button-form, .form-container .github-button-form {
+      margin-bottom: 25px; } }
+@media screen and (min-width: 1px) and (max-width: 520px) {
   .form-container {
     display: flex;
     justify-content: center;
@@ -80,7 +83,8 @@
     .form-container form {
       border: 1px solid #07fad3;
       border-radius: 10px;
-      width: 100%; }
+      width: 100%;
+      padding-top: 30px; }
       .form-container form input {
         height: 35px;
         width: 90%;
@@ -116,13 +120,14 @@
     .form-container .btn-redes-form {
       display: flex;
       align-items: center;
-      justify-content: center; }
+      justify-content: center;
+      margin-bottom: 10px; }
       .form-container .btn-redes-form button {
-        padding: 10px;
-        margin: 10px;
+        padding: 0px;
+        margin: 20px 30px;
         background: #04101b;
-        color: #07fad3;
-        border: 1px solid #07fad3;
-        border-radius: 10px; } }
+        border: none; }
+    .form-container .linkedin-button-form, .form-container .github-button-form {
+      padding-bottom: 200px; } }
 
 /*# sourceMappingURL=Form.css.map */

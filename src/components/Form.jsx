@@ -1,16 +1,17 @@
 import React from 'react'
+import linkedin from '../img/linkedin-logo.png'
+import github from '../img/github-logo.png'
 import CircleLogo from './CircleLogo'
 import '../css/Form.css'
 function Form() {
     return (
         <div className='form-container'>
              <h1><CircleLogo/>Hablemos</h1>
-             
-                <form action="https://formsubmit.co/sanchezfacundocristian@hotmail.com" method="POST" >
                     <div className="btn-redes-form">
-                        <a href='https://www.linkedin.com/in/sanchezzfacu/' target='_blank' rel="noreferrer"><button>Linkedin</button></a>
-                        <a href='https://github.com/sanchezzfacu' target='_blank' rel="noreferrer"><button>Github</button></a>
+                        <button className='linkedin-button-form'><a href='https://www.linkedin.com/in/sanchezzfacu/'><img src={linkedin} alt='' height='50px'/></a></button>
+                        <button className='github-button-form'><a href='https://github.com/sanchezzfacu'><img src={github} alt='' height='50px'/></a></button>
                     </div>
+                <form action="https://formsubmit.co/sanchezfacundocristian@hotmail.com" method="POST" >
                         <input 
                             name="name"
                             placeholder="Nombre"
