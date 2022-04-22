@@ -9,11 +9,11 @@ function Form() {
              <h1><CircleLogo/>Hablemos</h1>
                     <div className="btn-redes-form">
                         <div className='btn-item'>
-                            <button className='linkedin-button-form'><a href='https://www.linkedin.com/in/sanchezzfacu/'><img src={linkedin} alt='' height='50px'/></a></button>
+                            <button className='linkedin-button-form'><a href='https://www.linkedin.com/in/sanchezzfacu/' target='_blank' rel='noreferrer'><img src={linkedin} alt='' height='50px'/></a></button>
                             <h3>Linkedin</h3>
                         </div>
                         <div className='btn-item'>
-                            <button className='github-button-form'><a href='https://github.com/sanchezzfacu'><img src={github} alt='' height='50px'/></a></button>
+                            <button className='github-button-form'><a href='https://github.com/sanchezzfacu' target='_blank' rel='noreferrer'><img src={github} alt='' height='50px'/></a></button>
                             <h3>Github</h3>
                         </div>
                     </div>
