@@ -66,14 +66,20 @@
           align-items: center;
           justify-content: center;
           button {
-              padding: 10px;
               margin: 10px 30px;
+              margin-bottom: 5px;
               background: $backgroundcolor;
               border: none;
           }   
       }
       .linkedin-button-form, .github-button-form {
         margin-bottom: 25px;
+      }
+      .btn-item {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
     }
   }
 
@@ -138,16 +144,23 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            margin-bottom: 10px;
+            margin-bottom: 20px;
             button {
                 padding: 0px;
                 margin: 20px 30px;
+                margin-bottom: 5px;
                 background: $backgroundcolor;
                 border: none;
             }   
         }
         .linkedin-button-form, .github-button-form {
             padding-bottom: 200px;
+        }
+        .btn-item {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: center;
         }
     }
     

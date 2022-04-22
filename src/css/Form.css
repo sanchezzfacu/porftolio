@@ -58,12 +58,17 @@
       align-items: center;
       justify-content: center; }
       .form-container .btn-redes-form button {
-        padding: 10px;
         margin: 10px 30px;
+        margin-bottom: 5px;
         background: #04101b;
         border: none; }
     .form-container .linkedin-button-form, .form-container .github-button-form {
-      margin-bottom: 25px; } }
+      margin-bottom: 25px; }
+    .form-container .btn-item {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      justify-content: center; } }
 @media screen and (min-width: 1px) and (max-width: 520px) {
   .form-container {
     display: flex;
@@ -119,13 +124,19 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      margin-bottom: 10px; }
+      margin-bottom: 20px; }
       .form-container .btn-redes-form button {
         padding: 0px;
         margin: 20px 30px;
+        margin-bottom: 5px;
         background: #04101b;
         border: none; }
     .form-container .linkedin-button-form, .form-container .github-button-form {
-      padding-bottom: 200px; } }
+      padding-bottom: 200px; }
+    .form-container .btn-item {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      justify-content: center; } }
 
 /*# sourceMappingURL=Form.css.map */

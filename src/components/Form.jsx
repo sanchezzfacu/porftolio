@@ -8,8 +8,14 @@ function Form() {
         <div className='form-container'>
              <h1><CircleLogo/>Hablemos</h1>
                     <div className="btn-redes-form">
-                        <button className='linkedin-button-form'><a href='https://www.linkedin.com/in/sanchezzfacu/'><img src={linkedin} alt='' height='50px'/></a></button>
-                        <button className='github-button-form'><a href='https://github.com/sanchezzfacu'><img src={github} alt='' height='50px'/></a></button>
+                        <div className='btn-item'>
+                            <button className='linkedin-button-form'><a href='https://www.linkedin.com/in/sanchezzfacu/'><img src={linkedin} alt='' height='50px'/></a></button>
+                            <h3>Linkedin</h3>
+                        </div>
+                        <div className='btn-item'>
+                            <button className='github-button-form'><a href='https://github.com/sanchezzfacu'><img src={github} alt='' height='50px'/></a></button>
+                            <h3>Github</h3>
+                        </div>
                     </div>
                 <form action="https://formsubmit.co/sanchezfacundocristian@hotmail.com" method="POST" >
                         <input 
