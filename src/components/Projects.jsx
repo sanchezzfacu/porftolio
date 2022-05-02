@@ -136,7 +136,7 @@ function Projects() {
                                 para los estilos y <b>HTML</b> para la estructura. Se puede realizar cualquier tipo de operación 
                                 basica y te permite ver que operacion realizaste en la parte superior. 
                             </h3>
-                            <a className='respositorio-link'  href='https://github.com/sanchezzfacu/Breaking-Bad-App' target='_blank' rel="noreferrer"><button className='btn-repositorio'>Ver repositorio</button></a>
+                            <a className='respositorio-link'  href='https://github.com/sanchezzfacu/calculadora-vanillaJS' target='_blank' rel="noreferrer"><button className='btn-repositorio'>Ver repositorio</button></a>
                         </div>
                     </div>
                 </div>
