@@ -113,7 +113,7 @@ function Projects() {
                             en <b>javascript puro</b>, <b>HTML</b> para el esqueleto y <b>SASS</b> para los estilos. Toda la informacion
                             es traida a traves de llamados a la <b>API</b> de openweather.
                         </h3>
-                        <a className='respositorio-link' href='https://github.com/sanchezzfacu/weather-VanillaJscd' target='_blank' rel="noreferrer"><button className='btn-repositorio-left'>Ver repositorio</button></a>
+                        <a className='respositorio-link' href='https://github.com/sanchezzfacu/weather-VanillaJs' target='_blank' rel="noreferrer"><button className='btn-repositorio-left'>Ver repositorio</button></a>
                     </div>
                     <div className="app-img">
                         <img src={homeWeather} alt="imagen no encontrada"/>
