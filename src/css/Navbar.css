@@ -15,9 +15,9 @@
     justify-content: space-around; }
   .navbar-container .nav ul li {
     list-style: none;
-    margin: 50px;
+    margin: 40px;
     cursor: pointer;
-    transition: all ease 0.2s; }
+    transition: all ease 0.4s; }
   .navbar-container .nav ul li:hover {
     color: #a2a2a2; }
   .navbar-container .circle-nav {
