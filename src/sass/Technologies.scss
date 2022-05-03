@@ -5,6 +5,7 @@
         display: flex;
         justify-content: center;
         flex-direction: column;
+        height: 800px;
     }
     
     .items-tech-container {
@@ -14,7 +15,8 @@
         flex-wrap: wrap;
         width: 100%;
         flex-direction: row;
-        margin: auto;
+        margin: 70px auto;
+        margin-bottom: 0px;
     }
     
     .technologies-title {
@@ -46,6 +48,7 @@
         display: flex;
         justify-content: center;
         flex-direction: column;
+        height: 700px;
     }
     
     .items-tech-container {
@@ -55,7 +58,8 @@
         flex-wrap: wrap;
         width: 100%;
         flex-direction: row;
-        margin: auto;
+        margin: 70px auto;
+        margin-bottom: 0px;
     }
     
     .technologies-title {

@@ -28,7 +28,7 @@ function Navbar() {
                         </label>
                     </ScrollIntoView>
 
-                    <ScrollIntoView selector='.projects-container' smooth={true} >
+                    <ScrollIntoView selector='.projects-container' scrollOptions={{block:'nearest'}} smooth={true} >
                         <label htmlFor="check">
                             <li><h3>Proyectos</h3></li>
                         </label>

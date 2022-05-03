@@ -1,3 +1,4 @@
+import Bounce from 'react-reveal/Bounce';
 import About from './About'
 import Projects from './Projects'
 import Navbar from './Navbar'
@@ -7,14 +8,19 @@ import Technologies from './Technologies'
 import '../css/Home.css'
 
 function Home() {
+
     return (        
-        <div className="main">
+        <div>
             <Navbar/>    
             <Presentation/>
-            <About/>
-            <Technologies/>
+            <Bounce left duration={500} >
+                <About/>
+                <Technologies/>
+            </Bounce>
             <Projects/>
-            <Form/>
+            <Bounce left duration={500}>
+                <Form/>
+            </Bounce>
         </div>
     )
 }

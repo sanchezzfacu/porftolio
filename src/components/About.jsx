@@ -7,6 +7,7 @@ import linkedin  from '../img/linkedin-logo.png'
 document.title = 'Facundo Sanchez | Frontend Developer'
 
 function About() {
+
     return (
         <div className='about-container'>
             <h1 className='about-title' ><CircleLogo/>Acerca de mi</h1>
