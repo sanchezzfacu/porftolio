@@ -35,7 +35,7 @@ function Projects() {
             
             <div className="individual-container">
                 <div className='app-title'>
-                    <h1>Ecommerce de accesorios de mujeres</h1>
+                    <h1>E-commerce de accesorios</h1>
                 </div>
                 <div className='align-right'>
                     <div className="app-img">
@@ -44,7 +44,7 @@ function Projects() {
                     <div className="text-img-container">
                         <div className="app-text">                
                             <h3 className='text-left'>
-                                Realicé un ecommerce para un emprendimiento usando las tecnologías aprendidas durante la carrera,
+                                Realicé un e-commerce para un emprendimiento usando las tecnologías aprendidas durante la carrera,
                                 para la UI se usó <b>React</b>, <b>Redux</b> para el manejo de estado y los estilos fueron diseñados con <b>CSS</b> puro, para el backend se desarrolló un servidor en <b>ExpressJS</b>, con una
                                 base de datos creada con <b>PostgreSQL</b> y <b>Sequelize</b>. El sitio web permite ver el stock disponible y mandar un mensaje personalizado al vendedor.
                                 A su vez tambien cuenta con un panel de administrador donde se pueden crear/eliminar categorias, publicar nuevos productos a 
@@ -59,7 +59,7 @@ function Projects() {
 
             <div className="individual-container">
                 <div className='app-title'>
-                    <h1>Proyecto final carrera | Ecommerce de mates</h1>
+                    <h1>Proyecto final carrera | E-commerce de mates</h1>
                 </div>      
                 <div className="text-img-container">
                     <div className="app-text">                
@@ -103,7 +103,7 @@ function Projects() {
 
             <div className="individual-container">
                 <div className='app-title'>
-                    <h1>Weather app VanillaJs</h1>
+                    <h1>Weather app | VanillaJs</h1>
                 </div>      
                 <div className="text-img-container">
                     <div className="app-text">                
@@ -123,7 +123,7 @@ function Projects() {
 
             <div className="individual-container">
                 <div className="app-title">
-                    <h1>Calculadora VanillaJs</h1>
+                    <h1>Calculadora | VanillaJs</h1>
                 </div>
                 <div className="align-right">
                     <div className="app-img">
@@ -132,9 +132,9 @@ function Projects() {
                     <div className="text-img-container">
                         <div className="app-text">                
                             <h3 className='text-left'>
-                                Creé una calculadora desde 0 usando toda la lógica en <b>javascript puro</b>, <b>CSS puro</b>,
-                                para los estilos y <b>HTML</b> para la estructura. Se puede realizar cualquier tipo de operación 
-                                basica y te permite ver que operacion realizaste en la parte superior. 
+                                Programé una calculadora desde cero creando toda la lógica en <b>javascript</b>, para los estilos
+                                usé <b>CSS puro</b> sin ninguna libreria externa y <b>HTML</b> para la estructura. Se puede
+                                realizar cualquier tipo de operación basica y te permite ver que operacion realizaste. 
                             </h3>
                             <a className='respositorio-link'  href='https://github.com/sanchezzfacu/calculadora-vanillaJS' target='_blank' rel="noreferrer"><button className='btn-repositorio'>Ver repositorio</button></a>
                         </div>

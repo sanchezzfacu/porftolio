@@ -1,89 +1,6 @@
 @import 'colours';
 @import 'fonts';
 
-@media screen and (min-width:520px) and (max-width: 2400px) {
-  .form-container {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-direction: column;
-      margin-bottom: 80px;
-      margin-top: 80px;
-      h1 {
-          margin-bottom: 50px;
-          font-family: $bigfont;
-          font-size: 40px;
-          display: flex;
-          align-items: center;
-      }
-      form {
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-          border: 1px solid $lightblue;
-          border-radius: 10px;
-          padding: 15px 40px;
-          margin-top: 30px;
-          input {
-              margin: 25px;
-              height: 35px;
-              width: 350px;
-              border-radius: 5px;
-              border: 1px solid #000;
-              padding-left: 10px;
-              outline: none;
-          }
-          textarea{
-              height: 80px;
-              border-radius: 5px;
-              width: 350px;
-              padding-left: 10px;
-              font-family: arial;
-              margin: 25px;
-              outline: none;
-              padding-top: 5px;
-          }
-          .button {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            background: $backgroundcolor;
-            color: $lightblue;
-            border: 1px solid $lightblue;
-            padding: 10px;
-            margin-top: 20px;
-            margin-bottom: 30px;
-            border-radius: 10px;
-            cursor: pointer;
-            transition: all ease 0.5s;
-            font-family: 'Azeret Mono', monospace;
-            letter-spacing: 5px;
-            width: 100%;
-          }
-      }
-      .btn-redes-form{
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          button {
-              margin: 10px 30px;
-              margin-bottom: 5px;
-              background: $backgroundcolor;
-              border: none;
-          }   
-      }
-      .linkedin-button-form, .github-button-form {
-        margin-bottom: 25px;
-      }
-      .btn-item {
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        justify-content: center;
-    }
-  }
-
-}
 @media screen and (min-width:1px) and (max-width: 520px) {
     .form-container {
         display: flex;
@@ -162,6 +79,187 @@
             flex-direction: column;
             justify-content: center;
         }
+        .btn-item a {
+            color: #fff;
+        }
     }
-    
+}   
+
+@media screen and (min-width:520px) and (max-width: 1669px) {
+  .form-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      margin-bottom: 80px;
+      margin-top: 80px;
+      h1 {
+          margin-bottom: 50px;
+          font-family: $bigfont;
+          font-size: 40px;
+          display: flex;
+          align-items: center;
+      }
+      form {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          border: 1px solid $lightblue;
+          border-radius: 10px;
+          padding: 15px 40px;
+          margin-top: 30px;
+          input {
+              margin: 15px;
+              height: 35px;
+              width: 350px;
+              border-radius: 5px;
+              border: 1px solid #000;
+              padding-left: 10px;
+              outline: none;
+          }
+          textarea{
+              height: 80px;
+              border-radius: 5px;
+              width: 350px;
+              padding-left: 10px;
+              font-family: arial;
+              margin: 15px;
+              outline: none;
+              padding-top: 5px;
+          }
+          .button {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: $backgroundcolor;
+            color: $lightblue;
+            border: 1px solid $lightblue;
+            padding: 10px;
+            margin-top: 20px;
+            margin-bottom: 30px;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: all ease 0.5s;
+            font-family: 'Azeret Mono', monospace;
+            letter-spacing: 5px;
+            width: 100%;
+          }
+      }
+      .btn-redes-form{
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          button {
+              margin: 10px 30px;
+              margin-bottom: 5px;
+              background: $backgroundcolor;
+              border: none;
+          }   
+      }
+      .linkedin-button-form, .github-button-form {
+        margin-bottom: 25px;
+      }
+      .btn-item {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .btn-item a {
+        color: #fff;
+    }
   }
+}
+
+@media screen and (min-width:1670px) and (max-width:3000px){
+    .form-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 80px;
+        margin-top: 80px;
+        h1 {
+            margin-bottom: 50px;
+            font-family: $bigfont;
+            font-size: 60px;
+            display: flex;
+            align-items: center;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            border: 1px solid $lightblue;
+            border-radius: 10px;
+            padding: 25px 80px;
+            margin-top: 30px;
+            input {
+                margin: 20px;
+                height:50px;
+                width: 450px;
+                border-radius: 5px;
+                border: 1px solid #000;
+                padding-left: 10px;
+                outline: none;
+                font-size: 22px;
+            }
+            textarea{
+                height: 150px;
+                border-radius: 5px;
+                width: 450px;
+                padding-left: 10px;
+                font-family: arial;
+                margin: 20px;
+                outline: none;
+                padding-top: 5px;
+                font-size: 22px;
+
+            }
+            .button {
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              background: $backgroundcolor;
+              color: $lightblue;
+              border: 1px solid $lightblue;
+              padding: 15px;
+              margin-top: 20px;
+              margin-bottom: 30px;
+              border-radius: 10px;
+              cursor: pointer;
+              transition: all ease 0.5s;
+              font-family: 'Azeret Mono', monospace;
+              letter-spacing: 5px;
+              width: 100%;
+            }
+            .button:hover {
+                background: $buttoncolor;
+            }    
+        }
+        .btn-redes-form{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 80px;
+            button {
+                margin: 10px 30px;
+                margin-bottom: 5px;
+                background: $backgroundcolor;
+                border: none;
+            }   
+        }
+        .linkedin-button-form, .github-button-form {
+          margin-bottom: 25px;
+        }
+        .btn-item {
+          display: flex;
+          align-items: center;
+          flex-direction: column;
+          justify-content: center;
+      }
+      .btn-item a {
+        color: #fff;
+    }
+    }
+}

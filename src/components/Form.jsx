@@ -14,7 +14,9 @@ function Form() {
                                     <img src={linkedin} alt='' height='50px'/>
                                 </a>
                             </button>
-                            <h3>Linkedin</h3>
+                            <a href='https://www.linkedin.com/in/sanchezzfacu/' target='_blank' rel='noreferrer'>
+                                <h3>LinkedIn</h3>
+                            </a>
                         </div>
                         <div className='btn-item'>
                             <button className='github-button-form'>
@@ -22,7 +24,9 @@ function Form() {
                                     <img src={github} alt='' height='50px'/>
                                 </a>
                             </button>
-                            <h3>Github</h3>
+                            <a href='https://github.com/sanchezzfacu' target='_blank' rel='noreferrer'>
+                                <h3>Github</h3>
+                            </a>
                         </div>
                     </div>
                 <form action="https://formsubmit.co/sanchezfacundocristian@hotmail.com" method="POST" >

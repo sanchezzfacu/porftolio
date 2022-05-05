@@ -42,7 +42,7 @@
         justify-content: center;
         background: #091a2a; }
       .about-container .github-linkedin-btn a:hover {
-        background: linear-gradient(180deg, #07fad3, #3a77fe); } }
+        box-shadow: 0px 0px 22px 2px #3a77fe; } }
 @media screen and (min-width: 1028px) and (max-width: 1114px) {
   .about-container {
     display: flex;
@@ -84,9 +84,7 @@
         width: 70px;
         display: flex;
         align-items: center;
-        justify-content: center; }
-      .about-container .github-linkedin-btn a:hover {
-        background: linear-gradient(180deg, #07fad3, #3a77fe); } }
+        justify-content: center; } }
 @media screen and (min-width: 835px) and (max-width: 1027px) {
   .about-container {
     display: flex;
@@ -130,9 +128,7 @@
         width: 70px;
         display: flex;
         align-items: center;
-        justify-content: center; }
-      .about-container .github-linkedin-btn a:hover {
-        background: linear-gradient(180deg, #07fad3, #3a77fe); } }
+        justify-content: center; } }
 @media screen and (max-width: 834px) {
   .about-container {
     display: flex;
@@ -175,9 +171,7 @@
         width: 70px;
         display: flex;
         align-items: center;
-        justify-content: center; }
-      .about-container .github-linkedin-btn a:hover {
-        background: linear-gradient(180deg, #07fad3, #3a77fe); } }
+        justify-content: center; } }
 @media screen and (min-width: 1670px) and (max-width: 2500px) {
   .about-container {
     display: flex;
