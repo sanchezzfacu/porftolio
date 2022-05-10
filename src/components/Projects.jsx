@@ -5,6 +5,7 @@ import homemysaccesorios from '../img/home-mysaccesorios.png'
 import homeproyectofinal from '../img/home-proyectofinal.png'
 import homeWeather from '../img/weather-home.png'
 import homeCalculadora from '../img/calculadora-home.png'
+import homeFacebook from '../img/facebook-home.png'
 import '../css/Projects.css'
 import CircleLogo from './CircleLogo'
 function Projects() {
@@ -138,6 +139,23 @@ function Projects() {
                             </h3>
                             <a className='respositorio-link'  href='https://github.com/sanchezzfacu/calculadora-vanillaJS' target='_blank' rel="noreferrer"><button className='btn-repositorio'>Ver repositorio</button></a>
                         </div>
+                    </div>
+                </div>
+            </div>
+
+            <div className="individual-container">
+                <div className='app-title'>
+                    <h1>Facebook login clon</h1>
+                </div>      
+                <div className="text-img-container">
+                    <div className="app-text">                
+                        <h3 className='text-right'>
+                            Imitación de la pantalla de inicio de sesión de Facebook usando <b>SASS</b> y <b>HTML</b>
+                        </h3>
+                        <a className='respositorio-link' href='https://github.com/sanchezzfacu/facebook-login' target='_blank' rel="noreferrer"><button className='btn-repositorio-left'>Ver repositorio</button></a>
+                    </div>
+                    <div className="app-img">
+                        <img src={homeFacebook} alt="imagen no encontrada"/>
                     </div>
                 </div>
             </div>
