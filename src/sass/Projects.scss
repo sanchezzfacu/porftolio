@@ -11,6 +11,8 @@
         margin-top: 150px;
         width: 95%;
         margin: auto;
+        margin-top: 150px;
+        margin-bottom: 50px;
         .text-img-container {
             display: flex;
             align-items: center;
@@ -24,7 +26,7 @@
             margin-bottom: 100px
         }
         .app-img img {
-            height: 300px;
+            height: 380px;
             margin: 20px;
             border-radius: 5px;
         }
@@ -117,7 +119,7 @@
             margin-bottom: 40px
         }
         .app-img img {
-            height: 270px;
+            height: 300px;
             margin: 20px;
             border-radius: 5px;
             // box-shadow: #00000052 0px 54px 55px, #00000054 0px -12px 30px, #00000065 
@@ -287,6 +289,7 @@
         justify-content: center;
         font-size: 12px;
         margin: 10px;
+        margin-top: 80px;
         .text-img-container {
             display: flex;
             align-items: center;

@@ -110,7 +110,8 @@
     text-align: start;
     margin-top: 70px;
     margin-left: auto;
-    margin-right: auto; }
+    margin-right: auto;
+    margin-bottom: 120px; }
     .presentation-container .gradient-name {
       background: linear-gradient(90deg, #07fad3, #3a77fe);
       -webkit-text-fill-color: transparent;

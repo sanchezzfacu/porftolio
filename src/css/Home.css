@@ -25,4 +25,10 @@ a {
 html {
   scroll-behavior: smooth; }
 
+.app-container hr {
+  margin: 20px auto;
+  width: 95%;
+  border-radius: 50px;
+  color: #07fad3; }
+
 /*# sourceMappingURL=Home.css.map */

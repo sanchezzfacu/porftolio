@@ -8,6 +8,7 @@ import github from '../img/github.png'
 import postgresql from '../img/postgresql.png'
 import node from '../img/node.png'
 import html from '../img/html.png'
+import sequelize from '../img/sequelize.png'
 import CircleLogo from './CircleLogo'
 
 import '../css/Technologies.css'
@@ -52,6 +53,10 @@ function Technologies() {
                 <div className='tech-item'>
                     <img src={html} alt="" />
                     <h3>HTML</h3>
+                </div>
+                <div className='tech-item'>
+                    <img src={sequelize} alt="" />
+                    <h3>Sequelize</h3>
                 </div>
             </div>
         </div>

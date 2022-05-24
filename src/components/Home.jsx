@@ -9,12 +9,16 @@ import '../css/Home.css'
 function Home() {
 
     return (        
-        <div>
+        <div className='app-container'>
             <Navbar/>    
             <Presentation/>
+            <hr />
             <About/>
+            <hr />
             <Technologies/>
+            <hr />
             <Projects/>
+            <hr />
             <Form/>
         </div>
     )
