@@ -9,6 +9,7 @@ import postgresql from '../img/postgresql.png'
 import node from '../img/node.png'
 import html from '../img/html.png'
 import sequelize from '../img/sequelize.png'
+import css from '../img/css.png'
 import CircleLogo from './CircleLogo'
 
 import '../css/Technologies.css'
@@ -31,6 +32,14 @@ function Technologies() {
                     <h3>Redux</h3>
                 </div>
                 <div className='tech-item'>
+                    <img src={html} alt="" />
+                    <h3>HTML</h3>
+                </div>
+                <div className='tech-item'>
+                    <img src={css} alt="" />
+                    <h3>CSS</h3>
+                </div>
+                <div className='tech-item'>
                     <img src={sass} alt="" />
                     <h3>SASS</h3>
                 </div>
@@ -49,10 +58,6 @@ function Technologies() {
                 <div className='tech-item'>
                     <img src={node} alt="" />
                     <h3>Node</h3>
-                </div>
-                <div className='tech-item'>
-                    <img src={html} alt="" />
-                    <h3>HTML</h3>
                 </div>
                 <div className='tech-item'>
                     <img src={sequelize} alt="" />
