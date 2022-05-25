@@ -22,7 +22,9 @@ function About() {
                         <a href='https://github.com/sanchezzfacu' target='_blank' rel="noreferrer"><img src={github} alt="" height='40px' /></a>
                     </div>
                 </h2>
-                <img className='img-about' src={cv} alt="imagen no encontada"/>
+                <div className='img-about-container'>
+                    <img className='img-about' src={cv} alt="imagen no encontada"/>
+                </div>
             </div>
         </div>
     )

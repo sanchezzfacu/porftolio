@@ -150,7 +150,7 @@ function Projects() {
                 <div className="text-img-container">
                     <div className="app-text">                
                         <h3 className='text-right'>
-                            Imitación de la pantalla de inicio de sesión de Facebook usando <b>SASS</b> y <b>HTML</b>
+                            Recreación de la pantalla de inicio de sesión de Facebook usando <b>SASS</b> y <b>HTML</b>
                         </h3>
                         <a className='respositorio-link' href='https://github.com/sanchezzfacu/facebook-login' target='_blank' rel="noreferrer"><button className='btn-repositorio-left'>Ver repositorio</button></a>
                     </div>

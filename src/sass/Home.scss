@@ -41,6 +41,9 @@ html {
         margin: 20px auto;
         width: 95%;
         border-radius: 50px;
-        color: $lightblue;
+        border-top: 1px solid $lightblue;
+        border-bottom: none;
+        border-left: none;
+        border-right: none;
     }
 }

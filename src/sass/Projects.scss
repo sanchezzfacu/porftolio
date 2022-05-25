@@ -1,6 +1,10 @@
 @import 'fonts';
 @import 'colours';
 
+.individual-container {
+    box-shadow: 0px 0px 5px 1px $lightblue;
+}
+
 @media screen and (min-width:1685px) and (max-width:3000px){
     
     .projects-container {
@@ -62,7 +66,7 @@
             margin-left: 50px;
         }
         .btn-repositorio:hover, .btn-repositorio-left:hover {
-            box-shadow: 0px 0px 20px 2px $lightblue;
+            box-shadow: 0px 0px 10px 2px $lightblue;
         }
         
         .app-text h3::first-letter{
@@ -155,7 +159,7 @@
             margin-left: 50px;
         }
         .btn-repositorio:hover, .btn-repositorio-left:hover {
-            box-shadow: 0px 0px 20px 2px $lightblue;
+            box-shadow: 0px 0px 10px 2px $lightblue;
         }
         
         .app-text h3::first-letter{
@@ -172,10 +176,9 @@
         }
         .individual-container {
             border: 1px solid $lightblue;
-            margin: 10px;
+            margin: 20px 0px;
             border-radius: 10px;
             width: 100%;
-            
         }
         .text-right {
             margin-left:  50px;
@@ -249,7 +252,7 @@
             margin-left: 50px;
         }
         .btn-repositorio:hover, .btn-repositorio-left:hover {
-            box-shadow: 0px 0px 20px 2px $lightblue;
+            box-shadow: 0px 0px 10px 2px $lightblue;
         }
         
         .app-text h3::first-letter{
@@ -266,7 +269,7 @@
         }
         .individual-container {
             border: 1px solid $lightblue;
-            margin: 10px;
+            margin: 20px 0px;
             border-radius: 10px;
             width: 100%;
         }
@@ -287,7 +290,7 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        font-size: 12px;
+        font-size: 13px;
         margin: 10px;
         margin-top: 80px;
         .text-img-container {
@@ -333,7 +336,7 @@
             transition: all ease .3s;
         }
         .btn-repositorio:hover, .btn-repositorio-left:hover {
-            box-shadow: 0px 0px 20px 2px $lightblue;
+            box-shadow: 0px 0px 10px 2px $lightblue;
         }
         
         .app-text h3::first-letter{
@@ -352,7 +355,7 @@
         }
         .individual-container {
             border: 1px solid $lightblue;
-            margin: 10px;
+            margin: 20px;
             border-radius: 10px;
             width: 100%;
             padding: 5px;

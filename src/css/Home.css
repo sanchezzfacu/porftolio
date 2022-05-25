@@ -29,6 +29,9 @@ html {
   margin: 20px auto;
   width: 95%;
   border-radius: 50px;
-  color: #07fad3; }
+  border-top: 1px solid #07fad3;
+  border-bottom: none;
+  border-left: none;
+  border-right: none; }
 
 /*# sourceMappingURL=Home.css.map */
