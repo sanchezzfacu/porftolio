@@ -16,19 +16,19 @@ function Navbar() {
                     <img className='menu-btn' src={menu} alt="" height='35px'/>
                 </label>
                 <ul>                    
-                    <ScrollIntoView selector='.about-container' smooth={true}>
+                    <ScrollIntoView selector='.about-line' smooth={true}>
                         <label htmlFor="check">
                             <li><h3>Acerca de mi</h3></li>
                         </label>
                     </ScrollIntoView>
 
-                    <ScrollIntoView selector='.technologies-container' smooth={true}>
+                        <ScrollIntoView selector='.technologies-line' smooth={true}>
                         <label htmlFor="check">
                             <li><h3>Tecnologías</h3></li>
                         </label>
                     </ScrollIntoView>
 
-                    <ScrollIntoView selector='.projects-container' scrollOptions={{block:'nearest'}} smooth={true} >
+                    <ScrollIntoView selector='.projects-line' smooth={true} >
                         <label htmlFor="check">
                             <li><h3>Proyectos</h3></li>
                         </label>

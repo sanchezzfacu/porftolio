@@ -12,11 +12,11 @@ function Home() {
         <div className='app-container'>
             <Navbar/>    
             <Presentation/>
-            <hr />
+            <hr className='about-line'/>
             <About/>
-            <hr />
+            <hr className='technologies-line'/>
             <Technologies/>
-            <hr />
+            <hr className='projects-line'/>
             <Projects/>
             <hr />
             <Form/>
