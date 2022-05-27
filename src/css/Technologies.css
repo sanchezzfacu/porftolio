@@ -8,6 +8,7 @@
   .items-tech-container {
     display: flex;
     justify-content: center;
+    gap: 85px;
     align-items: center;
     flex-wrap: wrap;
     width: 100%;
@@ -24,7 +25,7 @@
     margin-bottom: 40px; }
 
   .tech-item {
-    margin: 40px 80px;
+    margin: 40px 85px;
     text-align: center;
     width: 40px;
     display: flex;
