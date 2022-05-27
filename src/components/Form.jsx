@@ -1,6 +1,7 @@
 import React from 'react'
 import linkedin from '../img/linkedin-logo.png'
 import github from '../img/github-logo.png'
+import email from '../img/email-icon.png'
 import CircleLogo from './CircleLogo'
 import '../css/Form.css'
 function Form() {
@@ -18,6 +19,7 @@ function Form() {
                                 <h3>LinkedIn</h3>
                             </a>
                         </div>
+
                         <div className='btn-item'>
                             <button className='github-button-form'>
                                 <a href='https://github.com/sanchezzfacu' target='_blank' rel='noreferrer'>
@@ -26,6 +28,17 @@ function Form() {
                             </button>
                             <a href='https://github.com/sanchezzfacu' target='_blank' rel='noreferrer'>
                                 <h3>Github</h3>
+                            </a>
+                        </div>
+
+                        <div className='btn-item'>
+                            <button className='email-button-form'>
+                                <a href='mailto:sanchezfacundocristian@hotmail.com' target='_blank' rel='noreferrer'>
+                                    <img src={email} alt='' height='50px'/>
+                                </a>
+                            </button>
+                            <a href='mailto:sanchezfacundocristian@hotmail.com' target='_blank' rel='noreferrer'>
+                                <h3>Email</h3>
                             </a>
                         </div>
                     </div>
