@@ -54,10 +54,6 @@ function Form() {
                             type="email"
                             required
                             />
-                        <input
-                            placeholder="Asunto"
-                            name="asunto"
-                            />
                         <textarea
                             name="mensaje"
                             placeholder="Escribe tu mensaje"
