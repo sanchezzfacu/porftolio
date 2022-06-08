@@ -6,6 +6,7 @@ import homeproyectofinal from '../img/home-proyectofinal.png'
 import homeWeather from '../img/weather-home.png'
 import homeCalculadora from '../img/calculadora-home.png'
 import homeFacebook from '../img/facebook-home.png'
+import homeMovies from '../img/movies-home.png'
 import '../css/Projects.css'
 import CircleLogo from './CircleLogo'
 function Projects() {
@@ -60,7 +61,7 @@ function Projects() {
 
             <div className="individual-container">
                 <div className='app-title'>
-                    <h1>Proyecto final carrera | E-commerce de mates</h1>
+                    <h1>Proyecto final carrera | E-commerce</h1>
                 </div>      
                 <div className="text-img-container">
                     <div className="app-text">                
@@ -156,6 +157,27 @@ function Projects() {
                     </div>
                     <div className="app-img">
                         <img src={homeFacebook} alt="imagen no encontrada"/>
+                    </div>
+                </div>
+            </div>
+
+            <div className="individual-container">
+                <div className="app-title">
+                    <h1>Movies app</h1>
+                </div>
+                <div className="align-right">
+                    <div className="app-img">
+                        <img src={homeMovies} alt="imagen no encontrada"/>
+                    </div>
+                    <div className="text-img-container">
+                        <div className="app-text">                
+                            <h3 className='text-left'>
+                                Desarrollé una SPA que consume la <b>API</b> de OMDB la cual permite realizar búsquedas de películas
+                                y encontrar mas información sobre la misma. Para desarrollar la interfaz hice uso de <b>React</b>, 
+                                para el estado de la aplicación <b>Redux</b> y para los estilos <b>SASS</b>
+                            </h3>
+                            <a className='respositorio-link'  href='https://github.com/sanchezzfacu/movies-app' target='_blank' rel="noreferrer"><button className='btn-repositorio'>Ver repositorio</button></a>
+                        </div>
                     </div>
                 </div>
             </div>
