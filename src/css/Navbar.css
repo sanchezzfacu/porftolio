@@ -88,12 +88,30 @@
   .nav ul {
     display: flex;
     flex-direction: row; }
+    .nav ul li {
+      text-decoration: none;
+      background-image: linear-gradient(#07fad3, #07fad3);
+      background-position: 0% 100%;
+      background-repeat: no-repeat;
+      background-size: 0% 2px;
+      transition: background-size .3s; }
+    .nav ul li:hover, .nav ul li:focus {
+      background-size: 100% 2px; }
 
   .navbar-container {
     height: 75px; } }
 @media screen and (min-width: 953px) and (max-width: 1600px) {
   .nav ul {
     display: flex; }
+    .nav ul li {
+      text-decoration: none;
+      background-image: linear-gradient(#07fad3, #07fad3);
+      background-position: 0% 100%;
+      background-repeat: no-repeat;
+      background-size: 0% 2px;
+      transition: background-size .3s; }
+    .nav ul li:hover, .nav ul li:focus {
+      background-size: 100% 2px; }
 
   .circle {
     padding-top: 15px; }
@@ -103,6 +121,15 @@
 @media screen and (min-width: 1601px) and (max-width: 3000px) {
   .navbar-container nav ul {
     display: flex; }
+    .navbar-container nav ul li {
+      text-decoration: none;
+      background-image: linear-gradient(#07fad3, #07fad3);
+      background-position: 0% 100%;
+      background-repeat: no-repeat;
+      background-size: 0% 2px;
+      transition: background-size .3s; }
+    .navbar-container nav ul li:hover, .navbar-container nav ul li:focus {
+      background-size: 100% 2px; }
 
   .nav ul li h3 {
     font-size: 27px; }
