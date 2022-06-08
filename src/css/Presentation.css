@@ -4,7 +4,7 @@
     flex-direction: column;
     justify-content: center;
     text-align: start;
-    margin-top: 150px;
+    margin-top: 200px;
     margin-left: 70px;
     margin-bottom: 180px; }
     .presentation-container .gradient-name {
@@ -21,12 +21,28 @@
       color: #07fad3; }
     .presentation-container .presentation-text {
       width: 80%;
-      font-size: 16px; } }
+      font-size: 16px; }
+    .presentation-container button {
+      padding: 10px 30px;
+      font-size: 2em;
+      margin-top: 20px;
+      background: linear-gradient(90deg, #07fad3, #3a77fe);
+      border-radius: 10px;
+      color: #04101b;
+      border: none;
+      cursor: pointer;
+      transition: all ease 0.3s;
+      letter-spacing: 2px; }
+    .presentation-container button:hover {
+      background: #04101b;
+      border: 1px solid #07fad3;
+      transition: all ease 0.3s;
+      color: #07fad3; } }
 @media screen and (min-width: 560px) and (max-width: 815px) {
   .presentation-container {
     width: 100%;
     display: flex;
-    margin: 200px 0px;
+    margin: 150px 0px;
     flex-direction: column;
     justify-content: center;
     text-align: start; }
@@ -47,12 +63,29 @@
     .presentation-container .presentation-text {
       width: 90%;
       margin: 15px 30px;
-      font-size: 16px; } }
+      font-size: 16px; }
+    .presentation-container button {
+      padding: 10px 30px;
+      font-size: 2em;
+      margin-top: 20px;
+      margin-left: 30px;
+      background: linear-gradient(90deg, #07fad3, #3a77fe);
+      border-radius: 10px;
+      color: #04101b;
+      border: none;
+      cursor: pointer;
+      transition: all ease 0.3s;
+      letter-spacing: 2px; }
+    .presentation-container button:hover {
+      background: #04101b;
+      border: 1px solid #07fad3;
+      transition: all ease 0.3s;
+      color: #07fad3; } }
 @media screen and (min-width: 1px) and (max-width: 560px) {
   .presentation-container {
     width: 100%;
     display: flex;
-    margin-top: 200px;
+    margin-top: 150px;
     margin-bottom: 220px;
     flex-direction: column;
     justify-content: center;
@@ -74,7 +107,24 @@
     .presentation-container .presentation-text {
       width: 90%;
       margin: 15px;
-      font-size: 16px; } }
+      font-size: 16px; }
+    .presentation-container button {
+      padding: 10px 30px;
+      font-size: 1.5em;
+      margin-top: 20px;
+      margin-left: 15px;
+      background: linear-gradient(90deg, #07fad3, #3a77fe);
+      border-radius: 10px;
+      color: #04101b;
+      border: none;
+      cursor: pointer;
+      transition: all ease 0.3s;
+      letter-spacing: 2px; }
+    .presentation-container button:hover {
+      background: #04101b;
+      border: 1px solid #07fad3;
+      transition: all ease 0.3s;
+      color: #07fad3; } }
 @media screen and (min-width: 979px) and (max-width: 1600px) {
   .presentation-container {
     width: 900px;
@@ -99,7 +149,23 @@
       color: #07fad3; }
     .presentation-container .presentation-text {
       width: 800px;
-      font-size: 18px; } }
+      font-size: 18px; }
+    .presentation-container button {
+      padding: 10px 30px;
+      font-size: 2em;
+      margin-top: 20px;
+      background: linear-gradient(90deg, #07fad3, #3a77fe);
+      border-radius: 10px;
+      color: #04101b;
+      border: none;
+      cursor: pointer;
+      transition: all ease 0.3s;
+      letter-spacing: 2px; }
+    .presentation-container button:hover {
+      background: #04101b;
+      border: 1px solid #07fad3;
+      transition: all ease 0.3s;
+      color: #07fad3; } }
 @media screen and (min-width: 1601px) and (max-width: 3000px) {
   .presentation-container {
     width: 1400px;
@@ -127,6 +193,22 @@
       font-size: 23px; }
     .presentation-container .presentation-text {
       width: 100%;
-      font-size: 23px; } }
+      font-size: 23px; }
+    .presentation-container button {
+      padding: 10px 30px;
+      font-size: 3em;
+      margin-top: 20px;
+      background: linear-gradient(90deg, #07fad3, #3a77fe);
+      border-radius: 10px;
+      color: #04101b;
+      border: none;
+      cursor: pointer;
+      transition: all ease 0.3s;
+      letter-spacing: 2px; }
+    .presentation-container button:hover {
+      background: #04101b;
+      border: 1px solid #07fad3;
+      transition: all ease 0.3s;
+      color: #07fad3; } }
 
 /*# sourceMappingURL=Presentation.css.map */

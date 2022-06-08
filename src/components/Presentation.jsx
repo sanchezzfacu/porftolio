@@ -11,6 +11,11 @@ function Presentation() {
                 Actualmente me encuentro en búsqueda de mi primer experiencia IT y estoy preparado y super 
                 motivado por conseguirlo.
             </h3>
+            <a href="https://drive.google.com/file/d/1E8Ru30CwXO_QkSNqR72INPdqBN2OyJA_/view" target='_blank' rel='noreferrer'>
+                <button>
+                    Ver Currículum
+                </button>
+            </a>
         </div>
     )
 }
