@@ -22,7 +22,7 @@ function Navbar() {
                         </label>
                     </ScrollIntoView>
 
-                        <ScrollIntoView selector='.technologies-line' smooth={true}>
+                    <ScrollIntoView selector='.technologies-line' smooth={true}>
                         <label htmlFor="check">
                             <li><h3>Tecnologías</h3></li>
                         </label>

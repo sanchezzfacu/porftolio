@@ -1,16 +1,17 @@
 .circle-container {
-  height: 70px;
-  width: 70px;
+  height: 50px;
+  width: 50px;
   border-radius: 50%;
   background: linear-gradient(45deg, #07fad3, #3a77fe);
   display: flex;
   align-items: center;
   justify-content: center;
   margin-bottom: 15px;
-  margin-left: 10px; }
+  margin-left: 10px;
+  cursor: pointer; }
   .circle-container .circle-child {
-    height: 65px;
-    width: 65px;
+    height: 45px;
+    width: 45px;
     border-radius: 50%;
     background: #04101b;
     display: flex;

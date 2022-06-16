@@ -1,8 +1,8 @@
 @import 'colours';
 
 .circle-container {
-    height: 70px;
-    width: 70px;
+    height: 50px;
+    width: 50px;
     border-radius: 50%;
     background: linear-gradient( 45deg, $lightblue, $blue);
     display: flex;
@@ -10,9 +10,10 @@
     justify-content: center;
     margin-bottom: 15px;
     margin-left: 10px;
+    cursor: pointer;
     .circle-child {
-        height: 65px;
-        width: 65px;
+        height: 45px;
+        width: 45px;
         border-radius: 50%;
         background: $backgroundcolor;
         display: flex;

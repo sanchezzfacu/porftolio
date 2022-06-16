@@ -122,6 +122,7 @@
 @media screen and (min-width: 953px) and (max-width:1600px) {
     .nav ul{
         display: flex;
+        font-size: 18px;
         li {
             text-decoration: none;
             background-image: linear-gradient($lightblue, $lightblue);
@@ -138,7 +139,7 @@
         padding-top: 15px;
     }
     .navbar-container {
-        height: 85px;
+        height: 60px;
     }
 }
 

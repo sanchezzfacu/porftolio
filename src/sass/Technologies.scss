@@ -6,6 +6,7 @@
         justify-content: center;
         flex-direction: column;
         height: 800px;
+        margin-top: 80px;
     }
     
     .items-tech-container {
@@ -16,7 +17,7 @@
         flex-wrap: wrap;
         width: 100%;
         flex-direction: row;
-        margin: 70px auto;
+        margin: 20px auto;
         margin-bottom: 0px;
     }
     
@@ -31,7 +32,7 @@
     
     
     .tech-item {
-        margin: 40px 80px;
+        margin: 30px 80px;
         text-align: center;
         width: 40px;
         display: flex;
