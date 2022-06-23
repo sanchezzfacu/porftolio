@@ -198,9 +198,10 @@
         transition: all ease 0.5s;
         font-family: 'Azeret Mono', monospace;
         letter-spacing: 5px;
-        width: 100%; }
+        width: 100%;
+        font-size: 20px; }
       .form-container form .button:hover {
-        background: #07fad12f; }
+        background: #07fad11d; }
     .form-container .btn-redes-form {
       display: flex;
       align-items: center;
@@ -219,6 +220,7 @@
       flex-direction: column;
       justify-content: center; }
     .form-container .btn-item a {
-      color: #fff; } }
+      color: #fff;
+      font-size: 20px; } }
 
 /*# sourceMappingURL=Form.css.map */

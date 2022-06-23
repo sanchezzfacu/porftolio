@@ -232,6 +232,7 @@
               font-family: 'Azeret Mono', monospace;
               letter-spacing: 5px;
               width: 100%;
+              font-size: 20px
             }
             .button:hover {
                 background: $buttoncolor;
@@ -258,8 +259,9 @@
           flex-direction: column;
           justify-content: center;
       }
-      .btn-item a {
-        color: #fff;
-    }
+        .btn-item a {
+            color: #fff;
+            font-size: 20px;
+        }
     }
 }

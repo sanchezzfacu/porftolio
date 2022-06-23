@@ -26,18 +26,15 @@
       padding: 10px 30px;
       font-size: 2em;
       margin-top: 20px;
-      background: linear-gradient(90deg, #07fad3, #3a77fe);
-      border-radius: 10px;
-      color: #04101b;
-      border: none;
+      border-radius: 5px;
+      background: #04101b;
+      border: 1px solid #07fad3;
+      color: #07fad3;
       cursor: pointer;
       transition: all ease 0.3s;
       letter-spacing: 2px; }
     .presentation-container button:hover {
-      background: #04101b;
-      border: 1px solid #07fad3;
-      transition: all ease 0.3s;
-      color: #07fad3; } }
+      background: #07fad11d; } }
 @media screen and (min-width: 560px) and (max-width: 815px) {
   .presentation-container {
     width: 100%;
@@ -69,18 +66,16 @@
       font-size: 2em;
       margin-top: 20px;
       margin-left: 30px;
-      background: linear-gradient(90deg, #07fad3, #3a77fe);
-      border-radius: 10px;
-      color: #04101b;
-      border: none;
+      background: #04101b;
+      border: 1px solid #07fad3;
+      transition: all ease 0.3s;
+      color: #07fad3;
+      border-radius: 5px;
       cursor: pointer;
       transition: all ease 0.3s;
       letter-spacing: 2px; }
     .presentation-container button:hover {
-      background: #04101b;
-      border: 1px solid #07fad3;
-      transition: all ease 0.3s;
-      color: #07fad3; } }
+      background: #07fad11d; } }
 @media screen and (min-width: 1px) and (max-width: 560px) {
   .presentation-container {
     width: 100%;
@@ -89,7 +84,8 @@
     margin-bottom: 220px;
     flex-direction: column;
     justify-content: center;
-    text-align: start; }
+    text-align: start;
+    text-shadow: #000; }
     .presentation-container .gradient-name {
       background: linear-gradient(90deg, #07fad3, #3a77fe);
       -webkit-text-fill-color: transparent;
@@ -113,24 +109,22 @@
       font-size: 1.5em;
       margin-top: 20px;
       margin-left: 15px;
-      background: linear-gradient(90deg, #07fad3, #3a77fe);
-      border-radius: 10px;
-      color: #04101b;
-      border: none;
+      background: #04101b;
+      border: 1px solid #07fad3;
+      transition: all ease 0.3s;
+      color: #07fad3;
+      border-radius: 5px;
       cursor: pointer;
       transition: all ease 0.3s;
       letter-spacing: 2px; }
     .presentation-container button:hover {
-      background: #04101b;
-      border: 1px solid #07fad3;
-      transition: all ease 0.3s;
-      color: #07fad3; } }
+      background: #07fad11d; } }
 @media screen and (min-width: 979px) and (max-width: 1600px) {
   .presentation-container {
     width: 900px;
     display: flex;
     flex-direction: column;
-    height: calc(90vh - 80px);
+    height: calc(100vh - 190px);
     margin-top: 190px;
     text-align: start;
     margin-left: auto;
@@ -153,19 +147,16 @@
     .presentation-container button {
       padding: 10px 30px;
       font-size: 2em;
-      margin-top: 20px;
-      background: linear-gradient(90deg, #07fad3, #3a77fe);
-      border-radius: 10px;
-      color: #04101b;
-      border: none;
-      cursor: pointer;
-      transition: all ease 0.3s;
-      letter-spacing: 2px; }
-    .presentation-container button:hover {
       background: #04101b;
       border: 1px solid #07fad3;
       transition: all ease 0.3s;
-      color: #07fad3; } }
+      color: #07fad3;
+      margin-top: 20px;
+      border-radius: 5px;
+      cursor: pointer;
+      letter-spacing: 2px; }
+    .presentation-container button:hover {
+      background: #07fad11d; } }
 @media screen and (min-width: 1601px) and (max-width: 3000px) {
   .presentation-container {
     width: 1400px;
@@ -198,17 +189,14 @@
       padding: 10px 40px;
       font-size: 3em;
       margin-top: 30px;
-      background: linear-gradient(90deg, #07fad3, #3a77fe);
-      border-radius: 10px;
-      color: #04101b;
-      border: none;
-      cursor: pointer;
-      transition: all ease 0.3s;
-      letter-spacing: 2px; }
-    .presentation-container button:hover {
+      border-radius: 5px;
       background: #04101b;
       border: 1px solid #07fad3;
       transition: all ease 0.3s;
-      color: #07fad3; } }
+      color: #07fad3;
+      cursor: pointer;
+      letter-spacing: 2px; }
+    .presentation-container button:hover {
+      background: #07fad11d; } }
 
 /*# sourceMappingURL=Presentation.css.map */

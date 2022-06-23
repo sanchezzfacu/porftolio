@@ -1,4 +1,5 @@
 import React from 'react'
+import DecorationCircle from './DecorationCircle'
 import '../css/Presentation.css'
 
 function Presentation() {
@@ -7,7 +8,8 @@ function Presentation() {
             <h4 className='saludo'>Hola, mi nombre es</h4>
             <h1 className='big-font-presentation'>Facundo Sánchez.</h1>
             <h2 className='gradient-name big-font-presentation'>Frontend Developer.</h2>
-            <h3 className='presentation-text'>Soy un Front-End developer de Argentina. Me encanta todo lo relacionado con frontend.
+            <h3 className='presentation-text'>Soy un Frontend developer de Argentina. Si hay algo que me gusta en esta vida
+                es desarrollar interfaces de usuario.
                 Actualmente me encuentro en búsqueda de mi primer experiencia IT y estoy preparado y super 
                 motivado por conseguirlo.
             </h3>
@@ -16,6 +18,7 @@ function Presentation() {
                     Ver Currículum
                 </button>
             </a>
+            <DecorationCircle/>
         </div>
     )
 }

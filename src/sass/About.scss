@@ -53,8 +53,8 @@
                 background: $backgroundcolor-lighter;
             }
             a:hover {
-                box-shadow: 0px 0px 22px 2px $blue;
-            }   
+                background: linear-gradient(180deg, $lightblue, $blue);
+            }
         }    
     }
 }
@@ -108,6 +108,11 @@
                 display: flex;
                 align-items: center;
                 justify-content: center;
+                background: $backgroundcolor-lighter;
+
+            }
+            a:hover {
+                background: linear-gradient(180deg, $lightblue, $blue);
             }
         }   
     }
@@ -163,12 +168,18 @@
                 display: flex;
                 align-items: center;
                 justify-content: center;
+                background: $backgroundcolor-lighter;
+
+            }
+            a:hover {
+                background: linear-gradient(180deg, $lightblue, $blue);
             }
         }   
     }
 }
 
 @media screen and(max-width: 834px) {
+
     .about-container {
         display: flex;
         flex-direction: column;
@@ -215,13 +226,18 @@
                 display: flex;
                 align-items: center;
                 justify-content: center;
+                background: $backgroundcolor-lighter;
+
+            }
+            a:hover {
+                background: linear-gradient(180deg, $lightblue, $blue);
             }
         }   
     }
 
 }
 
-@media screen and (min-width:1670px) and (max-width:2500px){
+@media screen and (min-width:1670px) and (max-width:3000px){
     .about-container {
         display: flex;
         flex-direction: column;
@@ -268,6 +284,8 @@
                 display: flex;
                 align-items: center;
                 justify-content: center;
+                background: $backgroundcolor-lighter;
+
             }
             a:hover {
                 background: linear-gradient(180deg, $lightblue, $blue);
