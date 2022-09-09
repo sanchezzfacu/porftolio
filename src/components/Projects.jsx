@@ -3,181 +3,232 @@ import homeFood from '../img/food-home.png'
 import homebb from '../img/bb-home.png'
 import homemysaccesorios from '../img/home-mysaccesorios.png'
 import homeproyectofinal from '../img/home-proyectofinal.png'
+import homeGamila from '../img/home-gamila.png'
 import homeWeather from '../img/weather-home.png'
 import homeCalculadora from '../img/calculadora-home.png'
-import homeFacebook from '../img/facebook-home.png'
 import homeMovies from '../img/movies-home.png'
-import '../css/Projects.css'
 import CircleLogo from './CircleLogo'
+import github from '../img/github-logo.png'
+import '../css/Projects.css'
 function Projects() {
     return (
         <div className='projects-container'>
-            <h2 className='projects-title'><CircleLogo/>Proyectos</h2>
-            <div className="individual-container">
-                <div className='app-title'>
-                    <h1>App de recetas</h1>
+        <h2 className='projects-title'><CircleLogo/>Proyectos</h2>
+            <div className="project-normal-pos project">
+                <div className="project-image">
+                    <img src={homemysaccesorios} alt="" />
                 </div>
-                <div className="text-img-container">
-                    <div className="app-text"> 
-                        <h3 className='text-right'> 
-                            Desarrollé una SPA utilizando <b>React</b> para el Front End y <b>Redux</b> como state management. 
-                            En los estilos se implementó <b>CSS</b> puro sin uso de librerías externas.
-                            La SPA consume datos de una API a través de un Back End desarrollado en <b>Node</b> utilizando <b>Express</b> que consume 
-                            la <b>API</b> Spoonacular, agregando nuevas funcionalidades a la API original. En el proyecto se puede filtrar 
-                            la información por(comida, tipos de dieta, nivel de salubridad, nombre por orden alfabético) y un formulario 
-                            para la creación de nuevas recetas que se almacenan en una base de datos realizada con <b>Sequelize</b> y <b>PostgreSQL</b>.
-                        </h3>
-                        <a className='respositorio-link'  href='https://github.com/sanchezzfacu/Proyecto-individual-Foods' target='_blank' rel="noreferrer"><button className='btn-repositorio-left'>Ver repositorio</button></a>
-                    </div>
-                    <div className="app-img">
-                        <img src={homeFood} alt="imagen no encontrada"/>
-                    </div>
-                </div>
-            </div>
-            
-            <div className="individual-container">
-                <div className='app-title'>
-                    <h1>E-commerce de accesorios</h1>
-                </div>
-                <div className='align-right'>
-                    <div className="app-img">
-                        <img className='img-project' src={homemysaccesorios} alt="imagen no encontrada"/>
-                    </div>
-                    <div className="text-img-container">
-                        <div className="app-text">                
-                            <h3 className='text-left'>
-                                Realicé un e-commerce para un emprendimiento usando las tecnologías aprendidas durante la carrera,
-                                para la UI se usó <b>React</b>, <b>Redux</b> para el manejo de estado y los estilos fueron diseñados con <b>CSS</b> puro, para el backend se desarrolló un servidor en <b>ExpressJS</b>, con una
-                                base de datos creada con <b>PostgreSQL</b> y <b>Sequelize</b>. El sitio web permite ver el stock disponible y mandar un mensaje personalizado al vendedor.
-                                A su vez tambien cuenta con un panel de administrador donde se pueden crear/eliminar categorias, publicar nuevos productos a 
-                                traves de un formulario controlado y manejo de stock donde se pueden eliminar productos o las cantidades vendidas.
+                <div className='project-information'>
+                    <h3 className='developed-text'>Proyecto desarrollado</h3>
+                    
+                    <h1>Ecommerce de accesorios</h1>
 
-                            </h3>
-                            <a className='respositorio-link'  href='https://github.com/sanchezzfacu/mys-accesorios' target='_blank' rel="noreferrer"><button className='btn-repositorio'>Ver repositorio</button></a>
-                        </div>
+                    <h3 className='project-description'>Desarrollo de un ecommerce para un emprendimiento. Cuenta con todas las
+                    funcionalidades de un ecommerce.</h3>
+                    
+                    <div className="tecnologies">
+                        <h5>React</h5>
+                        <h5>Redux</h5>
+                        <h5>CSS</h5>
+                        <h5>Node</h5>
+                        <h5>Sequelize</h5>
+                        <h5>PostgreSQL</h5>
+                        <h5>API</h5>
+                    </div>
+                    <div className="repository-btn">
+                        <a href="https://github.com/sanchezzfacu/mys-accesorios" target='_blank' rel='noreferrer'>
+                            <img src={github} alt=""/>
+                        </a>
                     </div>
                 </div>
             </div>
 
-            <div className="individual-container">
-                <div className='app-title'>
-                    <h1>Proyecto final carrera | E-commerce</h1>
-                </div>      
-                <div className="text-img-container">
-                    <div className="app-text">                
-                        <h3 className='text-right'>
-                            Para el proyecto final de la carrera realizamos un ecomerce completeamente funcional con mi equipo,
-                            en el proyecto afianzamos los conceptos aprendidos en la carrera. Usamos <b>React</b> para la interfaz de usuario, <b>Redux</b> 
-                            para el manejo de estado, <b>GIT</b> para versionado de codigo, estilos con <b>CSS modules</b>. Para el backend se desarrolló un
-                            servidor en <b>ExpressJS</b> y una base de datos en <b>PostgreSQL</b> realizada con <b>Sequelize</b>. Posee una pasarela de pago con 
-                            mercado pago, manejo de usuarios, creacion de cuenta con google, panel de administrador, carrito de compras, reviews a productos, entre otras funcionalidades.
-                        </h3>
-                        <a className='respositorio-link' href='https://github.com/guidoabelleira/E-Commerce-PF10' target='_blank' rel="noreferrer"><button className='btn-repositorio-left'>Ver repositorio</button></a>
-                    </div>
-                    <div className="app-img">
-                        <img src={homeproyectofinal} alt="imagen no encontrada"/>
-                    </div>
+            <div className="project-reversed-pos project">
+                <div className="project-image">
+                    <img src={homeproyectofinal} alt="" />
                 </div>
-            </div>
-            
-            <div className="individual-container">
-                <div className="app-title">
-                    <h1>Breaking bad app</h1>
-                </div>
-                <div className="align-right">
-                    <div className="app-img">
-                        <img src={homebb} alt="imagen no encontrada"/>
+                <div className='project-information'>
+                    <h3 className='developed-text'>Proyecto desarrollado</h3>
+                    
+                    <h1>Proyecto Final Carrera | Ecommerce</h1>
+
+                    <h3 className='project-description'>Desarrollo de un ecommerce para un emprendimiento. Cuenta con todas las
+                    funcionalidades de un ecommerce.</h3>
+                    
+                    <div className="tecnologies">
+                        <h5>React</h5>
+                        <h5>Redux</h5>
+                        <h5>CSS</h5>
+                        <h5>Node</h5>
+                        <h5>Sequelize</h5>
+                        <h5>PostgreSQL</h5>
+                        <h5>Git</h5>
+                        <h5>SCRUM</h5>
                     </div>
-                    <div className="text-img-container">
-                        <div className="app-text">                
-                            <h3 className='text-left'>
-                                SPA que permite ver un listado de los personajes de la serie Breaking Bad, interfaz desarrollada con <b>React</b>,
-                                el manejo de estado se realiza con <b>Redux</b>, estilos realizados con <b>CSS</b> sin ninguna libreria externa. Para el backend
-                                se empleó un server desarrolado en <b>ExpressJs</b> que consume la <b>API</b> de Breaking Bad, la base de datos a su vez se realizó con <b>PostgreSQL</b> y <b>Sequelize</b>.
-                                La SPA nos permite crear personajes con su respectivo papel. Se puede usar la barra de búsqueda para buscar personajes,
-                                también se pueden filtrar los personajes. 
-                            </h3>
-                            <a className='respositorio-link'  href='https://github.com/sanchezzfacu/Breaking-Bad-App' target='_blank' rel="noreferrer"><button className='btn-repositorio'>Ver repositorio</button></a>
-                        </div>
+                    <div className="repository-btn">
+                        <a href="https://github.com/guidoabelleira/E-Commerce-PF10" target='_blank' rel='noreferrer'>
+                            <img src={github} alt=""/>
+                        </a>
                     </div>
                 </div>
             </div>
 
-            <div className="individual-container">
-                <div className='app-title'>
-                    <h1>Weather app | VanillaJs</h1>
-                </div>      
-                <div className="text-img-container">
-                    <div className="app-text">                
-                        <h3 className='text-right'>
-                            Desarrollé un sitio web donde se puede consultar el clima en distintas ciudades, te permite
-                            ver la temperatura, la velocidad del viento y como está el cielo. Toda la lógica se implementó
-                            en <b>javascript puro</b>, <b>HTML</b> para el esqueleto y <b>SASS</b> para los estilos. Toda la informacion
-                            es traida a traves de llamados a la <b>API</b> de openweather.
-                        </h3>
-                        <a className='respositorio-link' href='https://github.com/sanchezzfacu/weather-VanillaJs' target='_blank' rel="noreferrer"><button className='btn-repositorio-left'>Ver repositorio</button></a>
+            <div className="project-normal-pos project">
+                <div className="project-image">
+                    <img src={homeGamila} alt="" />
+                </div>
+                <div className='project-information'>
+                    <h3 className='developed-text'>Proyecto desarrollado</h3>
+                    
+                    <h1>Landing Page Empresa de Traslados</h1>
+
+                    <h3 className='project-description'>Desarrollo freelance de una landing page para empresa dedicada al traslado
+                     de pasajeros.</h3>
+                    
+                    <div className="tecnologies">
+                        <h5>JavaScript</h5>
+                        <h5>SASS</h5>
+                        <h5>HTML</h5>
                     </div>
-                    <div className="app-img">
-                        <img src={homeWeather} alt="imagen no encontrada"/>
+                    <div className="repository-btn">
+                        <a href="https://github.com/sanchezzfacu/gamila-traslados" target='_blank' rel='noreferrer'>
+                            <img src={github} alt=""/>
+                        </a>
                     </div>
                 </div>
             </div>
 
-            <div className="individual-container">
-                <div className="app-title">
-                    <h1>Calculadora | VanillaJs</h1>
+            <div className="project-reversed-pos project">
+                <div className="project-image">
+                    <img src={homebb} alt="" />
                 </div>
-                <div className="align-right">
-                    <div className="app-img">
-                        <img src={homeCalculadora} alt="imagen no encontrada"/>
+                <div className='project-information'>
+                    <h3 className='developed-text'>Proyecto desarrollado</h3>
+                    
+                    <h1>Breaking Bad App</h1>
+
+                    <h3 className='project-description'>Desarrollo de una SPA de los personajes de Breaking Bad. Se hace uso de la 
+                    API donde se le agregan funcionalidades extras tales como filtrado y búsqueda</h3>
+                    
+                    <div className="tecnologies">
+                        <h5>React</h5>
+                        <h5>Redux</h5>
+                        <h5>CSS</h5>
+                        <h5>Node</h5>
+                        <h5>Sequelize</h5>
+                        <h5>PostgreSQL</h5>
                     </div>
-                    <div className="text-img-container">
-                        <div className="app-text">                
-                            <h3 className='text-left'>
-                                Programé una calculadora desde cero creando toda la lógica en <b>javascript</b>, para los estilos
-                                usé <b>CSS puro</b> sin ninguna libreria externa y <b>HTML</b> para la estructura. Se puede
-                                realizar cualquier tipo de operación basica y te permite ver que operacion realizaste. 
-                            </h3>
-                            <a className='respositorio-link'  href='https://github.com/sanchezzfacu/calculadora-vanillaJS' target='_blank' rel="noreferrer"><button className='btn-repositorio'>Ver repositorio</button></a>
-                        </div>
+                    <div className="repository-btn">
+                        <a href="https://github.com/sanchezzfacu/Breaking-Bad-App" target='_blank' rel='noreferrer'>
+                            <img src={github} alt=""/>
+                        </a>
                     </div>
                 </div>
             </div>
 
-            <div className="individual-container">
-                <div className='app-title'>
-                    <h1>Facebook login clon</h1>
-                </div>      
-                <div className="text-img-container">
-                    <div className="app-text">                
-                        <h3 className='text-right'>
-                            Recreación de la pantalla de inicio de sesión de Facebook usando <b>SASS</b> y <b>HTML</b>
-                        </h3>
-                        <a className='respositorio-link' href='https://github.com/sanchezzfacu/facebook-login' target='_blank' rel="noreferrer"><button className='btn-repositorio-left'>Ver repositorio</button></a>
+            <div className="project-normal-pos project">
+                <div className="project-image">
+                    <img src={homeFood} alt="" />
+                </div>
+                <div className='project-information'>
+                    <h3 className='developed-text'>Proyecto desarrollado</h3>
+                    
+                    <h1>Sitio Web de Recetas</h1>
+
+                    <h3 className='project-description'>Desarrollo de una SPA que consume la API de spoonacular, a la cual se le
+                    agregaron funcionalidades extra tales como filtrado, ordenado por puntaje, entre otros. Cuenta con un formulario 
+                    controlado que nos permite publicar nuevas recetas.</h3>
+                    
+                    <div className="tecnologies">
+                        <h5>React</h5>
+                        <h5>Redux</h5>
+                        <h5>CSS</h5>
+                        <h5>Node</h5>
+                        <h5>Sequelize</h5>
+                        <h5>PostgreSQL</h5>
+                        <h5>API</h5>
                     </div>
-                    <div className="app-img">
-                        <img src={homeFacebook} alt="imagen no encontrada"/>
+                    <div className="repository-btn">
+                        <a href="https://github.com/sanchezzfacu/mys-accesorios" target='_blank' rel='noreferrer'>
+                            <img src={github} alt=""/>
+                        </a>
                     </div>
                 </div>
             </div>
 
-            <div className="individual-container">
-                <div className="app-title">
-                    <h1>Movies app</h1>
+            <div className="project-reversed-pos project">
+                <div className="project-image">
+                    <img src={homeWeather} alt="" />
                 </div>
-                <div className="align-right">
-                    <div className="app-img">
-                        <img src={homeMovies} alt="imagen no encontrada"/>
+                <div className='project-information'>
+                    <h3 className='developed-text'>Proyecto desarrollado</h3>
+                    
+                    <h1>Weather App</h1>
+
+                    <h3 className='project-description'>Aplicacion que consume una api del clima, donde se puede consultar
+                    el clima de cualquier ciudad.</h3>
+                    
+                    <div className="tecnologies">
+                        <h5>JavaScript</h5>
+                        <h5>SASS</h5>
+                        <h5>HTML</h5>
+                        <h5>API</h5>
                     </div>
-                    <div className="text-img-container">
-                        <div className="app-text">                
-                            <h3 className='text-left'>
-                                Desarrollé una SPA que consume la <b>API</b> de OMDB la cual permite realizar búsquedas de películas
-                                y encontrar mas información sobre la misma. Para desarrollar la interfaz hice uso de <b>React</b>, 
-                                para el estado de la aplicación <b>Redux</b> y para los estilos <b>SASS</b>
-                            </h3>
-                            <a className='respositorio-link'  href='https://github.com/sanchezzfacu/movies-app' target='_blank' rel="noreferrer"><button className='btn-repositorio'>Ver repositorio</button></a>
-                        </div>
+                    <div className="repository-btn">
+                        <a href="https://github.com/sanchezzfacu/Breaking-Bad-App" target='_blank' rel='noreferrer'>
+                            <img src={github} alt=""/>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div className="project-normal-pos project">
+                <div className="project-image">
+                    <img src={homeCalculadora} alt="" />
+                </div>
+                <div className='project-information'>
+                    <h3 className='developed-text'>Proyecto desarrollado</h3>
+                    
+                    <h1>Calculadora | Vanilla JavaScript</h1>
+
+                    <h3 className='project-description'>Desarrollo de una calculadora usando JavaScript puro la cual permite 
+                    relizar cualquier operación básica.</h3>
+                    
+                    <div className="tecnologies">
+                        <h5>JavaScript</h5>
+                        <h5>HTML</h5>
+                        <h5>CSS</h5>
+                    </div>
+                    <div className="repository-btn">
+                        <a href="https://github.com/sanchezzfacu/mys-accesorios" target='_blank' rel='noreferrer'>
+                            <img src={github} alt=""/>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div className="project-reversed-pos project">
+                <div className="project-image">
+                    <img src={homeMovies} alt="" />
+                </div>
+                <div className='project-information'>
+                    <h3 className='developed-text'>Proyecto desarrollado</h3>
+                    
+                    <h1>Buscador de Películas</h1>
+
+                    <h3 className='project-description'>Aplicacion que consume la API de OMDB, a la cual se le agregaron 
+                    funcionalidades extras completamente desde cero.</h3>
+                    
+                    <div className="tecnologies">
+                        <h5>React</h5>
+                        <h5>Redux</h5>
+                        <h5>SASS</h5>
+                        <h5>API</h5>
+                    </div>
+                    <div className="repository-btn">
+                        <a href="https://github.com/sanchezzfacu/Breaking-Bad-App" target='_blank' rel='noreferrer'>
+                            <img src={github} alt=""/>
+                        </a>
                     </div>
                 </div>
             </div>

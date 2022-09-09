@@ -87,7 +87,7 @@
     text-align: start;
     text-shadow: #000; }
     .presentation-container .gradient-name {
-      background: linear-gradient(90deg, #07fad3, #3a77fe);
+      background: linear-gradient(90deg, #07fad3 0%, #3a77fe 100%);
       -webkit-text-fill-color: transparent;
       -webkit-background-clip: text;
       background-clip: text; }
@@ -130,7 +130,7 @@
     margin-left: auto;
     margin-right: auto; }
     .presentation-container .gradient-name {
-      background: linear-gradient(90deg, #07fad3, #3a77fe);
+      background: linear-gradient(90deg, #07fad3 0%, #3a77fe 100%);
       -webkit-text-fill-color: transparent;
       -webkit-background-clip: text;
       background-clip: text; }

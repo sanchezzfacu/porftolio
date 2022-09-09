@@ -109,7 +109,7 @@
         text-align: start;
         text-shadow: #000;
         .gradient-name {
-            background: linear-gradient(90deg,$lightblue, $blue);
+            background: linear-gradient(90deg,$lightblue 0%, $blue 100%);
             -webkit-text-fill-color: transparent;
             -webkit-background-clip: text;
             background-clip: text;
@@ -163,7 +163,7 @@
         margin-right: auto;
 
         .gradient-name {
-            background: linear-gradient(90deg,$lightblue, $blue);
+            background: linear-gradient(90deg,$lightblue 0%, $blue 100%);
             -webkit-text-fill-color: transparent;
             -webkit-background-clip: text;
             background-clip: text;

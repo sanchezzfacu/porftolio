@@ -23,18 +23,22 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            width: 80%;
+            width: 90%;
         }
         .img-about {
             height: 350px;
             width: 350px;
-            margin-bottom: 70px;
-            border-radius: 10px;
+            margin-bottom: 120px;
+            border-radius: 2px;
+            object-fit: cover;
         }
         .text-about {
             width: auto;
             margin: 50px;
             font-size: 20px;
+            p {
+                margin: 10px 0;
+            }
         }
         .github-linkedin-btn {
             display: flex;
@@ -86,13 +90,17 @@
         .img-about {
             height: 350px;
             width: 350px;
-            border-radius: 10px;
+            border-radius: 2px;
             margin-bottom: 70px;
+            object-fit: cover;
         }
         .text-about {
             width: 600px;
             margin: 50px;
             font-size: 17px;
+            p {
+                margin: 10px 0;
+            }
         }
         .github-linkedin-btn {
             display: flex;
@@ -126,7 +134,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        width: 80%;
+        width: 90%;
         height: 100vh;
         margin: auto;
         margin-bottom: 60px;        
@@ -140,19 +148,24 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            width: 80%;
+            gap: 40px;
+            width: 100%;
         }
         .img-about {
             height: 350px;
             width: 350px;
             margin-bottom: 50px;
-            border-radius: 10px;
+            border-radius: 2px;
             margin-bottom: 100px;
+            object-fit: cover;
         }
         .text-about {
-            width: 600px;
-            margin: 50px;
+            width: 100%;
+            margin: 50px 0;
             font-size: 17px;
+            p {
+                margin: 10px 0;
+            }
         }
         .github-linkedin-btn {
             display: flex;
@@ -205,12 +218,16 @@
         .img-about {
             height: 250px;
             width: 250px;
-            border-radius: 10px;
+            border-radius: 2px;
+            object-fit: cover;
         }
         .text-about {
             width: 100%;
             margin: 30px;
             font-size: 17px;
+            p {
+                margin: 10px 0;
+            }
         }
         .github-linkedin-btn {
             display: flex;
@@ -262,13 +279,16 @@
         .img-about {
             height: 450px;
             width: 450px;
-            border-radius: 10px;
+            border-radius: 2px;
             margin-bottom: 70px;
         }
         .text-about {
             width: 600px;
             margin: 50px;
             font-size: 25px;
+            p {
+                margin: 10px 0;
+            }
         }
         .github-linkedin-btn {
             display: flex;

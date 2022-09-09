@@ -1,287 +1,94 @@
-.individual-container {
-  box-shadow: 0px 0px 5px 2px #07fad3; }
+.projects-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 80px;
+  width: 100%; }
+  .projects-container .project-normal-pos, .projects-container .project-reversed-pos {
+    display: flex;
+    justify-content: center; }
+    .projects-container .project-normal-pos .project-information, .projects-container .project-reversed-pos .project-information {
+      display: flex;
+      gap: 15px; }
+      .projects-container .project-normal-pos .project-information .project-description, .projects-container .project-reversed-pos .project-information .project-description {
+        border-radius: 5px;
+        background-color: #0e253b;
+        font-size: .9em;
+        font-family: 'poppins'; }
+      .projects-container .project-normal-pos .project-information .tecnologies, .projects-container .project-reversed-pos .project-information .tecnologies {
+        display: flex;
+        gap: 10px; }
+        .projects-container .project-normal-pos .project-information .tecnologies h5, .projects-container .project-reversed-pos .project-information .tecnologies h5 {
+          font-family: 'Azeret Mono', monospace;
+          font-weight: 100;
+          border: 1px solid #07fad3;
+          color: #07fad3;
+          border-radius: 5px;
+          cursor: default; }
+      .projects-container .project-normal-pos .project-information .repository-btn img, .projects-container .project-reversed-pos .project-information .repository-btn img {
+        height: 40px;
+        cursor: pointer; }
 
-@media screen and (min-width: 1685px) and (max-width: 3000px) {
-  .projects-container {
+@media screen and (min-width: 1280px) and (max-width: 1700px) {
+  .projects-title {
+    font-family: "Poppins", sans-serif;
+    font-size: 40px;
     display: flex;
-    flex-direction: column;
     align-items: center;
-    justify-content: center;
-    margin-top: 150px;
-    width: 95%;
-    margin: auto;
-    margin-top: 150px;
-    margin-bottom: 50px; }
-    .projects-container .text-img-container {
-      display: flex;
-      align-items: center;
-      justify-content: center; }
-    .projects-container .projects-title {
-      font-family: "Poppins", sans-serif;
-      font-size: 60px;
-      display: flex;
-      align-items: center;
-      margin-bottom: 100px; }
-    .projects-container .app-img img {
-      height: 380px;
-      margin: 20px;
-      border-radius: 5px; }
-    .projects-container .app-title {
-      margin-top: 30px;
-      display: flex;
-      justify-content: center;
-      font-size: 20px; }
-    .projects-container .btn-repositorio, .projects-container .btn-repositorio-left {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      background: #04101b;
-      color: #07fad3;
-      border: 1px solid #07fad3;
-      padding: 10px;
-      margin-top: 20px;
-      margin-bottom: 30px;
-      border-radius: 10px;
-      cursor: pointer;
-      transition: all ease 0.5;
-      width: 90%;
-      font-family: 'Azeret Mono', monospace;
-      font-size: 20px;
-      letter-spacing: 5px;
-      transition: all ease .3s; }
-    .projects-container .btn-repositorio {
-      width: 95%; }
-    .projects-container .btn-repositorio-left {
-      margin-left: 50px; }
-    .projects-container .btn-repositorio:hover, .projects-container .btn-repositorio-left:hover {
-      box-shadow: 0px 0px 10px 2px #07fad3; }
-    .projects-container .app-text h3::first-letter {
-      font-size: 45px;
-      margin-top: 15px;
-      color: #07fad3; }
-    .projects-container .app-text h3 b {
-      color: #07fad3; }
-    .projects-container .align-right {
-      display: flex;
-      flex-direction: row; }
-    .projects-container .individual-container {
-      margin: 20px 0px;
-      border-radius: 10px;
-      width: 100%; }
-    .projects-container .text-right {
-      margin-left: 50px;
-      margin-right: 15px;
-      font-size: 27px; }
-    .projects-container .text-left {
-      font-size: 27px;
-      margin-right: 10px; } }
-@media screen and (min-width: 1115px) and (max-width: 1684px) {
-  .projects-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin: 0px 50px;
-    margin-top: 100px;
-    height: 100%; }
-    .projects-container .text-img-container {
-      display: flex;
-      align-items: center;
-      justify-content: center; }
-    .projects-container .projects-title {
-      font-family: "Poppins", sans-serif;
-      font-size: 40px;
-      display: flex;
-      align-items: center;
-      margin-bottom: 40px; }
-    .projects-container .app-img img {
+    margin-bottom: 40px;
+    margin-top: 80px; }
+
+  .projects-container .project-normal-pos {
+    width: 90%;
+    flex-direction: row; }
+    .projects-container .project-normal-pos .project-image img {
       height: 300px;
-      margin: 20px;
       border-radius: 5px; }
-    .projects-container .app-title {
-      margin-top: 30px;
-      display: flex;
-      justify-content: center; }
-    .projects-container .btn-repositorio, .projects-container .btn-repositorio-left {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      background: #04101b;
-      color: #07fad3;
-      border: 1px solid #07fad3;
-      padding: 10px;
-      margin-top: 20px;
-      margin-bottom: 30px;
-      border-radius: 10px;
-      cursor: pointer;
-      transition: all ease 0.5;
-      width: 90%;
-      font-family: 'Azeret Mono', monospace;
-      letter-spacing: 5px;
-      transition: all ease .3s; }
-    .projects-container .btn-repositorio {
-      width: 95%; }
-    .projects-container .btn-repositorio-left {
-      margin-left: 50px; }
-    .projects-container .btn-repositorio:hover, .projects-container .btn-repositorio-left:hover {
-      box-shadow: 0px 0px 10px 2px #07fad3; }
-    .projects-container .app-text h3::first-letter {
-      font-size: 25px;
-      margin-top: 15px;
-      color: #07fad3; }
-    .projects-container .app-text h3 b {
-      color: #07fad3; }
-    .projects-container .align-right {
-      display: flex;
-      flex-direction: row; }
-    .projects-container .individual-container {
-      margin: 20px 0px;
-      border-radius: 10px;
-      width: 100%; }
-    .projects-container .text-right {
-      margin-left: 50px;
-      margin-right: 15px;
-      font-size: 18px; }
-    .projects-container .text-left {
-      font-size: 18px;
-      margin-right: 10px; } }
-@media screen and (min-width: 1028px) and (max-width: 1114px) {
-  .projects-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin: 50px;
-    font-size: 12px; }
-    .projects-container .text-img-container {
-      display: flex;
-      align-items: center;
-      justify-content: center; }
-    .projects-container .projects-title {
-      font-family: "Poppins", sans-serif;
-      font-size: 40px;
-      display: flex;
-      align-items: center;
-      margin-bottom: 40px; }
-    .projects-container .app-img img {
-      height: 270px;
-      margin: 20px;
-      border-radius: 5px; }
-    .projects-container .app-title {
-      margin-top: 30px;
-      display: flex;
-      justify-content: center; }
-    .projects-container .btn-repositorio, .projects-container .btn-repositorio-left {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      background: #04101b;
-      color: #07fad3;
-      border: 1px solid #07fad3;
-      padding: 10px;
-      margin-top: 20px;
-      margin-bottom: 30px;
-      border-radius: 10px;
-      cursor: pointer;
-      transition: all ease 0.5;
-      width: 90%;
-      font-family: 'Azeret Mono', monospace;
-      letter-spacing: 5px;
-      transition: all ease .3s; }
-    .projects-container .btn-repositorio {
-      width: 95%; }
-    .projects-container .btn-repositorio-left {
-      margin-left: 50px; }
-    .projects-container .btn-repositorio:hover, .projects-container .btn-repositorio-left:hover {
-      box-shadow: 0px 0px 10px 2px #07fad3; }
-    .projects-container .app-text h3::first-letter {
-      font-size: 25px;
-      margin-top: 15px;
-      color: #07fad3; }
-    .projects-container .app-text h3 b {
-      color: #07fad3; }
-    .projects-container .align-right {
-      display: flex;
-      flex-direction: row; }
-    .projects-container .individual-container {
-      margin: 20px 0px;
-      border-radius: 10px;
-      width: 100%; }
-    .projects-container .text-right {
-      margin-left: 50px;
-      margin-right: 15px; }
-    .projects-container .text-left {
-      margin-right: 10px; } }
-@media screen and (max-width: 1027px) {
-  .projects-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-size: 13px;
-    margin: 10px;
-    margin-top: 100px; }
-    .projects-container .text-img-container {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      flex-direction: column-reverse; }
-    .projects-container .projects-title {
-      font-family: "Poppins", sans-serif;
-      font-size: 40px;
-      display: flex;
-      align-items: center;
-      margin-bottom: 40px; }
-    .projects-container .app-img img {
-      width: 90%;
-      height: 210px;
-      margin: 10px;
-      border-radius: 5px;
-      display: flex;
-      margin: 0px auto; }
-    .projects-container .app-title {
-      margin-top: 30px;
-      margin-bottom: 30px;
-      display: flex;
-      justify-content: center;
-      text-align: center; }
-    .projects-container .btn-repositorio, .projects-container .btn-repositorio-left {
-      color: #07fad3;
-      border: 1px solid #07fad3;
-      background: #04101b;
-      padding: 10px;
-      margin-top: 20px;
-      margin-bottom: 30px;
-      border-radius: 10px;
-      cursor: pointer;
-      transition: all ease 0.5;
-      width: 90%;
-      font-family: 'Azeret Mono', monospace;
-      letter-spacing: 3px;
-      transition: all ease .3s; }
-    .projects-container .btn-repositorio:hover, .projects-container .btn-repositorio-left:hover {
-      box-shadow: 0px 0px 10px 2px #07fad3; }
-    .projects-container .app-text h3::first-letter {
-      font-size: 25px;
-      margin-top: 15px;
-      color: #07fad3; }
-    .projects-container .app-text h3 b {
-      color: #07fad3; }
-    .projects-container .align-right {
-      display: flex;
+    .projects-container .project-normal-pos .project-information {
       flex-direction: column;
-      align-items: center;
-      justify-content: center; }
-    .projects-container .individual-container {
-      margin: 20px 0px;
-      border-radius: 10px;
-      width: 100%;
-      padding: 5px; }
-    .projects-container .text-right, .projects-container .text-left {
-      margin: 20px; }
-    .projects-container .respositorio-link {
-      display: flex;
       justify-content: center;
-      align-items: center; } }
+      align-items: end;
+      margin-left: -150px; }
+      .projects-container .project-normal-pos .project-information .developed-text {
+        color: #07fad3;
+        text-align: end; }
+      .projects-container .project-normal-pos .project-information h1 {
+        text-align: end; }
+      .projects-container .project-normal-pos .project-information .project-description {
+        box-shadow: 0px 0px 3px 1px #000;
+        padding: 10px;
+        width: 700px; }
+      .projects-container .project-normal-pos .project-information .tecnologies {
+        justify-content: end;
+        flex-wrap: wrap; }
+        .projects-container .project-normal-pos .project-information .tecnologies h5 {
+          padding: 3px 5px;
+          gap: 10px; }
+  .projects-container .project-reversed-pos {
+    width: 90%;
+    flex-direction: row-reverse; }
+    .projects-container .project-reversed-pos .project-image img {
+      height: 300px;
+      border-radius: 5px; }
+    .projects-container .project-reversed-pos .project-information {
+      flex-direction: column;
+      justify-content: center;
+      align-items: start;
+      margin-right: -150px; }
+      .projects-container .project-reversed-pos .project-information .developed-text {
+        color: #07fad3;
+        text-align: start; }
+      .projects-container .project-reversed-pos .project-information h1 {
+        text-align: start; }
+      .projects-container .project-reversed-pos .project-information .project-description {
+        box-shadow: 0px 0px 3px 1px #000;
+        padding: 10px;
+        width: 700px; }
+      .projects-container .project-reversed-pos .project-information .tecnologies {
+        justify-content: start;
+        flex-wrap: wrap; }
+        .projects-container .project-reversed-pos .project-information .tecnologies h5 {
+          padding: 3px 5px;
+          gap: 10px; } }
 
 /*# sourceMappingURL=Projects.css.map */

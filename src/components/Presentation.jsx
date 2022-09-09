@@ -8,7 +8,7 @@ function Presentation() {
             <h4 className='saludo'>Hola, mi nombre es</h4>
             <h1 className='big-font-presentation'>Facundo Sánchez.</h1>
             <h2 className='gradient-name big-font-presentation'>Frontend Developer.</h2>
-            <h3 className='presentation-text'>Soy un Frontend developer de Argentina. Si hay algo que me gusta en esta vida
+            <h3 className='presentation-text'>Soy un Frontend developer de Argentina. Si hay algo que me apasiona
                 es desarrollar interfaces de usuario.
                 Actualmente me encuentro en búsqueda de mi primer experiencia IT y estoy preparado y super 
                 motivado por conseguirlo.
