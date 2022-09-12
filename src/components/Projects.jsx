@@ -24,7 +24,7 @@ function Projects() {
                     <h1>Ecommerce de accesorios</h1>
 
                     <h3 className='project-description'>Desarrollo de un ecommerce para un emprendimiento. Cuenta con todas las
-                    funcionalidades de un ecommerce.</h3>
+                    funcionalidades de una tienda online típica.</h3>
                     
                     <div className="tecnologies">
                         <h5>React</h5>
@@ -33,7 +33,6 @@ function Projects() {
                         <h5>Node</h5>
                         <h5>Sequelize</h5>
                         <h5>PostgreSQL</h5>
-                        <h5>API</h5>
                     </div>
                     <div className="repository-btn">
                         <a href="https://github.com/sanchezzfacu/mys-accesorios" target='_blank' rel='noreferrer'>
@@ -52,8 +51,7 @@ function Projects() {
                     
                     <h1>Proyecto Final Carrera | Ecommerce</h1>
 
-                    <h3 className='project-description'>Desarrollo de un ecommerce para un emprendimiento. Cuenta con todas las
-                    funcionalidades de un ecommerce.</h3>
+                    <h3 className='project-description'>Desarrollo de un ecommerce con un grupo de 6 personas usando metodología ágil (scrum).</h3>
                     
                     <div className="tecnologies">
                         <h5>React</h5>
@@ -107,8 +105,8 @@ function Projects() {
                     
                     <h1>Breaking Bad App</h1>
 
-                    <h3 className='project-description'>Desarrollo de una SPA de los personajes de Breaking Bad. Se hace uso de la 
-                    API donde se le agregan funcionalidades extras tales como filtrado y búsqueda</h3>
+                    <h3 className='project-description'>SPA de los personajes de Breaking Bad. Se hace uso de una
+                    API donde se le agregan funcionalidades como filtrado y búsqueda.</h3>
                     
                     <div className="tecnologies">
                         <h5>React</h5>
@@ -136,8 +134,7 @@ function Projects() {
                     <h1>Sitio Web de Recetas</h1>
 
                     <h3 className='project-description'>Desarrollo de una SPA que consume la API de spoonacular, a la cual se le
-                    agregaron funcionalidades extra tales como filtrado, ordenado por puntaje, entre otros. Cuenta con un formulario 
-                    controlado que nos permite publicar nuevas recetas.</h3>
+                    agregaron funcionalidades extras.</h3>
                     
                     <div className="tecnologies">
                         <h5>React</h5>
