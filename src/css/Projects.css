@@ -84,6 +84,7 @@
       .projects-container .project-normal-pos .project-information .tecnologies {
         justify-content: end;
         flex-wrap: wrap;
+        gap: 2px;
         width: 90%; }
         .projects-container .project-normal-pos .project-information .tecnologies h5 {
           padding: 2px 4px;
