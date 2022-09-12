@@ -67,13 +67,10 @@
       justify-content: center;
       align-items: end; }
       .projects-container .project-normal-pos .project-information .developed-text {
-        font-size: 0.9em;
-        color: #07fad3;
-        text-align: end;
-        text-shadow: 0px 0px 3px #000; }
+        display: none; }
       .projects-container .project-normal-pos .project-information h1 {
         text-shadow: 0px 0px 3px #000;
-        font-size: 1.2em;
+        font-size: 1.3em;
         text-align: end; }
       .projects-container .project-normal-pos .project-information .project-description {
         box-shadow: 0px 0px 3px 1px #000;
@@ -119,12 +116,9 @@
       justify-content: center;
       align-items: start; }
       .projects-container .project-reversed-pos .project-information .developed-text {
-        font-size: 0.9em;
-        color: #07fad3;
-        text-align: start;
-        text-shadow: 0px 0px 3px #000; }
+        display: none; }
       .projects-container .project-reversed-pos .project-information h1 {
-        font-size: 1.2em;
+        font-size: 1.3em;
         text-align: start;
         text-shadow: 0px 0px 3px #000; }
       .projects-container .project-reversed-pos .project-information .project-description {
