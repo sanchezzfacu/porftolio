@@ -16,8 +16,8 @@
         padding-left: 10px;
         font-family: sans-serif;
         outline: none;
-        border-top-left-radius: 2px;
-        border-top-right-radius: 2px;
+        border-top-left-radius: 3px;
+        border-top-right-radius: 3px;
         font-weight: 600; }
       .form-container .form-section form textarea {
         color: #fff;
@@ -29,8 +29,8 @@
         padding-top: 5px;
         font-family: sans-serif;
         outline: none;
-        border-top-left-radius: 2px;
-        border-top-right-radius: 2px;
+        border-top-left-radius: 3px;
+        border-top-right-radius: 3px;
         font-weight: 600; }
       .form-container .form-section form input::placeholder, .form-container .form-section form textarea::placeholder {
         color: #fff; }
@@ -53,6 +53,38 @@
       .form-container .form-section .contact-info-container .btn-item a {
         text-decoration: none; }
 
+@media screen and (min-width: 300px) and (max-width: 1279px) {
+  .form-container h1 {
+    display: none; }
+  .form-container .form-section {
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column; }
+    .form-container .form-section form {
+      gap: 15px;
+      width: 90%; }
+      .form-container .form-section form input {
+        font-size: 0.8em; }
+      .form-container .form-section form textarea {
+        font-size: 0.8em; }
+      .form-container .form-section form button {
+        font-size: 1em;
+        font-weight: 600; }
+    .form-container .form-section .contact-info-container {
+      display: flex; }
+      .form-container .form-section .contact-info-container .btn-item {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin: 10px 0; }
+        .form-container .form-section .contact-info-container .btn-item button a {
+          color: #fff; }
+        .form-container .form-section .contact-info-container .btn-item a {
+          color: #fff; }
+          .form-container .form-section .contact-info-container .btn-item a h3 {
+            font-size: 1.5em; } }
 @media screen and (min-width: 1280px) and (max-width: 1700px) {
   .form-container h1 {
     display: none; }
