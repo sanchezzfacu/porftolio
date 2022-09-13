@@ -78,7 +78,7 @@ function Projects() {
                 <div className='project-information'>
                     <h3 className='developed-text'>Proyecto desarrollado</h3>
                     
-                    <h1>Landing Page Empresa de Traslados</h1>
+                    <h1>Landing Page | Empresa de Traslados</h1>
 
                     <h3 className='project-description'>Desarrollo freelance de una landing page para empresa dedicada al traslado
                      de pasajeros.</h3>
@@ -146,7 +146,7 @@ function Projects() {
                         <h5>API</h5>
                     </div>
                     <div className="repository-btn">
-                        <a href="https://github.com/sanchezzfacu/mys-accesorios" target='_blank' rel='noreferrer'>
+                        <a href="https://github.com/sanchezzfacu/Proyecto-individual-Foods" target='_blank' rel='noreferrer'>
                             <img src={github} alt=""/>
                         </a>
                     </div>
@@ -160,7 +160,7 @@ function Projects() {
                 <div className='project-information'>
                     <h3 className='developed-text'>Proyecto desarrollado</h3>
                     
-                    <h1>Weather App</h1>
+                    <h1>Aplicación del clima</h1>
 
                     <h3 className='project-description'>Aplicacion que consume una api del clima, donde se puede consultar
                     el clima de cualquier ciudad.</h3>
@@ -172,7 +172,7 @@ function Projects() {
                         <h5>API</h5>
                     </div>
                     <div className="repository-btn">
-                        <a href="https://github.com/sanchezzfacu/Breaking-Bad-App" target='_blank' rel='noreferrer'>
+                        <a href="https://github.com/sanchezzfacu/weather-VanillaJs" target='_blank' rel='noreferrer'>
                             <img src={github} alt=""/>
                         </a>
                     </div>
@@ -197,7 +197,7 @@ function Projects() {
                         <h5>CSS</h5>
                     </div>
                     <div className="repository-btn">
-                        <a href="https://github.com/sanchezzfacu/mys-accesorios" target='_blank' rel='noreferrer'>
+                        <a href="https://github.com/sanchezzfacu/calculadora-vanillaJS" target='_blank' rel='noreferrer'>
                             <img src={github} alt=""/>
                         </a>
                     </div>
@@ -223,7 +223,7 @@ function Projects() {
                         <h5>API</h5>
                     </div>
                     <div className="repository-btn">
-                        <a href="https://github.com/sanchezzfacu/Breaking-Bad-App" target='_blank' rel='noreferrer'>
+                        <a href="https://github.com/sanchezzfacu/movies-app" target='_blank' rel='noreferrer'>
                             <img src={github} alt=""/>
                         </a>
                     </div>

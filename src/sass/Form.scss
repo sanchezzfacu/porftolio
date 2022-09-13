@@ -1,267 +1,124 @@
 @import 'colours';
 @import 'fonts';
 
-@media screen and (min-width:1px) and (max-width: 520px) {
-    .form-container {
+.form-container {
+    width: 100%;
+    h1 {
+        display: none;
+    }
+    .form-section {
         display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        margin: 10px;
-        h1 {
-            margin-top: 60px;
-            margin-bottom: 30px;
-            font-family: $bigfont;
-            font-size: 40px;
-            display: flex;
-            align-items: center;
-        }
         form {
-            border: 1px solid $lightblue;
-            border-radius: 10px;
-            width: 100%;
-            padding-top: 30px;
-            input {
-                height: 35px;
-                width: 90%;
-                border-radius: 5px;
-                border: 1px solid #000;
-                outline: none;
-                margin: 20px;
-                padding-left: 15px;
-            }
-            textarea{
-                height: 80px;
-                border-radius: 5px;
-                width: 90%;
-                padding-left: 10px;
-                font-family: arial;
-                outline: none;
-                padding-top: 5px;
-                margin: 20px;
-            }
-            .button {
-              display: flex;
-              justify-content: center;
-              align-items: center;
-              background: $backgroundcolor;
-              color: $lightblue;
-              border: 1px solid $lightblue;
-              padding: 10px;
-              border-radius: 10px;
-              margin: 30px auto;
-              cursor: pointer;
-              transition: all ease 0.5s;
-              font-family: 'Azeret Mono', monospace;
-              letter-spacing: 5px;
-              width: 90%;
-            }
-        }
-        .btn-redes-form{
             display: flex;
-            align-items: center;
-            justify-content: center;
-            margin-bottom: 20px;
-            button {
-                padding: 0px;
-                margin: 20px 30px;
-                margin-bottom: 5px;
-                background: $backgroundcolor;
-                border: none;
-            }   
-        }
-        .linkedin-button-form, .github-button-form {
-            padding-bottom: 200px;
-        }
-        .btn-item {
-            display: flex;
-            align-items: center;
             flex-direction: column;
-            justify-content: center;
-        }
-        .btn-item a {
-            color: #fff;
-        }
-    }
-}   
+            input {
+                color: #fff;
+                background: $backgroundcolor-lighter;
+                border: none;
+                border-bottom: 2px solid $lightblue;
+                height: 35px ;
+                padding-left: 10px;
+                font-family: sans-serif;
+                outline: none;
+                border-top-left-radius: 2px;
+                border-top-right-radius: 2px;
+                font-weight: 600;
+            }
+            textarea {
+                color: #fff;
+                background: $backgroundcolor-lighter;
+                border: none;
+                border-bottom: 2px solid $lightblue;
+                height: 80px ;
+                padding-left: 10px;
+                padding-top: 5px;
+                font-family: sans-serif;
+                outline: none;
+                border-top-left-radius: 2px;
+                border-top-right-radius: 2px;
+                font-weight: 600;
+            }
 
-@media screen and (min-width:520px) and (max-width: 1669px) {
-  .form-container {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-direction: column;
-      margin-bottom: 80px;
-      margin-top: 80px;
-      h1 {
-          margin-bottom: 50px;
-          font-family: $bigfont;
-          font-size: 40px;
-          display: flex;
-          align-items: center;
-      }
-      form {
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-          border: 1px solid $lightblue;
-          border-radius: 10px;
-          padding: 15px 40px;
-          margin-top: 30px;
-          input {
-              margin: 15px;
-              height: 35px;
-              width: 350px;
-              border-radius: 5px;
-              border: 1px solid #000;
-              padding-left: 10px;
-              outline: none;
-          }
-          textarea{
-              height: 80px;
-              border-radius: 5px;
-              width: 350px;
-              padding-left: 10px;
-              font-family: arial;
-              margin: 15px;
-              outline: none;
-              padding-top: 5px;
-          }
-          .button {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            background: $backgroundcolor;
-            color: $lightblue;
-            border: 1px solid $lightblue;
-            padding: 10px;
-            margin-top: 20px;
-            margin-bottom: 30px;
-            border-radius: 10px;
-            cursor: pointer;
-            transition: all ease 0.5s;
-            font-family: 'Azeret Mono', monospace;
-            letter-spacing: 5px;
-            width: 100%;
-          }
-      }
-      .btn-redes-form{
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          button {
-              margin: 10px 30px;
-              margin-bottom: 5px;
-              background: $backgroundcolor;
-              border: none;
-          }   
-      }
-      .linkedin-button-form, .github-button-form {
-        margin-bottom: 25px;
-      }
-      .btn-item {
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        justify-content: center;
+            input::placeholder, textarea::placeholder {
+                color: #fff;
+            }
+
+            button {
+                background: $buttoncolor;
+                border: none;
+                border-radius: 2px;
+                padding: 5px 10px;
+                color: #fff;
+                cursor: pointer;
+            }
+        }
+        .contact-info-container {
+            .btn-item {
+                width: fit-content;
+                padding: 5px 10px;
+                border-radius: 5px;
+                button {
+                    background: $backgroundcolor;
+                    border: none;
+                    a {
+                        text-decoration: none;
+                    }
+                }
+                a {
+                    text-decoration: none;
+                }
+            }
+        }
     }
-    .btn-item a {
-        color: #fff;
-    }
-  }
 }
 
-@media screen and (min-width:1670px) and (max-width:3000px){
+@media screen and (min-width: 1280px) and (max-width: 1700px) {
     .form-container {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        margin-bottom: 80px;
-        margin-top: 80px;
         h1 {
-            margin-bottom: 50px;
-            font-family: $bigfont;
-            font-size: 60px;
+            display: none;
+        }
+        .form-section {
+            height: 80vh;
             display: flex;
             align-items: center;
-        }
-        form {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            border: 1px solid $lightblue;
-            border-radius: 10px;
-            padding: 25px 80px;
-            margin-top: 30px;
-            input {
-                margin: 20px;
-                height:50px;
-                width: 450px;
-                border-radius: 5px;
-                border: 1px solid #000;
-                padding-left: 10px;
-                outline: none;
-                font-size: 21px;
-            }
-            textarea{
-                height: 150px;
-                border-radius: 5px;
-                width: 450px;
-                padding-left: 10px;
-                font-family: arial;
-                margin: 20px;
-                outline: none;
-                padding-top: 5px;
-                font-size: 21px;
+            justify-content: space-evenly;
+            flex-direction: row;
+            form {
+                gap: 15px;
+                width: 40%;
+                input {
+                    font-size: 0.8em;
+                }
+                textarea {
+                    font-size: 0.8em;
+                }
+                button {
+                    font-size: 1em;
+                    font-weight: 600;
+                }
+
 
             }
-            .button {
-              display: flex;
-              justify-content: center;
-              align-items: center;
-              background: $backgroundcolor;
-              color: $lightblue;
-              border: 1px solid $lightblue;
-              padding: 15px;
-              margin-top: 20px;
-              margin-bottom: 30px;
-              border-radius: 10px;
-              cursor: pointer;
-              transition: all ease 0.5s;
-              font-family: 'Azeret Mono', monospace;
-              letter-spacing: 5px;
-              width: 100%;
-              font-size: 20px
+            .contact-info-container {
+                width: 20%;
+                .btn-item {
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+                    margin: 10px 0;
+                    button {
+                        a {
+                            color: #fff;
+                        }
+                    }
+                    a {
+                        color: #fff;
+                        h3 {
+                            font-size: 1.5em;
+                        }
+                    }
+                }
             }
-            .button:hover {
-                background: $buttoncolor;
-            }    
-        }
-        .btn-redes-form{
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            height: 80px;
-            button {
-                margin: 10px 30px;
-                margin-bottom: 5px;
-                background: $backgroundcolor;
-                border: none;
-            }   
-        }
-        .linkedin-button-form, .github-button-form {
-          margin-bottom: 25px;
-        }
-        .btn-item {
-          display: flex;
-          align-items: center;
-          flex-direction: column;
-          justify-content: center;
-      }
-        .btn-item a {
-            color: #fff;
-            font-size: 20px;
         }
     }
 }

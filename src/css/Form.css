@@ -1,226 +1,89 @@
-@media screen and (min-width: 1px) and (max-width: 520px) {
-  .form-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin: 10px; }
-    .form-container h1 {
-      margin-top: 60px;
-      margin-bottom: 30px;
-      font-family: "Poppins", sans-serif;
-      font-size: 40px;
+.form-container {
+  width: 100%; }
+  .form-container h1 {
+    display: none; }
+  .form-container .form-section {
+    display: flex; }
+    .form-container .form-section form {
       display: flex;
-      align-items: center; }
-    .form-container form {
-      border: 1px solid #07fad3;
-      border-radius: 10px;
-      width: 100%;
-      padding-top: 30px; }
-      .form-container form input {
+      flex-direction: column; }
+      .form-container .form-section form input {
+        color: #fff;
+        background: #0e253b;
+        border: none;
+        border-bottom: 2px solid #07fad3;
         height: 35px;
-        width: 90%;
-        border-radius: 5px;
-        border: 1px solid #000;
+        padding-left: 10px;
+        font-family: sans-serif;
         outline: none;
-        margin: 20px;
-        padding-left: 15px; }
-      .form-container form textarea {
+        border-top-left-radius: 2px;
+        border-top-right-radius: 2px;
+        font-weight: 600; }
+      .form-container .form-section form textarea {
+        color: #fff;
+        background: #0e253b;
+        border: none;
+        border-bottom: 2px solid #07fad3;
         height: 80px;
-        border-radius: 5px;
-        width: 90%;
         padding-left: 10px;
-        font-family: arial;
-        outline: none;
         padding-top: 5px;
-        margin: 20px; }
-      .form-container form .button {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background: #04101b;
-        color: #07fad3;
-        border: 1px solid #07fad3;
-        padding: 10px;
-        border-radius: 10px;
-        margin: 30px auto;
-        cursor: pointer;
-        transition: all ease 0.5s;
-        font-family: 'Azeret Mono', monospace;
-        letter-spacing: 5px;
-        width: 90%; }
-    .form-container .btn-redes-form {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      margin-bottom: 20px; }
-      .form-container .btn-redes-form button {
-        padding: 0px;
-        margin: 20px 30px;
-        margin-bottom: 5px;
+        font-family: sans-serif;
+        outline: none;
+        border-top-left-radius: 2px;
+        border-top-right-radius: 2px;
+        font-weight: 600; }
+      .form-container .form-section form input::placeholder, .form-container .form-section form textarea::placeholder {
+        color: #fff; }
+      .form-container .form-section form button {
+        background: #07fad11d;
+        border: none;
+        border-radius: 2px;
+        padding: 5px 10px;
+        color: #fff;
+        cursor: pointer; }
+    .form-container .form-section .contact-info-container .btn-item {
+      width: fit-content;
+      padding: 5px 10px;
+      border-radius: 5px; }
+      .form-container .form-section .contact-info-container .btn-item button {
         background: #04101b;
         border: none; }
-    .form-container .linkedin-button-form, .form-container .github-button-form {
-      padding-bottom: 200px; }
-    .form-container .btn-item {
-      display: flex;
-      align-items: center;
-      flex-direction: column;
-      justify-content: center; }
-    .form-container .btn-item a {
-      color: #fff; } }
-@media screen and (min-width: 520px) and (max-width: 1669px) {
-  .form-container {
+        .form-container .form-section .contact-info-container .btn-item button a {
+          text-decoration: none; }
+      .form-container .form-section .contact-info-container .btn-item a {
+        text-decoration: none; }
+
+@media screen and (min-width: 1280px) and (max-width: 1700px) {
+  .form-container h1 {
+    display: none; }
+  .form-container .form-section {
+    height: 80vh;
     display: flex;
-    justify-content: center;
     align-items: center;
-    flex-direction: column;
-    margin-bottom: 80px;
-    margin-top: 80px; }
-    .form-container h1 {
-      margin-bottom: 50px;
-      font-family: "Poppins", sans-serif;
-      font-size: 40px;
-      display: flex;
-      align-items: center; }
-    .form-container form {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      border: 1px solid #07fad3;
-      border-radius: 10px;
-      padding: 15px 40px;
-      margin-top: 30px; }
-      .form-container form input {
-        margin: 15px;
-        height: 35px;
-        width: 350px;
-        border-radius: 5px;
-        border: 1px solid #000;
-        padding-left: 10px;
-        outline: none; }
-      .form-container form textarea {
-        height: 80px;
-        border-radius: 5px;
-        width: 350px;
-        padding-left: 10px;
-        font-family: arial;
-        margin: 15px;
-        outline: none;
-        padding-top: 5px; }
-      .form-container form .button {
+    justify-content: space-evenly;
+    flex-direction: row; }
+    .form-container .form-section form {
+      gap: 15px;
+      width: 40%; }
+      .form-container .form-section form input {
+        font-size: 0.8em; }
+      .form-container .form-section form textarea {
+        font-size: 0.8em; }
+      .form-container .form-section form button {
+        font-size: 1em;
+        font-weight: 600; }
+    .form-container .form-section .contact-info-container {
+      width: 20%; }
+      .form-container .form-section .contact-info-container .btn-item {
         display: flex;
-        justify-content: center;
         align-items: center;
-        background: #04101b;
-        color: #07fad3;
-        border: 1px solid #07fad3;
-        padding: 10px;
-        margin-top: 20px;
-        margin-bottom: 30px;
-        border-radius: 10px;
-        cursor: pointer;
-        transition: all ease 0.5s;
-        font-family: 'Azeret Mono', monospace;
-        letter-spacing: 5px;
-        width: 100%; }
-    .form-container .btn-redes-form {
-      display: flex;
-      align-items: center;
-      justify-content: center; }
-      .form-container .btn-redes-form button {
-        margin: 10px 30px;
-        margin-bottom: 5px;
-        background: #04101b;
-        border: none; }
-    .form-container .linkedin-button-form, .form-container .github-button-form {
-      margin-bottom: 25px; }
-    .form-container .btn-item {
-      display: flex;
-      align-items: center;
-      flex-direction: column;
-      justify-content: center; }
-    .form-container .btn-item a {
-      color: #fff; } }
-@media screen and (min-width: 1670px) and (max-width: 3000px) {
-  .form-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin-bottom: 80px;
-    margin-top: 80px; }
-    .form-container h1 {
-      margin-bottom: 50px;
-      font-family: "Poppins", sans-serif;
-      font-size: 60px;
-      display: flex;
-      align-items: center; }
-    .form-container form {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      border: 1px solid #07fad3;
-      border-radius: 10px;
-      padding: 25px 80px;
-      margin-top: 30px; }
-      .form-container form input {
-        margin: 20px;
-        height: 50px;
-        width: 450px;
-        border-radius: 5px;
-        border: 1px solid #000;
-        padding-left: 10px;
-        outline: none;
-        font-size: 21px; }
-      .form-container form textarea {
-        height: 150px;
-        border-radius: 5px;
-        width: 450px;
-        padding-left: 10px;
-        font-family: arial;
-        margin: 20px;
-        outline: none;
-        padding-top: 5px;
-        font-size: 21px; }
-      .form-container form .button {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background: #04101b;
-        color: #07fad3;
-        border: 1px solid #07fad3;
-        padding: 15px;
-        margin-top: 20px;
-        margin-bottom: 30px;
-        border-radius: 10px;
-        cursor: pointer;
-        transition: all ease 0.5s;
-        font-family: 'Azeret Mono', monospace;
-        letter-spacing: 5px;
-        width: 100%;
-        font-size: 20px; }
-      .form-container form .button:hover {
-        background: #07fad11d; }
-    .form-container .btn-redes-form {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      height: 80px; }
-      .form-container .btn-redes-form button {
-        margin: 10px 30px;
-        margin-bottom: 5px;
-        background: #04101b;
-        border: none; }
-    .form-container .linkedin-button-form, .form-container .github-button-form {
-      margin-bottom: 25px; }
-    .form-container .btn-item {
-      display: flex;
-      align-items: center;
-      flex-direction: column;
-      justify-content: center; }
-    .form-container .btn-item a {
-      color: #fff;
-      font-size: 20px; } }
+        gap: 10px;
+        margin: 10px 0; }
+        .form-container .form-section .contact-info-container .btn-item button a {
+          color: #fff; }
+        .form-container .form-section .contact-info-container .btn-item a {
+          color: #fff; }
+          .form-container .form-section .contact-info-container .btn-item a h3 {
+            font-size: 1.5em; } }
 
 /*# sourceMappingURL=Form.css.map */
