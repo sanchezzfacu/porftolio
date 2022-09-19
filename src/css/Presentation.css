@@ -1,202 +1,114 @@
-@media screen and (min-width: 816px) and (max-width: 978px) {
-  .presentation-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: start;
-    margin-top: 200px;
-    margin-left: 70px;
-    margin-bottom: 180px; }
-    .presentation-container .gradient-name {
-      background: linear-gradient(90deg, #07fad3, #3a77fe);
-      -webkit-text-fill-color: transparent;
-      -webkit-background-clip: text;
-      background-clip: text; }
-    .presentation-container .big-font-presentation {
-      font-size: 60px;
-      font-family: "Poppins", sans-serif;
-      display: flex;
-      flex-wrap: wrap; }
-    .presentation-container .saludo {
-      color: #07fad3; }
-    .presentation-container .presentation-text {
-      width: 80%;
-      font-size: 16px; }
-    .presentation-container button {
-      padding: 10px 30px;
-      font-size: 2em;
-      margin-top: 20px;
-      border-radius: 5px;
-      background: #04101b;
+.presentation-container::after {
+  content: '';
+  position: absolute;
+  height: 100vh;
+  width: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #00000045;
+  backdrop-filter: blur(12px);
+  z-index: -1;
+  overflow: hidden; }
+
+.presentation-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .presentation-container .presentation-content .greeting {
+    color: #07fad3; }
+  .presentation-container .presentation-content .big-font-name {
+    font-family: "Poppins", sans-serif; }
+  .presentation-container .presentation-content .gradient-text {
+    background: linear-gradient(90deg, #07fad3 0%, #3a77fe 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-family: "Poppins", sans-serif; }
+  .presentation-container a {
+    text-decoration: none; }
+    .presentation-container a button {
+      background-color: #04101b;
       border: 1px solid #07fad3;
       color: #07fad3;
-      cursor: pointer;
-      transition: all ease 0.3s;
-      letter-spacing: 2px; }
-    .presentation-container button:hover {
-      background: #07fad11d; } }
-@media screen and (min-width: 560px) and (max-width: 815px) {
-  .presentation-container {
-    width: 100%;
-    display: flex;
-    margin: 150px 0px;
-    flex-direction: column;
-    justify-content: center;
-    text-align: start; }
-    .presentation-container .gradient-name {
-      background: linear-gradient(90deg, #07fad3, #3a77fe);
-      -webkit-text-fill-color: transparent;
-      -webkit-background-clip: text;
-      background-clip: text; }
-    .presentation-container .big-font-presentation {
-      font-size: 56px;
-      font-family: "Poppins", sans-serif;
-      display: flex;
-      flex-wrap: wrap;
-      margin: 0px 30px; }
-    .presentation-container .saludo {
-      color: #07fad3;
-      margin: 15px 30px; }
-    .presentation-container .presentation-text {
-      width: 90%;
-      margin: 15px 30px;
-      font-size: 16px; }
-    .presentation-container button {
-      padding: 10px 30px;
-      font-size: 2em;
-      margin-top: 20px;
-      margin-left: 30px;
-      background: #04101b;
-      border: 1px solid #07fad3;
-      transition: all ease 0.3s;
-      color: #07fad3;
+      font-weight: 600;
+      padding: 10px 25px;
       border-radius: 5px;
       cursor: pointer;
-      transition: all ease 0.3s;
+      transition: all ease 0.4s;
       letter-spacing: 2px; }
-    .presentation-container button:hover {
-      background: #07fad11d; } }
-@media screen and (min-width: 1px) and (max-width: 560px) {
+    .presentation-container a button:hover {
+      background-color: #07fad11d; }
+
+@media screen and (min-width: 300px) and (max-width: 479px) {
   .presentation-container {
-    width: 100%;
-    display: flex;
-    margin-top: 150px;
-    margin-bottom: 220px;
-    flex-direction: column;
-    justify-content: center;
-    text-align: start;
-    text-shadow: #000; }
-    .presentation-container .gradient-name {
-      background: linear-gradient(90deg, #07fad3 0%, #3a77fe 100%);
-      -webkit-text-fill-color: transparent;
-      -webkit-background-clip: text;
-      background-clip: text; }
-    .presentation-container .big-font-presentation {
-      font-size: 40px;
-      font-family: "Poppins", sans-serif;
-      display: flex;
-      flex-wrap: wrap;
-      margin: 0px 15px; }
-    .presentation-container .saludo {
-      color: #07fad3;
-      margin: 15px; }
-    .presentation-container .presentation-text {
-      width: 90%;
-      margin: 15px;
-      font-size: 16px; }
-    .presentation-container button {
-      padding: 10px 30px;
-      font-size: 1.5em;
-      margin-top: 20px;
-      margin-left: 15px;
-      background: #04101b;
-      border: 1px solid #07fad3;
-      transition: all ease 0.3s;
-      color: #07fad3;
-      border-radius: 5px;
-      cursor: pointer;
-      transition: all ease 0.3s;
-      letter-spacing: 2px; }
-    .presentation-container button:hover {
-      background: #07fad11d; } }
-@media screen and (min-width: 979px) and (max-width: 1600px) {
+    width: 100vw; }
+    .presentation-container .presentation-content {
+      width: 95%; }
+      .presentation-container .presentation-content .greeting {
+        font-size: 13px; }
+      .presentation-container .presentation-content .big-font-name {
+        font-size: 40px; }
+      .presentation-container .presentation-content .gradient-text {
+        font-size: 40px; }
+      .presentation-container .presentation-content .presentation-text p {
+        font-size: .8em;
+        margin: 5px 0; }
+      .presentation-container .presentation-content a button {
+        margin-top: 10px;
+        font-size: 1.2em; } }
+@media screen and (min-width: 480px) and (max-width: 719px) {
   .presentation-container {
-    width: 900px;
-    display: flex;
-    flex-direction: column;
-    height: calc(100vh - 190px);
-    margin-top: 190px;
-    text-align: start;
-    margin-left: auto;
-    margin-right: auto; }
-    .presentation-container .gradient-name {
-      background: linear-gradient(90deg, #07fad3 0%, #3a77fe 100%);
-      -webkit-text-fill-color: transparent;
-      -webkit-background-clip: text;
-      background-clip: text; }
-    .presentation-container .big-font-presentation {
-      font-size: 70px;
-      font-family: "Poppins", sans-serif;
-      display: flex;
-      flex-wrap: wrap; }
-    .presentation-container .saludo {
-      color: #07fad3; }
-    .presentation-container .presentation-text {
-      width: 800px;
-      font-size: 18px; }
-    .presentation-container button {
-      padding: 10px 30px;
-      font-size: 2em;
-      background: #04101b;
-      border: 1px solid #07fad3;
-      transition: all ease 0.3s;
-      color: #07fad3;
-      margin-top: 20px;
-      border-radius: 5px;
-      cursor: pointer;
-      letter-spacing: 2px; }
-    .presentation-container button:hover {
-      background: #07fad11d; } }
-@media screen and (min-width: 1601px) and (max-width: 3000px) {
+    width: 95vw; }
+    .presentation-container .presentation-content {
+      width: 95%; }
+      .presentation-container .presentation-content .greeting {
+        font-size: 13px; }
+      .presentation-container .presentation-content .big-font-name {
+        font-size: 40px; }
+      .presentation-container .presentation-content .gradient-text {
+        font-size: 40px; }
+      .presentation-container .presentation-content .presentation-text p {
+        font-size: .9em;
+        margin: 5px 0; }
+      .presentation-container .presentation-content a button {
+        margin-top: 10px;
+        font-size: 1.2em; } }
+@media screen and (min-width: 720px) and (max-width: 1279px) {
   .presentation-container {
-    width: 1400px;
-    display: flex;
-    flex-direction: column;
-    height: calc(80vh - 20px);
-    justify-content: center;
-    text-align: start;
-    margin-top: 100px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 120px; }
-    .presentation-container .gradient-name {
-      background: linear-gradient(90deg, #07fad3, #3a77fe);
-      -webkit-text-fill-color: transparent;
-      -webkit-background-clip: text;
-      background-clip: text; }
-    .presentation-container .big-font-presentation {
-      font-size: 110px;
-      font-family: "Poppins", sans-serif;
-      display: flex;
-      flex-wrap: wrap; }
-    .presentation-container .saludo {
-      color: #07fad3;
-      font-size: 23px; }
-    .presentation-container .presentation-text {
-      width: 100%;
-      font-size: 23px; }
-    .presentation-container button {
-      padding: 10px 40px;
-      font-size: 3em;
-      margin-top: 30px;
-      border-radius: 5px;
-      background: #04101b;
-      border: 1px solid #07fad3;
-      transition: all ease 0.3s;
-      color: #07fad3;
-      cursor: pointer;
-      letter-spacing: 2px; }
-    .presentation-container button:hover {
-      background: #07fad11d; } }
+    width: 95vw; }
+    .presentation-container .presentation-content {
+      width: 80%; }
+      .presentation-container .presentation-content .greeting {
+        font-size: 15px; }
+      .presentation-container .presentation-content .big-font-name {
+        font-size: 50px; }
+      .presentation-container .presentation-content .gradient-text {
+        font-size: 50px; }
+      .presentation-container .presentation-content .presentation-text p {
+        font-size: .9em;
+        margin: 5px 0; }
+      .presentation-container .presentation-content a button {
+        margin-top: 10px;
+        font-size: 1.2em; } }
+@media screen and (min-width: 1280px) and (max-width: 1700px) {
+  .presentation-container {
+    width: 95vw; }
+    .presentation-container .presentation-content {
+      width: 65%; }
+      .presentation-container .presentation-content .greeting {
+        font-size: 16px; }
+      .presentation-container .presentation-content .big-font-name {
+        font-size: 70px; }
+      .presentation-container .presentation-content .gradient-text {
+        font-size: 70px; }
+      .presentation-container .presentation-content .presentation-text p {
+        margin: 5px 0; }
+      .presentation-container .presentation-content a button {
+        margin-top: 10px;
+        font-size: 1.8em; } }
 
 /*# sourceMappingURL=Presentation.css.map */

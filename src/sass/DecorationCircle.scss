@@ -1,179 +1,7 @@
 @import 'colours';
 
-.circle-decoration-container {
-    overflow: hidden;
-}
 
-@media screen and (max-width:1750px) and (min-width:892px) {
-    .first-circle-decoration {
-        height: 200px;
-        width: 200px;
-        background: $lightblue;
-        border-radius: 50%;
-        position: absolute;
-        bottom: -10%;
-        right: 0%;
-        z-index: -50;
-    }
-    
-    .first-circle-decoration:hover {
-        height: 250px;
-        width: 250px;
-        background: $lightblue;
-        border-radius: 50%;
-        position: absolute;
-        bottom: -10%;
-        right: 0%;
-        z-index: -50;
-    }
-    
-    .second-circle-decoration {
-        height: 150px;
-        width: 150px;
-        background: $blue;
-        border-radius: 50%;
-        position: absolute;
-        bottom: 20%;
-        right: 10%;
-        z-index: -50;
-    }
-    
-    .third-circle-decoration {
-        height: 100px;
-        width: 100px;
-        background: $lightblue;
-        border-radius: 50%;
-        position: absolute;
-        bottom: 30%;
-        right: 0%;
-        z-index: -50;
-    }
-    
-    .fourth-circle-decoration {
-        height: 80px;
-        width: 80px;
-        background: $blue;
-        border-radius: 50%;
-        position: absolute;
-        bottom: 50%;
-        right: 10%;
-        z-index: -50;
-    }
-    
-    .sixth-circle-decoration {
-        height: 130px;
-        width: 130px;
-        background: $blue;
-        border-radius: 50%;
-        position: absolute;
-        right: 20%;;
-        top: 10%;
-        z-index: -50;
-    }
-    
-    .seventh-circle-decoration {
-        height: 150px;
-        width: 150px;
-        background: $lightblue;
-        border-radius: 50%;
-        position: absolute;
-        top: 0%;
-        right: 0%;
-        z-index: -50;
-    }
-    
-    .eighth-circle-decoration {
-        height: 80px;
-        width: 80px;
-        background: $lightblue;
-        border-radius: 50%;
-        position: absolute;
-        top: 30%;
-        right: 3%;
-        z-index: -50;
-    }
-}
-
-@media screen and (max-width:891px) and (min-width:561px) {
-    .first-circle-decoration {
-        height: 150px;
-        width: 150px;
-        background: $lightblue;
-        border-radius: 50%;
-        position: absolute;
-        bottom: -10%;
-        right: 0%;
-        z-index: -50;
-    }
-    
-    .second-circle-decoration {
-        height: 150px;
-        width: 150px;
-        background: $blue;
-        border-radius: 50%;
-        position: absolute;
-        bottom: 20%;
-        right: 10%;
-        z-index: -50;
-    }
-    
-    .third-circle-decoration {
-        height: 100px;
-        width: 100px;
-        background: $lightblue;
-        border-radius: 50%;
-        position: absolute;
-        bottom: 30%;
-        right: 0%;
-        z-index: -50;
-    }
-    
-    .fourth-circle-decoration {
-        height: 80px;
-        width: 80px;
-        background: $blue;
-        border-radius: 50%;
-        position: absolute;
-        bottom: 50%;
-        right: 10%;
-        z-index: -50;
-    }
-    
-    .sixth-circle-decoration {
-        height: 130px;
-        width: 130px;
-        background: $blue;
-        border-radius: 50%;
-        position: absolute;
-        right: 20%;;
-        top: 10%;
-        z-index: -50;
-    }
-    
-    .seventh-circle-decoration {
-        height: 150px;
-        width: 150px;
-        background: $lightblue;
-        border-radius: 50%;
-        position: absolute;
-        top: 0%;
-        right: 0%;
-        z-index: -50;
-    }
-    
-    .eighth-circle-decoration {
-        height: 80px;
-        width: 80px;
-        background: $lightblue;
-        border-radius: 50%;
-        position: absolute;
-        top: 30%;
-        right: 3%;
-        z-index: -50;
-    }
-}
-
-@media screen and (min-width:1px) and (max-width: 560px) {
+@media screen and (min-width:300px) and (max-width: 560px) {
     .first-circle-decoration {
         height: 150px;
         width: 150px;
@@ -240,6 +68,164 @@
         top: 30%;
         right: 3%;
         z-index: -50
+    }
+}
+
+@media screen and (min-width:561px) and (max-width:891px)  {
+    .first-circle-decoration {
+        height: 150px;
+        width: 150px;
+        background: $lightblue;
+        border-radius: 50%;
+        position: absolute;
+        bottom: -10%;
+        right: 0%;
+        z-index: -50;
+    }
+    
+    .second-circle-decoration {
+        height: 150px;
+        width: 150px;
+        background: $blue;
+        border-radius: 50%;
+        position: absolute;
+        bottom: 20%;
+        right: 10%;
+        z-index: -50;
+    }
+    
+    .third-circle-decoration {
+        height: 100px;
+        width: 100px;
+        background: $lightblue;
+        border-radius: 50%;
+        position: absolute;
+        bottom: 30%;
+        right: 0%;
+        z-index: -50;
+    }
+    
+    .fourth-circle-decoration {
+        height: 80px;
+        width: 80px;
+        background: $blue;
+        border-radius: 50%;
+        position: absolute;
+        bottom: 50%;
+        right: 10%;
+        z-index: -50;
+    }
+    
+    .sixth-circle-decoration {
+        height: 130px;
+        width: 130px;
+        background: $blue;
+        border-radius: 50%;
+        position: absolute;
+        right: 20%;;
+        top: 10%;
+        z-index: -50;
+    }
+    
+    .seventh-circle-decoration {
+        height: 150px;
+        width: 150px;
+        background: $lightblue;
+        border-radius: 50%;
+        position: absolute;
+        top: 0%;
+        right: 0%;
+        z-index: -50;
+    }
+    
+    .eighth-circle-decoration {
+        height: 80px;
+        width: 80px;
+        background: $lightblue;
+        border-radius: 50%;
+        position: absolute;
+        top: 30%;
+        right: 3%;
+        z-index: -50;
+    }
+}
+
+@media screen and (min-width:892px) and (max-width:1750px){
+    .first-circle-decoration {
+        height: 200px;
+        width: 200px;
+        background: $lightblue;
+        border-radius: 50%;
+        position: absolute;
+        bottom: 0px;
+        right: 0%;
+        z-index: -50;
+    }
+    
+    .second-circle-decoration {
+        height: 150px;
+        width: 150px;
+        background: $blue;
+        border-radius: 50%;
+        position: absolute;
+        bottom: 25%;
+        right: 10%;
+        z-index: -50;
+    }
+    
+    .third-circle-decoration {
+        height: 100px;
+        width: 100px;
+        background: $lightblue;
+        border-radius: 50%;
+        position: absolute;
+        bottom: 30%;
+        right: 0%;
+        z-index: -50;
+    }
+    
+    .fourth-circle-decoration {
+        height: 80px;
+        width: 80px;
+        background: $lightblue;
+        border-radius: 50%;
+        position: absolute;
+        bottom: 50%;
+        right: 10%;
+        z-index: -50;
+    }
+    
+    .sixth-circle-decoration {
+        height: 130px;
+        width: 130px;
+        background: $blue;
+        border-radius: 50%;
+        position: absolute;
+        right: 20%;
+        top: 10%;
+        z-index: -50;
+    }
+    
+    .seventh-circle-decoration {
+        height: 150px;
+        width: 150px;
+        background: $lightblue;
+        border-radius: 50%;
+        position: absolute;
+        top: 0%;
+        right: 0%;
+        z-index: -50;
+    }
+    
+    .eighth-circle-decoration {
+        height: 80px;
+        width: 80px;
+        background: $blue;
+        border-radius: 50%;
+        position: absolute;
+        top: 30%;
+        right: 3%;
+        z-index: -50;
     }
 }
 
