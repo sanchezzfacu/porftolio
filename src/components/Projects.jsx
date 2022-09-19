@@ -78,7 +78,7 @@ function Projects() {
                 <div className='project-information'>
                     <h3 className='developed-text'>Proyecto desarrollado</h3>
                     
-                    <h1>Landing Page | Empresa de Traslados</h1>
+                    <h1>Freelance | Empresa de Traslados</h1>
 
                     <h3 className='project-description'>Desarrollo freelance de una landing page para empresa dedicada al traslado
                      de pasajeros.</h3>

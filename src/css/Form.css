@@ -85,7 +85,7 @@
           color: #fff; }
           .form-container .form-section .contact-info-container .btn-item a h3 {
             font-size: 1.5em; } }
-@media screen and (min-width: 1280px) and (max-width: 1700px) {
+@media screen and (min-width: 1280px) and (max-width: 1699px) {
   .form-container h1 {
     display: none; }
   .form-container .form-section {
@@ -103,6 +103,40 @@
         font-size: 0.8em; }
       .form-container .form-section form button {
         font-size: 1em;
+        font-weight: 600; }
+    .form-container .form-section .contact-info-container {
+      width: 20%; }
+      .form-container .form-section .contact-info-container .btn-item {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin: 10px 0; }
+        .form-container .form-section .contact-info-container .btn-item button a {
+          color: #fff; }
+        .form-container .form-section .contact-info-container .btn-item a {
+          color: #fff; }
+          .form-container .form-section .contact-info-container .btn-item a h3 {
+            font-size: 1.5em; } }
+@media screen and (min-width: 1700px) and (max-width: 2800px) {
+  .form-container h1 {
+    display: none; }
+  .form-container .form-section {
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row; }
+    .form-container .form-section form {
+      gap: 15px;
+      width: 40%; }
+      .form-container .form-section form input {
+        height: 40px;
+        font-size: 1em; }
+      .form-container .form-section form textarea {
+        height: 100px;
+        font-size: 1em; }
+      .form-container .form-section form button {
+        font-size: 1.2em;
         font-weight: 600; }
     .form-container .form-section .contact-info-container {
       width: 20%; }

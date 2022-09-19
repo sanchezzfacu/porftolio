@@ -290,5 +290,72 @@
         .projects-container .project-reversed-pos .project-information .tecnologies h5 {
           padding: 3px 5px;
           gap: 10px; } }
+@media screen and (min-width: 1701px) and (max-width: 2800px) {
+  .projects-title {
+    font-family: "Poppins", sans-serif;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+    margin-top: 80px; }
+
+  .projects-container .project-normal-pos {
+    width: 90%;
+    flex-direction: row; }
+    .projects-container .project-normal-pos .project-image img {
+      height: 500px;
+      border-radius: 5px; }
+    .projects-container .project-normal-pos .project-information {
+      flex-direction: column;
+      justify-content: center;
+      align-items: end;
+      margin-left: -150px; }
+      .projects-container .project-normal-pos .project-information .developed-text {
+        color: #07fad3;
+        text-align: end; }
+      .projects-container .project-normal-pos .project-information h1 {
+        font-size: 2.4em;
+        text-align: end; }
+      .projects-container .project-normal-pos .project-information .project-description {
+        font-size: 1.1em;
+        box-shadow: 0px 0px 3px 1px #000;
+        padding: 10px;
+        width: 700px; }
+      .projects-container .project-normal-pos .project-information .tecnologies {
+        justify-content: end;
+        flex-wrap: wrap; }
+        .projects-container .project-normal-pos .project-information .tecnologies h5 {
+          font-size: 1.025em;
+          padding: 3px 5px;
+          gap: 10px; }
+  .projects-container .project-reversed-pos {
+    width: 90%;
+    flex-direction: row-reverse; }
+    .projects-container .project-reversed-pos .project-image img {
+      height: 500px;
+      border-radius: 5px; }
+    .projects-container .project-reversed-pos .project-information {
+      flex-direction: column;
+      justify-content: center;
+      align-items: start;
+      margin-right: -150px; }
+      .projects-container .project-reversed-pos .project-information .developed-text {
+        color: #07fad3;
+        text-align: start; }
+      .projects-container .project-reversed-pos .project-information h1 {
+        font-size: 2.4em;
+        text-align: start; }
+      .projects-container .project-reversed-pos .project-information .project-description {
+        font-size: 1.1em;
+        box-shadow: 0px 0px 3px 1px #000;
+        padding: 10px;
+        width: 700px; }
+      .projects-container .project-reversed-pos .project-information .tecnologies {
+        justify-content: start;
+        flex-wrap: wrap; }
+        .projects-container .project-reversed-pos .project-information .tecnologies h5 {
+          font-size: 1.025em;
+          padding: 3px 5px;
+          gap: 10px; } }
 
 /*# sourceMappingURL=Projects.css.map */

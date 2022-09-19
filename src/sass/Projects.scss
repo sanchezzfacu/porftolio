@@ -390,3 +390,95 @@
         }
     }
 }
+
+@media screen and (min-width: 1701px) and (max-width:2800px) {
+    .projects-title {
+        font-family: "Poppins", sans-serif;
+        font-size: 40px;
+        display: flex;
+        align-items: center;
+        margin-bottom: 40px;
+        margin-top: 80px;
+    }
+
+    .projects-container {
+        .project-normal-pos {
+            width: 90%;
+            flex-direction: row;
+            .project-image img {
+                height: 500px;
+                border-radius: 5px;
+            }
+
+            .project-information {
+                flex-direction: column;
+                justify-content: center;
+                align-items: end;
+                margin-left: -150px;
+                .developed-text {
+                    color: $lightblue;
+                    text-align: end;
+                }
+                h1 {
+                    font-size: 2.4em;
+                    text-align: end;
+                }
+                .project-description {
+                    font-size: 1.1em;
+                    box-shadow: 0px 0px 3px 1px #000;
+                    padding: 10px;
+                    width: 700px;
+                }
+                .tecnologies {
+                    justify-content: end;
+                    flex-wrap: wrap;
+                    h5{
+                        font-size: 1.025em;
+                        padding: 3px 5px;
+                        gap: 10px;
+                    }
+                } 
+            }
+        }
+
+
+        .project-reversed-pos{
+            width: 90%;
+            flex-direction: row-reverse;
+            .project-image img {
+                height: 500px;
+                border-radius: 5px;
+            }
+
+            .project-information {
+                flex-direction: column;
+                justify-content: center;
+                align-items: start;
+                margin-right: -150px;
+                .developed-text {
+                    color: $lightblue;
+                    text-align: start;
+                }
+                h1 {
+                    font-size: 2.4em;
+                    text-align: start;
+                }
+                .project-description {
+                    font-size: 1.1em;
+                    box-shadow: 0px 0px 3px 1px #000;
+                    padding: 10px;
+                    width: 700px;
+                }
+                .tecnologies {
+                    justify-content: start;
+                    flex-wrap: wrap;
+                    h5{
+                        font-size: 1.025em;
+                        padding: 3px 5px;
+                        gap: 10px;
+                    }
+                } 
+            }
+        }
+    }
+}
