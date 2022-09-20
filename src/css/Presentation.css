@@ -94,7 +94,7 @@
       .presentation-container .presentation-content a button {
         margin-top: 10px;
         font-size: 1.2em; } }
-@media screen and (min-width: 1280px) and (max-width: 1700px) {
+@media screen and (min-width: 1280px) and (max-width: 1699px) {
   .presentation-container {
     width: 95vw; }
     .presentation-container .presentation-content {
@@ -110,5 +110,22 @@
       .presentation-container .presentation-content a button {
         margin-top: 10px;
         font-size: 1.8em; } }
+@media screen and (min-width: 1700px) and (max-width: 2700px) {
+  .presentation-container {
+    width: 95vw; }
+    .presentation-container .presentation-content {
+      width: 65%; }
+      .presentation-container .presentation-content .greeting {
+        font-size: 20px; }
+      .presentation-container .presentation-content .big-font-name {
+        font-size: 90px; }
+      .presentation-container .presentation-content .gradient-text {
+        font-size: 90px; }
+      .presentation-container .presentation-content .presentation-text p {
+        font-size: 1.4em;
+        margin: 5px 0; }
+      .presentation-container .presentation-content a button {
+        margin-top: 10px;
+        font-size: 2.2em; } }
 
 /*# sourceMappingURL=Presentation.css.map */
