@@ -1,28 +1,25 @@
 @import 'fonts';
 
-@media screen and (min-width:1685px) and (max-width:3000px){
+@media screen and (min-width:1px) and (max-width: 376px){    
     .technologies-container {
         display: flex;
         justify-content: center;
         flex-direction: column;
-        height: 800px;
-        margin-top: 80px;
+        margin-bottom: 80px;
     }
     
     .items-tech-container {
         display: flex;
         justify-content: center;
-        gap: 85px;
         align-items: center;
         flex-wrap: wrap;
         width: 100%;
         flex-direction: row;
-        margin: 20px auto;
-        margin-bottom: 0px;
+        margin: auto;
     }
     
     .technologies-title {
-        font-size: 60px;
+        font-size: 40px;
         font-family: $bigfont;
         display: flex;
         align-items: center;
@@ -32,7 +29,7 @@
     
     
     .tech-item {
-        margin: 30px 80px;
+        margin: 30px;
         text-align: center;
         width: 40px;
         display: flex;
@@ -40,10 +37,50 @@
         justify-content: center;
         flex-direction: column;
         img {
-            height: 140px;
+            height: 60px;
         }
-        h3 {
-            font-size: 30px;
+    }
+}
+
+@media screen and (min-width:377px) and (max-width: 1114px){
+    .technologies-container {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-bottom: 80px;
+        margin-top: 100px;
+    }
+    
+    .items-tech-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 100%;
+        flex-direction: row;
+        margin: auto;
+    }
+    
+    .technologies-title {
+        font-size: 40px;
+        font-family: $bigfont;
+        display: flex;
+        align-items: center;
+        margin: 0px auto;
+        margin-bottom: 40px
+    }
+    
+    
+    .tech-item {
+        margin: 40px;
+        text-align: center;
+        width: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        img {
+            height: 80px;
         }
     }
 }
@@ -91,27 +128,29 @@
     }
 }
 
-@media screen and (min-width:377px) and (max-width: 1114px){
+@media screen and (min-width:1685px) and (max-width:3000px){
     .technologies-container {
         display: flex;
         justify-content: center;
         flex-direction: column;
-        margin-bottom: 80px;
-        margin-top: 100px;
+        height: 800px;
+        margin-top: 80px;
     }
     
     .items-tech-container {
         display: flex;
         justify-content: center;
+        gap: 85px;
         align-items: center;
         flex-wrap: wrap;
         width: 100%;
         flex-direction: row;
-        margin: auto;
+        margin: 20px auto;
+        margin-bottom: 0px;
     }
     
     .technologies-title {
-        font-size: 40px;
+        font-size: 60px;
         font-family: $bigfont;
         display: flex;
         align-items: center;
@@ -121,7 +160,7 @@
     
     
     .tech-item {
-        margin: 40px;
+        margin: 30px 80px;
         text-align: center;
         width: 40px;
         display: flex;
@@ -129,48 +168,10 @@
         justify-content: center;
         flex-direction: column;
         img {
-            height: 80px;
+            height: 140px;
         }
-    }
-}
-@media screen and (min-width:1px) and (max-width: 376px){    
-    .technologies-container {
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        margin-bottom: 80px;
-    }
-    
-    .items-tech-container {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-wrap: wrap;
-        width: 100%;
-        flex-direction: row;
-        margin: auto;
-    }
-    
-    .technologies-title {
-        font-size: 40px;
-        font-family: $bigfont;
-        display: flex;
-        align-items: center;
-        margin: 0px auto;
-        margin-bottom: 40px
-    }
-    
-    
-    .tech-item {
-        margin: 30px;
-        text-align: center;
-        width: 40px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-        img {
-            height: 60px;
+        h3 {
+            font-size: 30px;
         }
     }
 }
