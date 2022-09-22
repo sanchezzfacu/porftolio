@@ -45,8 +45,8 @@ function Presentation() {
                     </p>
 
                     <p>
-                        Actualmente me encuentro en búsqueda de mi primer trabajo en IT y me encuentro en constante aprendizaje
-                        para poder alcanzar ese objetivo.
+                        Actualmente me encuentro en búsqueda de mi primer trabajo en IT a la vez que sigo expandiendo mis 
+                        conocimientos como desarrollador.
                     </p>
                 </h3>
                 <a ref={btnCv} href="https://drive.google.com/file/d/1E8Ru30CwXO_QkSNqR72INPdqBN2OyJA_/view" target='_blank' rel='noreferrer'>
