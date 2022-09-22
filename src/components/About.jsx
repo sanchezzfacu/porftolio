@@ -24,7 +24,7 @@ function About() {
                     </p>
                     <p>
                         Cuento con buena capacidad de analisis y me apasiona todo lo relacionado
-                        a crear interfaces de usuarios es por eso que me encuentro en constante aprendizaje de nuevas 
+                        a crear interfaces de usuarios, es por eso que me encuentro en constante aprendizaje de nuevas 
                         herramientas que me permitan seguir creciendo como desarrollador frontend. 
                     </p>
                     <div className='github-linkedin-btn'>
