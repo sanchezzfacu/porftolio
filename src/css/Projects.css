@@ -1,3 +1,6 @@
+.projects-line {
+  opacity: 0; }
+
 .projects-container {
   display: flex;
   flex-direction: column;
