@@ -14,18 +14,21 @@ function About() {
             <div className='img-text-container'>
                 <h2 className='text-about'>
                     <p>
-                        Soy un apasionado a la tecnología que disfruta el aprender nuevas herramientas. 
-                         Soy una persona autónoma a la que le encantan los desafios ya que me fuerzan a mejorar y por ende a ser 
-                         un mejor desarrollador.
+                        Soy un apasionado a la tecnología que disfruta el adquirir nuevos conocimientos y experiencias. 
+                         Soy una persona a la que le motivan los desafios ya que me fuerzan a mejorar y a aprender 
+                         nuevas cosas.
                     </p>
                     <p>
-                        Me motiva trabajar con un grupo de personas en el que todos tiramos para el mismo lado para conseguir metas 
+                        Me motiva ser parte de un grupo de personas en el que todos tiramos para el mismo lado para conseguir metas 
                         y objetivos en el corto y largo plazo. 
                     </p>
                     <p>
-                        Cuento con buena capacidad de analisis y me apasiona todo lo relacionado
+                        Cuento con buena capacidad de analisis y soy un apasionado a todo lo relacionado
                         a crear interfaces de usuarios, es por eso que me encuentro en constante aprendizaje de nuevas 
                         herramientas que me permitan seguir creciendo como desarrollador frontend. 
+                    </p>
+                    <p>
+                        Ya dije que me apasiona crear interfaces de usuario? 😁
                     </p>
                     <div className='github-linkedin-btn'>
                         <a href='https://www.linkedin.com/in/sanchezzfacu/' target='_blank' rel="noreferrer"><img src={linkedin} alt="" height='40px' /></a>

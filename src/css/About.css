@@ -39,7 +39,6 @@
       .about-container .github-linkedin-btn a {
         margin: 30px 40px;
         padding: 5px;
-        transition: all ease 0.3s;
         border-radius: 50%;
         height: 70px;
         width: 70px;
@@ -47,8 +46,10 @@
         align-items: center;
         justify-content: center;
         background: #0e253b; }
+        .about-container .github-linkedin-btn a img:hover {
+          transition: all ease 0.3s; }
       .about-container .github-linkedin-btn a:hover {
-        background: linear-gradient(180deg, #07fad3, #3a77fe); } }
+        background: linear-gradient(120deg, #07fad3, #3a77fe); } }
 @media screen and (min-width: 1028px) and (max-width: 1114px) {
   .about-container {
     display: flex;

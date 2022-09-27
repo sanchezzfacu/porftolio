@@ -49,7 +49,6 @@
             a {
                 margin: 30px 40px;
                 padding: 5px;
-                transition: all ease 0.3s;
                 border-radius: 50%;
                 height: 70px;
                 width: 70px;
@@ -57,9 +56,12 @@
                 align-items: center;
                 justify-content: center;
                 background: $backgroundcolor-lighter;
+                img:hover {
+                    transition: all ease 0.3s;
+                }
             }
             a:hover {
-                background: linear-gradient(180deg, $lightblue, $blue);
+                background: linear-gradient(120deg, $lightblue, $blue);
             }
         }    
     }

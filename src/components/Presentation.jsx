@@ -41,12 +41,17 @@ function Presentation() {
                 <h2 className='gradient-text big-font-presentation' ref={gradient}>Frontend Developer.</h2>
                 <h3 className='presentation-text' ref={presentation}>
                     <p>
-                        Soy un Frontend Developer de Argentina apasionado a desarrollar interfaces de usuario.
+                        • Soy un Frontend Developer de Salta Argentina apasionado a desarrollar interfaces de usuario.
                     </p>
 
+                    {/* <p>
+                        • Actualmente me encuentro en búsqueda de trabajo como programador a la vez que desarrollo
+                        proyectos de manera freelance  a la vez que sigo expandiendo mis conocimientos.
+                    </p> */}
+
                     <p>
-                        Actualmente me encuentro en búsqueda de mi primer trabajo en IT a la vez que sigo expandiendo mis 
-                        conocimientos como desarrollador.
+                        Mientras busco trabajo como desarrollador me encuentro realizando proyectos de manera 
+                        freelance a la vez que sigo expandiendo mis conocimientos.
                     </p>
                 </h3>
                 <a ref={btnCv} href="https://drive.google.com/file/d/1E8Ru30CwXO_QkSNqR72INPdqBN2OyJA_/view" target='_blank' rel='noreferrer'>
