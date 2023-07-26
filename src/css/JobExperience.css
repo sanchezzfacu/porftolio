@@ -1,0 +1,34 @@
+.job-experience-container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+  padding: 100px 0px; }
+  .job-experience-container .job-experience-title {
+    font-family: "Poppins", sans-serif;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px; }
+  .job-experience-container .job-experience-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 90%; }
+    .job-experience-container .job-experience-content .job-experience-info {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      width: 50%; }
+      .job-experience-container .job-experience-content .job-experience-info .job {
+        display: flex;
+        flex-direction: column; }
+        .job-experience-container .job-experience-content .job-experience-info .job h1 {
+          font-size: 35px; }
+        .job-experience-container .job-experience-content .job-experience-info .job ul li {
+          line-height: 24px;
+          list-style: none; }
+    .job-experience-container .job-experience-content .svg-job-experience {
+      width: 600px; }
+
+/*# sourceMappingURL=JobExperience.css.map */

@@ -312,7 +312,8 @@
       flex-direction: column;
       justify-content: center;
       align-items: end;
-      margin-left: -150px; }
+      margin-left: -150px;
+      z-index: 10; }
       .projects-container .project-normal-pos .project-information .developed-text {
         color: #07fad3;
         text-align: end; }

@@ -1,0 +1,47 @@
+@import "fonts";
+@import "colours";
+
+.job-experience-container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+  padding: 100px 0px;
+
+  .job-experience-title {
+    font-family: $bigfont;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  .job-experience-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 90%;
+
+    .job-experience-info {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      width: 50%;
+      .job {
+        display: flex;
+        flex-direction: column;
+        h1 {
+          font-size: 35px;
+        }
+        ul li {
+          line-height: 24px;
+          list-style: none;
+        }
+      }
+    }
+
+    .svg-job-experience {
+      width: 600px;
+    }
+  }
+}

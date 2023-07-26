@@ -236,9 +236,10 @@
         background: $lightblue;
         border-radius: 50%;
         position: absolute;
-        bottom: -10%;
+        bottom: 0%;
         right: 0%;
         z-index: -50;
+        overflow: hidden;
     }
     
     .second-circle-decoration {
