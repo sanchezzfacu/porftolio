@@ -277,7 +277,8 @@
       flex-direction: column;
       justify-content: center;
       align-items: start;
-      margin-right: -150px; }
+      margin-right: -150px;
+      z-index: 100; }
       .projects-container .project-reversed-pos .project-information .developed-text {
         color: #07fad3;
         text-align: start; }
@@ -337,12 +338,14 @@
     flex-direction: row-reverse; }
     .projects-container .project-reversed-pos .project-image img {
       height: 500px;
-      border-radius: 5px; }
+      border-radius: 5px;
+      z-index: -1; }
     .projects-container .project-reversed-pos .project-information {
       flex-direction: column;
       justify-content: center;
       align-items: start;
-      margin-right: -150px; }
+      margin-right: -150px;
+      z-index: 100; }
       .projects-container .project-reversed-pos .project-information .developed-text {
         color: #07fad3;
         text-align: start; }

@@ -1,8 +1,11 @@
 import React from 'react'
 import js from '../img/js.png'
+import typescript from "../img/typescript.png"
 import react from '../img/react.png'
+import reactQuery from "../img/react-query.png"
 import redux from '../img/redux.png'
 import sass from '../img/sass.png'
+import tailwind from "../img/tailwind.png"
 import git from '../img/git.png'
 import github from '../img/github.png'
 import postgresql from '../img/postgresql.png'
@@ -18,14 +21,23 @@ function Technologies() {
     return (
         <div className='technologies-container'>
             <h2 className='technologies-title'><CircleLogo/>Tecnologías</h2>
+            
             <div className='items-tech-container'>
                 <div className='tech-item'>
                     <img src={js} alt=""/>
                     <h3>Javascript</h3>
                 </div>
                 <div className='tech-item'>
+                    <img src={typescript} alt=""/>
+                    <h3>Typescript</h3>
+                </div>
+                <div className='tech-item'>
                     <img src={react} alt=""/>     
                     <h3>React</h3>       
+                </div>
+                <div className='tech-item'>
+                    <img src={reactQuery} alt=""/>     
+                    <h3>React Query</h3>       
                 </div>
                 <div className='tech-item'>
                     <img src={redux} alt=""/>
@@ -44,8 +56,12 @@ function Technologies() {
                     <h3>SASS</h3>
                 </div>
                 <div className='tech-item'>
+                    <img src={tailwind} alt="" />
+                    <h3>Tailwind</h3>
+                </div>
+                <div className='tech-item'>
                     <img src={git} alt="" />
-                    <h3>GIT</h3>
+                    <h3>Git</h3>
                 </div>
                 <div className='tech-item'>
                     <img src={github} alt="" />

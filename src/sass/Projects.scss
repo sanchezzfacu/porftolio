@@ -370,6 +370,8 @@
                 justify-content: center;
                 align-items: start;
                 margin-right: -150px;
+                z-index: 100;
+
                 .developed-text {
                     color: $lightblue;
                     text-align: start;
@@ -453,6 +455,7 @@
             .project-image img {
                 height: 500px;
                 border-radius: 5px;
+                z-index:-1;
             }
 
             .project-information {
@@ -460,6 +463,8 @@
                 justify-content: center;
                 align-items: start;
                 margin-right: -150px;
+                z-index: 100;
+
                 .developed-text {
                     color: $lightblue;
                     text-align: start;

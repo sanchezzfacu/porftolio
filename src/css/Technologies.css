@@ -1,5 +1,5 @@
 .technologies-container::before {
-  content: '';
+  content: "";
   position: absolute;
   height: auto;
   width: 100%;
@@ -15,152 +15,102 @@
 .technologies-line {
   opacity: 0; }
 
-@media screen and (min-width: 1px) and (max-width: 376px) {
+@media screen and (max-width: 479px) {
   .technologies-container {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    margin-bottom: 80px;
-    position: relative; }
-
-  .items-tech-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    width: 100%;
-    flex-direction: row;
-    margin: auto; }
-
-  .technologies-title {
-    font-size: 40px;
-    font-family: "Poppins", sans-serif;
-    display: flex;
-    align-items: center;
-    margin: 0px auto;
-    margin-bottom: 40px; }
-
-  .tech-item {
-    margin: 30px;
-    text-align: center;
-    width: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column; }
-    .tech-item img {
-      height: 60px; } }
-@media screen and (min-width: 377px) and (max-width: 1114px) {
-  .technologies-container {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    margin-bottom: 80px;
-    margin-top: 100px;
-    position: relative; }
-
-  .items-tech-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    width: 100%;
-    flex-direction: row;
-    margin: auto; }
-
-  .technologies-title {
-    font-size: 40px;
-    font-family: "Poppins", sans-serif;
-    display: flex;
-    align-items: center;
-    margin: 0px auto;
-    margin-bottom: 40px; }
-
-  .tech-item {
-    margin: 40px;
-    text-align: center;
-    width: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column; }
-    .tech-item img {
-      height: 80px; } }
-@media screen and (min-width: 1115px) and (max-width: 1684px) {
-  .technologies-container {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    height: 700px;
-    position: relative; }
-
-  .items-tech-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    width: 100%;
-    flex-direction: row;
-    margin: 70px auto;
-    margin-bottom: 0px; }
-
-  .technologies-title {
-    font-size: 40px;
-    font-family: "Poppins", sans-serif;
-    display: flex;
-    align-items: center;
-    margin: 0px auto;
-    margin-bottom: 40px; }
-
-  .tech-item {
-    margin: 30px 60px;
-    text-align: center;
-    width: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column; }
-    .tech-item img {
-      height: 100px; } }
-@media screen and (min-width: 1685px) and (max-width: 3000px) {
-  .technologies-container {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    height: 800px;
     margin-top: 80px;
-    position: relative; }
-
-  .items-tech-container {
+    position: relative;
+    padding: 60px 0; }
+    .technologies-container .technologies-title {
+      font-size: 30px;
+      font-family: "Poppins", sans-serif;
+      display: flex;
+      align-items: center;
+      margin: 0px auto 40px; }
+    .technologies-container .items-tech-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      width: 100%;
+      flex-direction: row;
+      margin: auto; }
+      .technologies-container .items-tech-container .tech-item {
+        margin: 30px;
+        text-align: center;
+        width: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column; }
+        .technologies-container .items-tech-container .tech-item img {
+          height: 60px; } }
+@media screen and (min-width: 480px) and (max-width: 1684px) {
+  .technologies-container {
     display: flex;
     justify-content: center;
-    gap: 85px;
-    align-items: center;
-    flex-wrap: wrap;
-    width: 100%;
-    flex-direction: row;
-    margin: 20px auto;
-    margin-bottom: 0px; }
-
-  .technologies-title {
-    font-size: 60px;
-    font-family: "Poppins", sans-serif;
+    flex-direction: column;
+    margin-top: 80px;
+    position: relative;
+    padding: 80px 0; }
+    .technologies-container .technologies-title {
+      font-size: 40px;
+      font-family: "Poppins", sans-serif;
+      display: flex;
+      align-items: center;
+      margin: auto; }
+    .technologies-container .items-tech-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 32px;
+      padding: 0px 100px;
+      flex-wrap: wrap;
+      width: 100%;
+      margin: 70px auto 20px; }
+      .technologies-container .items-tech-container .tech-item {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        line-height: 32px; }
+        .technologies-container .items-tech-container .tech-item img {
+          height: 100px; } }
+@media screen and (min-width: 1685px) {
+  .technologies-container {
     display: flex;
-    align-items: center;
-    margin: 0px auto;
-    margin-bottom: 40px; }
-
-  .tech-item {
-    margin: 30px 80px;
-    text-align: center;
-    width: 40px;
-    display: flex;
-    align-items: center;
     justify-content: center;
-    flex-direction: column; }
-    .tech-item img {
-      height: 140px; }
-    .tech-item h3 {
-      font-size: 30px; } }
+    flex-direction: column;
+    margin-top: 80px;
+    position: relative;
+    padding: 120px 0; }
+    .technologies-container .technologies-title {
+      font-size: 60px;
+      font-family: "Poppins", sans-serif;
+      display: flex;
+      align-items: center;
+      margin: auto; }
+    .technologies-container .items-tech-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 32px;
+      padding: 0px 100px;
+      flex-wrap: wrap;
+      width: 100%;
+      margin: 70px auto 20px; }
+      .technologies-container .items-tech-container .tech-item {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center; }
+        .technologies-container .items-tech-container .tech-item img {
+          height: 120px; }
+        .technologies-container .items-tech-container .tech-item h3 {
+          font-size: 30px; } }
 
 /*# sourceMappingURL=Technologies.css.map */
